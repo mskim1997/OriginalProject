@@ -1,0 +1,2 @@
+echo Node = 4, Agents = 5, not Sharing
+for %%a in (422 423 424 425 426 427 428 429 430) do mpiexec -np 5 MazeService.exe -m maze_24x8.in -x 8 -y 24 -a 5 -o StatsFileOneAgent%%a.csv -i AgentInfo.txt -s false -h false -r 1.0 -im 4 -t 0.417 -wi 5.0 -run %%a

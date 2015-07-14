@@ -1,0 +1,11 @@
+1	C	J
+1	A	E
+1	D	W
+1	P	H
+1	R	X
+
+2	J	R
+2	X	P
+2	H	D
+2	W	A
+2	E	C

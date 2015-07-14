@@ -1,0 +1,11 @@
+1	C	H
+1	P	W
+1	D	W
+1	A	W
+1	R	W
+
+1	E	W
+1	J	W
+1	W	A
+1	H	W
+1	X	W

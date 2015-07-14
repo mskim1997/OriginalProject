@@ -1,0 +1,5 @@
+1	C	E
+1	A	J
+1	D	W
+1	P	H
+1	R	X

@@ -1,0 +1,266 @@
+[class MLContinuous::MLAgent *] Agent 1: Doing physical path 1..., Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 0.000000)], [New position: (0.250000, 0.000000)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 0.000000)], [New position: (10000.000000, 10000.000000)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (-1.000000, -1.000000)], [Direction: UP_LEFT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 10000.000000 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (2.000000, 1.000000)], [New position: (0.223607, 0.111803)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 0.000000)], [New position: (0.250000, 0.000000)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, -1.000000)], [Direction: UP], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 10000.000000 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (3.000000, 1.000000)], [New position: (0.237171, 0.079057)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (2.000000, 1.000000)], [New position: (0.223607, 0.111803)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 0.000000)], [Direction: NONE], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 4.000000 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (2.000000, 0.000000)], [New position: (0.250000, 0.000000)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (3.000000, 1.000000)], [New position: (0.237171, 0.079057)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 0.000000)], [Direction: NONE], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 1.414214 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 0.000000)], [New position: (0.161612, 0.088388)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (2.000000, 0.000000)], [New position: (0.205279, 0.022361)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (-1.000000, 0.000000)], [Direction: LEFT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 0.942809 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 1.000000)], [New position: (-0.073223, 0.176777)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 0.000000)], [New position: (0.161612, 0.088388)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (-1.000000, -1.000000)], [Direction: UP_LEFT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 10000.000000 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 0.000000)], [New position: (10000.000000, 10000.250000)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 1.000000)], [New position: (-0.073223, 0.176777)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, -1.000000)], [Direction: UP_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 5.590170 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 0.000000)], [New position: (0.161612, 0.088388)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 0.000000)], [New position: (10000.000000, 10000.250000)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (-1.000000, -1.000000)], [Direction: UP_LEFT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 11.180340 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 0.000000)], [New position: (10000.000000, 10000.250000)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 0.000000)], [New position: (0.161612, 0.088388)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, -1.000000)], [Direction: UP_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 3.726780 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 0.000000)], [New position: (0.161612, 0.088388)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 0.000000)], [New position: (10000.000000, 10000.250000)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (-1.000000, -1.000000)], [Direction: UP_LEFT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 11.180340 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (2.000000, 1.000000)], [New position: (0.161107, 0.111803)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 0.000000)], [New position: (0.161612, 0.088388)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (-1.000000, -1.000000)], [Direction: UP_LEFT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 2.828427 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (3.000000, 0.000000)], [New position: (0.226283, 0.007906)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (2.000000, 1.000000)], [New position: (0.161107, 0.111803)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (-1.000000, -1.000000)], [Direction: UP_LEFT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 5.590170 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (2.000000, 0.000000)], [New position: (0.205279, 0.022361)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (3.000000, 0.000000)], [New position: (0.226283, 0.007906)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, -1.000000)], [Direction: UP_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 2.828427 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 0.000000)], [New position: (0.161612, 0.088388)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (2.000000, 0.000000)], [New position: (0.205279, 0.022361)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (-1.000000, -1.000000)], [Direction: UP_LEFT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 2.000000 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (2.000000, 0.000000)], [New position: (0.205279, 0.022361)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 0.000000)], [New position: (0.161612, 0.088388)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (-1.000000, -1.000000)], [Direction: UP_LEFT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 1.000000 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (2.000000, 1.000000)], [New position: (0.161107, 0.111803)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (2.000000, 0.000000)], [New position: (0.205279, 0.022361)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 10000.000000 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 2.000000)], [New position: (0.023415, 0.135218)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (2.000000, 1.000000)], [New position: (0.161107, 0.111803)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (-1.000000, 0.000000)], [Direction: LEFT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 1.000000 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 1.000000)], [New position: (-0.073223, 0.176777)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 2.000000)], [New position: (0.023415, 0.135218)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, -1.000000)], [Direction: UP_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 2.828427 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 0.000000)], [New position: (0.161612, 0.088388)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 1.000000)], [New position: (-0.073223, 0.176777)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (-1.000000, -1.000000)], [Direction: UP_LEFT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 2.795085 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (2.000000, 1.000000)], [New position: (0.161107, 0.111803)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 0.000000)], [New position: (0.161612, 0.088388)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 1.000000 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 2.000000)], [New position: (0.023415, 0.135218)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (2.000000, 1.000000)], [New position: (0.161107, 0.111803)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, -1.000000)], [Direction: UP], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 10000.000000 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 3.000000)], [New position: (0.338388, 0.275888)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 2.000000)], [New position: (0.023415, 0.447718)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 10000.000000 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 2.000000)], [New position: (0.023415, 0.447718)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 3.000000)], [New position: (0.338388, 0.275888)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (-1.000000, 0.000000)], [Direction: LEFT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 10000.000000 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (2.000000, 1.000000)], [New position: (0.130840, 0.180242)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 2.000000)], [New position: (0.023415, 0.447718)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (-1.000000, 0.000000)], [Direction: LEFT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 10000.000000 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 1.000000)], [New position: (-0.073223, 0.267054)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (2.000000, 1.000000)], [New position: (0.130840, 0.180242)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 2.828427 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 2.000000)], [New position: (0.023415, 0.447718)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 1.000000)], [New position: (-0.073223, 0.267054)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, -1.000000)], [Direction: UP], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 10000.000000 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 2.000000)], [New position: (0.110749, 0.133110)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 2.000000)], [New position: (0.023415, 0.447718)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, 1.000000)], [Direction: DOWN], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 10000.000000 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 3.000000)], [New position: (0.338388, 0.275888)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 2.000000)], [New position: (0.110749, 0.133110)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 5.656854 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 4.000000)], [New position: (0.338388, 0.133834)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 3.000000)], [New position: (0.338388, 0.275888)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 11.180340 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 3.000000)], [New position: (0.338388, 0.275888)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 4.000000)], [New position: (0.338388, 0.133834)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 11.313708 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 4.000000)], [New position: (0.338388, 0.133834)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (-1.000000, 1.000000)], [Direction: DOWN_LEFT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 3.000000)], [New position: (0.338388, 0.275888)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (0.000000, -1.000000)], [Direction: UP], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 4.500000 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 5.000000)], [New position: (0.045462, -0.081622)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, -1.000000)], [Direction: UP_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 4.000000)], [New position: (0.338388, 0.133834)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (-1.000000, 1.000000)], [Direction: DOWN_LEFT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (-1.000000, 0.000000)], [Direction: LEFT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 16.571814 , Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (0.000000, 5.000000)], [New position: (0.110749, 0.101265)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Calculating policy: [goal position: (0.000000, 0.000000)], [Current position: (1.000000, 5.000000)], [New position: (0.045462, -0.081622)], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, -1.000000)], [Direction: UP_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 1.000000)], [Direction: DOWN_RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Take Action on gradient descent: [Direction vector: (1.000000, 0.000000)], [Direction: RIGHT], Sun Sep 22 15:15:48 2013
+[class MLContinuous::MLAgent] Radius of curvature is 44.721359 , Sun Sep 22 15:15:48 2013
+[clas

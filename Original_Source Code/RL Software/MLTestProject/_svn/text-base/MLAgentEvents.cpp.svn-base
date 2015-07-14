@@ -1,0 +1,232 @@
+/////////////////////////////////////////////////////////
+//MLAgentEvents.h
+//Event raised when an agent has reached its goal.
+//
+//Manuel Madera
+//10/24/09
+/////////////////////////////////////////////////////////
+#include "MLAgentEvents.h"
+#include "Framework\Communicator.h"
+#include "Framework\Debug.h"
+
+#ifdef PrintMemoryLeak
+#ifdef WIN32
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#endif
+#endif
+#endif
+
+using namespace Framework::Communications;
+using namespace Framework::Packages;
+using namespace Framework::Eventing;
+
+namespace MLTest
+{
+	AgentDoneEventPackage::AgentDoneEventPackage()
+		: RemoteSubscription(0, 0, PackageType::AGENT_DONE_EVENT), type(Framework::Eventing::SubscriptionTypes::AGENT_DONE), life(Framework::Eventing::SubscriptionTypes::NOTIFY_ALL), agentID(0), isTransfered(false)
+	{
+	}
+
+	AgentDoneEventPackage::AgentDoneEventPackage(unsigned packageSource, unsigned packageDest, unsigned id, bool transfered, bool hasFoundGoal) 
+		: RemoteSubscription(packageSource, packageDest, PackageType::AGENT_DONE_EVENT), type(Framework::Eventing::SubscriptionTypes::AGENT_DONE), life(Framework::Eventing::SubscriptionTypes::NOTIFY_ALL), agentID(id), isTransfered(transfered), isGoalFound(hasFoundGoal)
+	{
+	}
+
+	AgentDoneEventPackage::~AgentDoneEventPackage()
+	{
+	}
+
+	Framework::Eventing::SubscriptionTypes::SubscriptionType AgentDoneEventPackage::GetSubscriptionType()
+	{
+		return this->type;
+	}
+
+	Framework::Eventing::SubscriptionTypes::SubscriptionLife AgentDoneEventPackage::GetSubscriptionLife()
+	{
+		return this->life;
+	}
+
+	void AgentDoneEventPackage::SetSubscriptionLife(Framework::Eventing::SubscriptionTypes::SubscriptionLife life)
+	{
+		this->life = life;
+	}
+
+	unsigned AgentDoneEventPackage::GetAgentId() const
+	{ 
+		return this->agentID; 
+	}
+
+	bool AgentDoneEventPackage::IsTransfered() const
+	{
+		return this->isTransfered;
+	}
+
+	bool AgentDoneEventPackage::HasFoundGoal() const
+	{
+		return this->isGoalFound;
+	}
+
+	RemoteSubscription *AgentDoneEventPackage::Clone() const
+	{
+		return new AgentDoneEventPackage(this->packageSource, this->packageDest, this->agentID, this->isTransfered, this->isGoalFound);
+	}
+
+	/*static*/ IPackage *AgentDoneEventPackage::CreatePackage(unsigned source, unsigned dest)
+	{
+		return new AgentDoneEventPackage(source, dest);
+	}
+
+	void AgentDoneEventPackage::Send(unsigned destRank, unsigned messageTag, ICommunicator *comm)
+	{
+		Serialize(comm);
+
+		if (comm != NULL)
+		{
+			comm->SendPacked(&myBuffer, destRank, messageTag, CommType::Synch);			
+		}
+	}
+
+	void AgentDoneEventPackage::Get(unsigned sourceRank, unsigned messageTag, ICommunicator *comm)
+	{
+		//comm = new Communicator();
+		if (comm != NULL)
+		{
+			comm->GetPacked(AgentDoneEventPackageBufSize*IntSize, CommType::ASynch, sourceRank, messageTag, &myBuffer);
+		}
+
+		Deserialize(comm);
+	}
+
+	void AgentDoneEventPackage::Serialize(ICommunicator *comm)
+	{
+		BasePackage::Serialize(&myBuffer, AgentDoneEventPackageBufSize*IntSize, comm);
+
+		if (comm != NULL)
+		{
+			comm->Pack(&agentID, 1, DataType::Int, &myBuffer, AgentDoneEventPackageBufSize*IntSize);
+			comm->Pack(&type, 1, DataType::Int, &myBuffer, AgentDoneEventPackageBufSize*IntSize);
+			comm->Pack(&life, 1, DataType::Int, &myBuffer, AgentDoneEventPackageBufSize*IntSize);
+			comm->Pack(&isTransfered, 1, DataType::Int, &myBuffer, AgentDoneEventPackageBufSize*IntSize);
+			comm->Pack(&isGoalFound, 1, DataType::Int, &myBuffer, AgentDoneEventPackageBufSize*IntSize);
+		}
+	}
+
+	void AgentDoneEventPackage::Deserialize(ICommunicator *comm)
+	{
+		BasePackage::Deserialize(&myBuffer, AgentDoneEventPackageBufSize*IntSize, comm);
+
+		if (comm != NULL)
+		{
+			comm->Unpack(&myBuffer, AgentDoneEventPackageBufSize*IntSize, DataType::Int, 1, &agentID);
+			comm->Unpack(&myBuffer, AgentDoneEventPackageBufSize*IntSize, DataType::Int, 1, &type);
+			comm->Unpack(&myBuffer, AgentDoneEventPackageBufSize*IntSize, DataType::Int, 1, &life);
+			comm->Unpack(&myBuffer, AgentDoneEventPackageBufSize*IntSize, DataType::Int, 1, &isTransfered);
+			comm->Unpack(&myBuffer, AgentDoneEventPackageBufSize*IntSize, DataType::Int, 1, &isGoalFound);
+		}
+	}
+
+	PhysicalPathDoneEventPackage::PhysicalPathDoneEventPackage()
+		: RemoteSubscription(0, 0, PackageType::PHYSICAL_PATH_DONE_EVENT), type(Framework::Eventing::SubscriptionTypes::PHYSICAL_PATH_DONE_EVENT), life(Framework::Eventing::SubscriptionTypes::NOTIFY_ALL)
+	{
+	}
+
+	PhysicalPathDoneEventPackage::PhysicalPathDoneEventPackage(unsigned packageSource, unsigned packageDest)
+		: RemoteSubscription(packageSource, packageDest, PackageType::PHYSICAL_PATH_DONE_EVENT), type(Framework::Eventing::SubscriptionTypes::PHYSICAL_PATH_DONE_EVENT), life(Framework::Eventing::SubscriptionTypes::NOTIFY_ALL)
+	{
+	}
+
+	PhysicalPathDoneEventPackage::PhysicalPathDoneEventPackage(unsigned packageSource, unsigned packageDest, PhysicalPathEventInfo agentInfo)
+		: RemoteSubscription(packageSource, packageDest, PackageType::PHYSICAL_PATH_DONE_EVENT), type(Framework::Eventing::SubscriptionTypes::PHYSICAL_PATH_DONE_EVENT), life(Framework::Eventing::SubscriptionTypes::NOTIFY_ALL), info(agentInfo)
+	{
+	}
+
+	PhysicalPathDoneEventPackage::~PhysicalPathDoneEventPackage()
+	{
+	}
+
+	Framework::Eventing::SubscriptionTypes::SubscriptionType PhysicalPathDoneEventPackage::GetSubscriptionType()
+	{
+		return this->type;
+	}
+
+	Framework::Eventing::SubscriptionTypes::SubscriptionLife PhysicalPathDoneEventPackage::GetSubscriptionLife()
+	{
+		return this->life;
+	}
+
+	void PhysicalPathDoneEventPackage::SetSubscriptionLife(Framework::Eventing::SubscriptionTypes::SubscriptionLife life)
+	{
+		this->life = life;
+	}
+
+	PhysicalPathEventInfo PhysicalPathDoneEventPackage::GetAgentInfo() const
+	{
+		return this->info;
+	}
+
+	RemoteSubscription *PhysicalPathDoneEventPackage::Clone() const
+	{
+		return new PhysicalPathDoneEventPackage(this->packageSource, this->packageDest, this->info);
+	}
+
+	/*static*/ IPackage *PhysicalPathDoneEventPackage::CreatePackage(unsigned source, unsigned dest)
+	{
+		return new PhysicalPathDoneEventPackage(source, dest);
+	}
+
+	void PhysicalPathDoneEventPackage::Send(unsigned destRank, unsigned messageTag, ICommunicator *comm)
+	{
+		Serialize(comm);
+
+		if (comm != NULL)
+		{
+			comm->SendPacked(&myBuffer, destRank, messageTag, CommType::Synch);
+		}
+	}
+
+	void PhysicalPathDoneEventPackage::Get(unsigned sourceRank, unsigned messageTag, ICommunicator *comm)
+	{
+		//comm = new Communicator();
+		if (comm != NULL)
+		{
+			comm->GetPacked(PhysicalPathDoneEventPackageBufSize*DoubleSize, CommType::ASynch, sourceRank, messageTag, &myBuffer);
+		}
+
+		Deserialize(comm);
+	}
+
+	void PhysicalPathDoneEventPackage::Serialize(ICommunicator *comm)
+	{
+		BasePackage::Serialize(&myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize, comm);
+
+		if (comm != NULL)
+		{
+			comm->Pack(&type, 1, DataType::Int, &myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize);
+			comm->Pack(&life, 1, DataType::Int, &myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize);
+			comm->Pack(&info.agentId, 1, DataType::Int, &myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize);
+			comm->Pack(&info.start, 1, DataType::Int, &myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize);
+			comm->Pack(&info.goal, 1, DataType::Int, &myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize);
+			comm->Pack(&info.numSteps, 1, DataType::Int, &myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize);
+			comm->Pack(&info.pathNum, 1, DataType::Int, &myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize);
+			comm->Pack(&info.pathTime, 1, DataType::DOUBLE, &myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize);
+		}
+	}
+
+	void PhysicalPathDoneEventPackage::Deserialize(ICommunicator *comm)
+	{
+		BasePackage::Deserialize(&myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize, comm);		
+
+		if (comm != NULL)
+		{
+			comm->Unpack(&myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize, DataType::Int, 1, &type);
+			comm->Unpack(&myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize, DataType::Int, 1, &life);
+			comm->Unpack(&myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize, DataType::Int, 1, &info.agentId);
+			comm->Unpack(&myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize, DataType::Int, 1, &info.start);
+			comm->Unpack(&myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize, DataType::Int, 1, &info.goal);
+			comm->Unpack(&myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize, DataType::Int, 1, &info.numSteps);
+			comm->Unpack(&myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize, DataType::Int, 1, &info.pathNum);
+			comm->Unpack(&myBuffer, PhysicalPathDoneEventPackageBufSize*DoubleSize, DataType::DOUBLE, 1, &info.pathTime);
+		}
+	}
+}

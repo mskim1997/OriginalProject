@@ -1,0 +1,216 @@
+
+>>> Values:
+ Random Seed Value = 56101
+ Number of Physical Paths = 5
+ Number of Learning Paths per Physical Path = 1
+ Method = 5
+ Number of Lookahead Levels = 1
+ Path-File Mode = 3
+ Step-Size Parameter ALPHA = 0.100000
+ Discount Rate GAMMA = 0.900000
+ Lookahead Weight Factor LAMBDA = 0.500000
+ Q-value Weight Factor w1 = 0.800000
+ Distance-to-Goal Weight Factor w2 = 0.500000
+ Initial Full Exploration is OFF
+ Visited-Number Weight factor w3 = 0.500000
+ TAW has greedy-mode value = 1
+ Star is 3 at location [3, 0]
+ Goal is W
+
+>>> Input Maze:
+ O  O  O  O  O  O  B  B 
+ B  O  O  O  B  O  B  J 
+ O  O  O  B  O  O  O  O 
+ O  B  O  O  O  B  O  B 
+ O  B  O  B  O  B  O  X 
+ O  E  O  W  O  O  H  B 
+
+
+>>> Agent Physical Path 1:
+
+>>> Physical path 1, Time: 11.052000 s, Min radius: 0.942809 Total Steps: 145.
+ Step   1: Agent moved RIGHT to location [x=4,y=0], randomly.
+ Step   2: Agent moved RIGHT to location [x=5,y=0], randomly.
+ Step   3: Agent moved  LEFT to location [x=4,y=0], randomly.
+ Step   4: Agent moved DOWN_LEFT to location [x=3,y=1], randomly.
+ Step   5: Agent moved DOWN_LEFT to location [x=2,y=2], randomly.
+ Step   6: Agent moved  LEFT to location [x=1,y=2], randomly.
+ Step   7: Agent moved UP_RIGHT to location [x=2,y=1], randomly.
+ Step   8: Agent moved UP_LEFT to location [x=1,y=0], randomly.
+ Step   9: Agent moved RIGHT to location [x=2,y=0], randomly.
+ Step  10: Agent moved  LEFT to location [x=1,y=0], randomly.
+ Step  11: Agent moved RIGHT to location [x=2,y=0], randomly.
+ Step  12: Agent moved DOWN_RIGHT to location [x=3,y=1], randomly.
+ Step  13: Agent moved UP_RIGHT to location [x=4,y=0], randomly.
+ Step  14: Agent moved RIGHT to location [x=5,y=0], randomly.
+ Step  15: Agent moved  DOWN to location [x=5,y=1], randomly.
+ Step  16: Agent moved UP_LEFT to location [x=4,y=0], randomly.
+ Step  17: Agent moved RIGHT to location [x=5,y=0], randomly.
+ Step  18: Agent moved  DOWN to location [x=5,y=1], randomly.
+ Step  19: Agent moved    UP to location [x=5,y=0], randomly.
+ Step  20: Agent moved  DOWN to location [x=5,y=1], randomly.
+ Step  21: Agent moved DOWN_LEFT to location [x=4,y=2], randomly.
+ Step  22: Agent moved RIGHT to location [x=5,y=2], randomly.
+ Step  23: Agent moved DOWN_RIGHT to location [x=6,y=3], randomly.
+ Step  24: Agent moved DOWN_RIGHT to location [x=7,y=4], randomly.
+ Step  25: Agent moved  LEFT to location [x=6,y=4], randomly.
+ Step  26: Agent moved DOWN_LEFT to location [x=5,y=5], randomly.
+ Step  27: Agent moved UP_LEFT to location [x=4,y=4], randomly.
+ Step  28: Agent moved DOWN_LEFT to location [x=3,y=5], randomly.
+
+>>> Agent Brain:
+ ?  O  O  3  O  O  B  ? 
+ B  ?  O  O  B  O  B  ? 
+ ?  O  O  B  O  O  ?  ? 
+ ?  B  ?  ?  ?  B  O  B 
+ ?  ?  ?  ?  O  B  O  X 
+ ?  ?  ?  W  ?  O  ?  ? 
+
+
+>>> Agent Physical Path 2:
+
+>>> Physical path 2, Time: 5.397000 s, Min radius: 0.707107 Total Steps: 137.
+ Step   1: Agent moved DOWN_LEFT to location [x=3,y=1], based on policy.
+ Step   2: Agent moved DOWN_RIGHT to location [x=4,y=2], based on policy.
+ Step   3: Agent moved RIGHT to location [x=5,y=2], based on policy.
+ Step   4: Agent moved    UP to location [x=5,y=1], randomly.
+ Step   5: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step   6: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step   7: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step   8: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step   9: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step  10: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step  11: Agent moved  DOWN to location [x=2,y=5], based on policy.
+ Step  12: Agent moved    UP to location [x=2,y=4], randomly.
+ Step  13: Agent moved UP_RIGHT to location [x=3,y=3], based on policy.
+ Step  14: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step  15: Agent moved  LEFT to location [x=3,y=3], randomly.
+ Step  16: Agent moved DOWN_LEFT to location [x=2,y=4], based on policy.
+ Step  17: Agent moved  DOWN to location [x=2,y=5], based on policy.
+ Step  18: Agent moved  LEFT to location [x=1,y=5], randomly.
+ Step  19: Agent moved  LEFT to location [x=0,y=5], based on policy.
+ Step  20: Agent moved    UP to location [x=0,y=4], randomly.
+ Step  21: Agent moved    UP to location [x=0,y=3], based on policy.
+ Step  22: Agent moved    UP to location [x=0,y=2], based on policy.
+ Step  23: Agent moved UP_RIGHT to location [x=1,y=1], based on policy.
+ Step  24: Agent moved RIGHT to location [x=2,y=1], based on policy.
+ Step  25: Agent moved RIGHT to location [x=3,y=1], based on policy.
+ Step  26: Agent moved UP_RIGHT to location [x=4,y=0], based on policy.
+ Step  27: Agent moved RIGHT to location [x=5,y=0], based on policy.
+ Step  28: Agent moved  DOWN to location [x=5,y=1], randomly.
+ Step  29: Agent moved DOWN_LEFT to location [x=4,y=2], based on policy.
+ Step  30: Agent moved  DOWN to location [x=4,y=3], based on policy.
+ Step  31: Agent moved  DOWN to location [x=4,y=4], based on policy.
+ Step  32: Agent moved  DOWN to location [x=4,y=5], based on policy.
+ Step  33: Agent moved RIGHT to location [x=5,y=5], randomly.
+ Step  34: Agent moved RIGHT to location [x=6,y=5], based on policy.
+ Step  35: Agent moved  LEFT to location [x=5,y=5], randomly.
+ Step  36: Agent moved  LEFT to location [x=4,y=5], based on policy.
+ Step  37: Agent moved  LEFT to location [x=3,y=5], based on policy.
+
+>>> Agent Brain:
+ ?  ?  ?  O  O  O  ?  ? 
+ ?  O  O  O  B  O  B  ? 
+ O  ?  O  B  O  O  ?  ? 
+ O  B  O  O  O  B  ?  ? 
+ O  B  O  B  O  B  ?  ? 
+ O  E  O  W  O  O  H  B 
+
+
+>>> Agent Physical Path 3:
+
+>>> Physical path 3, Time: 8.336000 s, Min radius: 0.333333 Total Steps: 194.
+ Step   1: Agent moved DOWN_LEFT to location [x=3,y=1], based on policy.
+ Step   2: Agent moved DOWN_LEFT to location [x=2,y=2], based on policy.
+ Step   3: Agent moved  LEFT to location [x=1,y=2], based on policy.
+ Step   4: Agent moved  LEFT to location [x=0,y=2], based on policy.
+ Step   5: Agent moved RIGHT to location [x=1,y=2], randomly.
+ Step   6: Agent moved UP_RIGHT to location [x=2,y=1], based on policy.
+ Step   7: Agent moved RIGHT to location [x=3,y=1], based on policy.
+ Step   8: Agent moved UP_RIGHT to location [x=4,y=0], based on policy.
+ Step   9: Agent moved RIGHT to location [x=5,y=0], randomly.
+ Step  10: Agent moved  LEFT to location [x=4,y=0], randomly.
+ Step  11: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step  12: Agent moved  LEFT to location [x=2,y=0], based on policy.
+ Step  13: Agent moved DOWN_LEFT to location [x=1,y=1], based on policy.
+ Step  14: Agent moved  DOWN to location [x=1,y=2], based on policy.
+ Step  15: Agent moved DOWN_LEFT to location [x=0,y=3], based on policy.
+ Step  16: Agent moved  DOWN to location [x=0,y=4], based on policy.
+ Step  17: Agent moved  DOWN to location [x=0,y=5], based on policy.
+ Step  18: Agent moved RIGHT to location [x=1,y=5], randomly.
+ Step  19: Agent moved RIGHT to location [x=2,y=5], based on policy.
+ Step  20: Agent moved RIGHT to location [x=3,y=5], based on policy.
+
+>>> Agent Brain:
+ ?  ?  O  O  O  O  B  ? 
+ B  O  O  O  B  ?  B  ? 
+ O  O  O  B  ?  ?  ?  ? 
+ O  B  ?  ?  ?  B  ?  ? 
+ O  B  ?  B  ?  B  ?  ? 
+ O  E  O  W  ?  ?  ?  B 
+
+
+>>> Agent Physical Path 4:
+
+>>> Physical path 4, Time: 1.131000 s, Min radius: 0.333333 Total Steps: 66.
+ Step   1: Agent moved  LEFT to location [x=4,y=0], randomly.
+ Step   2: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step   3: Agent moved  LEFT to location [x=2,y=0], based on policy.
+ Step   4: Agent moved DOWN_LEFT to location [x=1,y=1], based on policy.
+ Step   5: Agent moved  DOWN to location [x=1,y=2], based on policy.
+ Step   6: Agent moved DOWN_LEFT to location [x=0,y=3], based on policy.
+ Step   7: Agent moved  DOWN to location [x=0,y=4], based on policy.
+ Step   8: Agent moved  DOWN to location [x=0,y=5], based on policy.
+ Step   9: Agent moved RIGHT to location [x=1,y=5], randomly.
+ Step  10: Agent moved RIGHT to location [x=2,y=5], based on policy.
+ Step  11: Agent moved RIGHT to location [x=3,y=5], based on policy.
+
+>>> Agent Brain:
+ ?  ?  O  O  O  3  B  ? 
+ B  O  ?  ?  B  ?  B  ? 
+ ?  O  ?  B  ?  ?  ?  ? 
+ O  B  ?  ?  ?  B  ?  ? 
+ O  B  ?  B  ?  B  ?  ? 
+ O  E  O  W  ?  ?  ?  B 
+
+
+>>> Agent Physical Path 5:
+
+>>> Physical path 5, Time: 4.361000 s, Min radius: 0.942809 Total Steps: 154.
+ Step   1: Agent moved DOWN_RIGHT to location [x=2,y=1], based on policy.
+ Step   2: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=5], based on policy.
+ Step   6: Agent moved  LEFT to location [x=1,y=5], randomly.
+ Step   7: Agent moved  LEFT to location [x=0,y=5], based on policy.
+ Step   8: Agent moved    UP to location [x=0,y=4], randomly.
+ Step   9: Agent moved    UP to location [x=0,y=3], based on policy.
+ Step  10: Agent moved    UP to location [x=0,y=2], based on policy.
+ Step  11: Agent moved UP_RIGHT to location [x=1,y=1], based on policy.
+ Step  12: Agent moved UP_RIGHT to location [x=2,y=0], based on policy.
+ Step  13: Agent moved RIGHT to location [x=3,y=0], based on policy.
+ Step  14: Agent moved RIGHT to location [x=4,y=0], randomly.
+ Step  15: Agent moved RIGHT to location [x=5,y=0], based on policy.
+ Step  16: Agent moved  DOWN to location [x=5,y=1], randomly.
+ Step  17: Agent moved DOWN_LEFT to location [x=4,y=2], based on policy.
+ Step  18: Agent moved  DOWN to location [x=4,y=3], based on policy.
+ Step  19: Agent moved  DOWN to location [x=4,y=4], based on policy.
+ Step  20: Agent moved  DOWN to location [x=4,y=5], based on policy.
+ Step  21: Agent moved    UP to location [x=4,y=4], randomly.
+ Step  22: Agent moved UP_LEFT to location [x=3,y=3], based on policy.
+ Step  23: Agent moved  LEFT to location [x=2,y=3], based on policy.
+ Step  24: Agent moved RIGHT to location [x=3,y=3], randomly.
+ Step  25: Agent moved DOWN_RIGHT to location [x=4,y=4], based on policy.
+ Step  26: Agent moved  DOWN to location [x=4,y=5], based on policy.
+ Step  27: Agent moved  LEFT to location [x=3,y=5], randomly.
+
+>>> Agent Brain:
+ ?  3  O  O  O  O  B  ? 
+ B  O  O  ?  B  O  B  ? 
+ O  ?  O  B  O  ?  ?  ? 
+ O  B  O  O  O  B  ?  ? 
+ O  B  O  B  O  B  ?  ? 
+ O  E  O  W  O  ?  ?  B 
+
+>>> Process Time: 185.038000 s.

@@ -1,0 +1,64 @@
+
+>>> Values:
+ Random Seed Value = 40084
+ Number of Physical Paths = 5
+ Number of Learning Paths per Physical Path = 1
+ Method = 5
+ Number of Lookahead Levels = 1
+ Path-File Mode = 3
+ Step-Size Parameter ALPHA = 0.100000
+ Discount Rate GAMMA = 0.900000
+ Lookahead Weight Factor LAMBDA = 0.500000
+ Q-value Weight Factor w1 = 0.800000
+ Distance-to-Goal Weight Factor w2 = 0.500000
+ Initial Full Exploration is OFF
+ Visited-Number Weight factor w3 = 0.500000
+ TAW has greedy-mode value = 1
+ Star is 2 at location [0, 0]
+ Goal is W
+
+>>> Input Maze:
+ O  O  O  O  O  O  O  B 
+ O  O  O  O  B  O  O  O 
+ O  O  O  B  O  O  O  O 
+ O  B  O  O  O  B  O  O 
+ O  B  O  B  O  B  O  O 
+ O  O  O  O  O  O  O  B 
+
+
+>>> Agent Physical Path 5:
+
+>>> Physical path 5, Time: 14.555000 s, Min radius: 0.333333 Total Steps: 74.
+ Step   1: Agent moved DOWN_RIGHT to location [x=1,y=1], based on policy.
+ Step   2: Agent moved RIGHT to location [x=2,y=1], based on policy.
+ Step   3: Agent moved UP_RIGHT to location [x=3,y=0], based on policy.
+ Step   4: Agent moved  DOWN to location [x=3,y=1], randomly.
+ Step   5: Agent moved DOWN_LEFT to location [x=2,y=2], based on policy.
+ Step   6: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   7: Agent moved    UP to location [x=2,y=2], randomly.
+ Step   8: Agent moved UP_LEFT to location [x=1,y=1], based on policy.
+ Step   9: Agent moved UP_LEFT to location [x=0,y=0], based on policy.
+ Step  10: Agent moved  DOWN to location [x=0,y=1], randomly.
+ Step  11: Agent moved DOWN_RIGHT to location [x=1,y=2], based on policy.
+ Step  12: Agent moved RIGHT to location [x=2,y=2], based on policy.
+ Step  13: Agent moved UP_RIGHT to location [x=3,y=1], based on policy.
+ Step  14: Agent moved    UP to location [x=3,y=0], based on policy.
+ Step  15: Agent moved RIGHT to location [x=4,y=0], randomly.
+ Step  16: Agent moved RIGHT to location [x=5,y=0], based on policy.
+ Step  17: Agent moved RIGHT to location [x=6,y=0], based on policy.
+ Step  18: Agent moved DOWN_RIGHT to location [x=7,y=1], based on policy.
+ Step  19: Agent moved  DOWN to location [x=7,y=2], based on policy.
+ Step  20: Agent moved DOWN_LEFT to location [x=6,y=3], based on policy.
+ Step  21: Agent moved  DOWN to location [x=6,y=4], based on policy.
+ Step  22: Agent moved DOWN_LEFT to location [x=5,y=5], based on policy.
+ Step  23: Agent moved DOWN_LEFT to location [x=0,y=0], based on policy.
+
+>>> Agent Brain:
+ O  ?  ?  O  O  O  O  ? 
+ O  O  O  O  B  ?  ?  O 
+ ?  O  O  ?  ?  ?  ?  O 
+ ?  ?  O  ?  ?  B  O  ? 
+ ?  B  ?  B  ?  ?  O  ? 
+ ?  ?  ?  ?  ?  O  ?  ? 
+
+>>> Process Time: 14.571000 s.

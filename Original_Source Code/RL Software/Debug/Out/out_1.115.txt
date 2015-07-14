@@ -1,0 +1,1409 @@
+
+>>> Values:
+ Random Seed Value = 13454
+ Number of Physical Paths = 5
+ Number of Learning Paths per Physical Path = 1
+ Method = 5
+ Number of Lookahead Levels = 1
+ Path-File Mode = 3
+ Step-Size Parameter ALPHA = 0.100000
+ Discount Rate GAMMA = 0.900000
+ Lookahead Weight Factor LAMBDA = 0.500000
+ Q-value Weight Factor w1 = 0.800000
+ Distance-to-Goal Weight Factor w2 = 0.500000
+ Initial Full Exploration is OFF
+ Visited-Number Weight factor w3 = 0.500000
+ TAW has greedy-mode value = 1
+ Star is C at location [0, 0]
+ Goal is H
+
+>>> Input Maze:
+ C  O  O  A  O  D  B  B 
+ B  O  O  O  B  O  B  P 
+ R  O  O  B  O  O  O  O 
+ O  B  O  O  O  B  O  B 
+ O  B  O  B  O  B  O  O 
+ O  O  O  O  O  O  O  O 
+ O  O  O  O  O  O  O  O 
+ B  O  O  O  B  O  O  O 
+ O  O  O  B  O  O  O  O 
+ O  B  O  O  O  B  O  B 
+ O  B  O  B  O  B  O  O 
+ O  O  O  O  O  O  O  O 
+ O  O  O  O  O  O  O  B 
+ O  O  O  O  B  O  O  O 
+ O  O  O  B  O  O  O  O 
+ O  B  O  O  O  B  O  O 
+ O  B  O  B  O  B  O  O 
+ O  O  O  O  O  O  O  B 
+ O  O  O  O  O  O  B  B 
+ B  O  O  O  B  O  B  J 
+ O  O  O  B  O  O  O  O 
+ O  B  O  O  O  B  O  B 
+ O  B  O  B  O  B  O  X 
+ O  E  O  W  O  O  H  B 
+
+
+>>> Agent Physical Path 1:
+
+>>> Physical path 1, Time: 0.795000 s, Min radius: 0.333333 Total Steps: 1079.
+ Step   1: Agent moved RIGHT to location [x=1,y=0], randomly.
+ Step   2: Agent moved  LEFT to location [x=0,y=0], randomly.
+ Step   3: Agent moved RIGHT to location [x=1,y=0], randomly.
+ Step   4: Agent moved  LEFT to location [x=0,y=0], randomly.
+ Step   5: Agent moved DOWN_RIGHT to location [x=1,y=1], randomly.
+ Step   6: Agent moved DOWN_RIGHT to location [x=2,y=2], randomly.
+ Step   7: Agent moved    UP to location [x=2,y=1], randomly.
+ Step   8: Agent moved UP_LEFT to location [x=1,y=0], randomly.
+ Step   9: Agent moved  DOWN to location [x=1,y=1], randomly.
+ Step  10: Agent moved  DOWN to location [x=1,y=2], randomly.
+ Step  11: Agent moved DOWN_LEFT to location [x=0,y=3], randomly.
+ Step  12: Agent moved  DOWN to location [x=0,y=4], randomly.
+ Step  13: Agent moved  DOWN to location [x=0,y=5], randomly.
+ Step  14: Agent moved  DOWN to location [x=0,y=6], randomly.
+ Step  15: Agent moved    UP to location [x=0,y=5], randomly.
+ Step  16: Agent moved    UP to location [x=0,y=4], randomly.
+ Step  17: Agent moved    UP to location [x=0,y=3], randomly.
+ Step  18: Agent moved UP_RIGHT to location [x=1,y=2], randomly.
+ Step  19: Agent moved DOWN_LEFT to location [x=0,y=3], randomly.
+ Step  20: Agent moved UP_RIGHT to location [x=1,y=2], randomly.
+ Step  21: Agent moved  LEFT to location [x=0,y=2], randomly.
+ Step  22: Agent moved RIGHT to location [x=1,y=2], randomly.
+ Step  23: Agent moved DOWN_LEFT to location [x=0,y=3], randomly.
+ Step  24: Agent moved  DOWN to location [x=0,y=4], randomly.
+ Step  25: Agent moved  DOWN to location [x=0,y=5], randomly.
+ Step  26: Agent moved DOWN_RIGHT to location [x=1,y=6], randomly.
+ Step  27: Agent moved  DOWN to location [x=1,y=7], randomly.
+ Step  28: Agent moved    UP to location [x=1,y=6], randomly.
+ Step  29: Agent moved RIGHT to location [x=2,y=6], randomly.
+ Step  30: Agent moved  LEFT to location [x=1,y=6], randomly.
+ Step  31: Agent moved UP_RIGHT to location [x=2,y=5], randomly.
+ Step  32: Agent moved DOWN_RIGHT to location [x=3,y=6], randomly.
+ Step  33: Agent moved UP_LEFT to location [x=2,y=5], randomly.
+ Step  34: Agent moved DOWN_RIGHT to location [x=3,y=6], randomly.
+ Step  35: Agent moved UP_LEFT to location [x=2,y=5], randomly.
+ Step  36: Agent moved  LEFT to location [x=1,y=5], randomly.
+ Step  37: Agent moved  DOWN to location [x=1,y=6], randomly.
+ Step  38: Agent moved UP_LEFT to location [x=0,y=5], randomly.
+ Step  39: Agent moved RIGHT to location [x=1,y=5], randomly.
+ Step  40: Agent moved DOWN_LEFT to location [x=0,y=6], randomly.
+ Step  41: Agent moved UP_RIGHT to location [x=1,y=5], randomly.
+ Step  42: Agent moved  LEFT to location [x=0,y=5], randomly.
+ Step  43: Agent moved    UP to location [x=0,y=4], randomly.
+ Step  44: Agent moved  DOWN to location [x=0,y=5], randomly.
+ Step  45: Agent moved DOWN_RIGHT to location [x=1,y=6], randomly.
+ Step  46: Agent moved RIGHT to location [x=2,y=6], randomly.
+ Step  47: Agent moved RIGHT to location [x=3,y=6], randomly.
+ Step  48: Agent moved RIGHT to location [x=4,y=6], randomly.
+ Step  49: Agent moved DOWN_LEFT to location [x=3,y=7], randomly.
+ Step  50: Agent moved DOWN_RIGHT to location [x=4,y=8], randomly.
+ Step  51: Agent moved  DOWN to location [x=4,y=9], randomly.
+ Step  52: Agent moved    UP to location [x=4,y=8], randomly.
+ Step  53: Agent moved  DOWN to location [x=4,y=9], randomly.
+ Step  54: Agent moved  LEFT to location [x=3,y=9], randomly.
+ Step  55: Agent moved UP_RIGHT to location [x=4,y=8], randomly.
+ Step  56: Agent moved RIGHT to location [x=5,y=8], randomly.
+ Step  57: Agent moved RIGHT to location [x=6,y=8], randomly.
+ Step  58: Agent moved RIGHT to location [x=7,y=8], randomly.
+ Step  59: Agent moved DOWN_LEFT to location [x=6,y=9], randomly.
+ Step  60: Agent moved UP_RIGHT to location [x=7,y=8], randomly.
+ Step  61: Agent moved    UP to location [x=7,y=7], randomly.
+ Step  62: Agent moved  LEFT to location [x=6,y=7], randomly.
+ Step  63: Agent moved DOWN_RIGHT to location [x=7,y=8], randomly.
+ Step  64: Agent moved DOWN_LEFT to location [x=6,y=9], randomly.
+ Step  65: Agent moved DOWN_RIGHT to location [x=7,y=10], randomly.
+ Step  66: Agent moved UP_LEFT to location [x=6,y=9], randomly.
+ Step  67: Agent moved  DOWN to location [x=6,y=10], randomly.
+ Step  68: Agent moved DOWN_RIGHT to location [x=7,y=11], randomly.
+ Step  69: Agent moved DOWN_LEFT to location [x=6,y=12], randomly.
+ Step  70: Agent moved    UP to location [x=6,y=11], randomly.
+ Step  71: Agent moved  DOWN to location [x=6,y=12], randomly.
+ Step  72: Agent moved UP_RIGHT to location [x=7,y=11], randomly.
+ Step  73: Agent moved DOWN_LEFT to location [x=6,y=12], randomly.
+ Step  74: Agent moved UP_LEFT to location [x=5,y=11], randomly.
+ Step  75: Agent moved DOWN_RIGHT to location [x=6,y=12], randomly.
+ Step  76: Agent moved UP_LEFT to location [x=5,y=11], randomly.
+ Step  77: Agent moved RIGHT to location [x=6,y=11], randomly.
+ Step  78: Agent moved  LEFT to location [x=5,y=11], randomly.
+ Step  79: Agent moved RIGHT to location [x=6,y=11], randomly.
+ Step  80: Agent moved  DOWN to location [x=6,y=12], randomly.
+ Step  81: Agent moved    UP to location [x=6,y=11], randomly.
+ Step  82: Agent moved RIGHT to location [x=7,y=11], randomly.
+ Step  83: Agent moved UP_LEFT to location [x=6,y=10], randomly.
+ Step  84: Agent moved DOWN_RIGHT to location [x=7,y=11], randomly.
+ Step  85: Agent moved UP_LEFT to location [x=6,y=10], randomly.
+ Step  86: Agent moved  DOWN to location [x=6,y=11], randomly.
+ Step  87: Agent moved  DOWN to location [x=6,y=12], randomly.
+ Step  88: Agent moved DOWN_LEFT to location [x=5,y=13], randomly.
+ Step  89: Agent moved UP_RIGHT to location [x=6,y=12], randomly.
+ Step  90: Agent moved    UP to location [x=6,y=11], randomly.
+ Step  91: Agent moved UP_RIGHT to location [x=7,y=10], randomly.
+ Step  92: Agent moved UP_LEFT to location [x=6,y=9], randomly.
+ Step  93: Agent moved    UP to location [x=6,y=8], randomly.
+ Step  94: Agent moved RIGHT to location [x=7,y=8], randomly.
+ Step  95: Agent moved DOWN_LEFT to location [x=6,y=9], randomly.
+ Step  96: Agent moved DOWN_RIGHT to location [x=7,y=10], randomly.
+ Step  97: Agent moved  DOWN to location [x=7,y=11], randomly.
+ Step  98: Agent moved    UP to location [x=7,y=10], randomly.
+ Step  99: Agent moved  DOWN to location [x=7,y=11], randomly.
+ Step 100: Agent moved    UP to location [x=7,y=10], randomly.
+ Step 101: Agent moved  DOWN to location [x=7,y=11], randomly.
+ Step 102: Agent moved  LEFT to location [x=6,y=11], randomly.
+ Step 103: Agent moved DOWN_LEFT to location [x=5,y=12], randomly.
+ Step 104: Agent moved DOWN_RIGHT to location [x=6,y=13], randomly.
+ Step 105: Agent moved UP_LEFT to location [x=5,y=12], randomly.
+ Step 106: Agent moved  DOWN to location [x=5,y=13], randomly.
+ Step 107: Agent moved RIGHT to location [x=6,y=13], randomly.
+ Step 108: Agent moved DOWN_LEFT to location [x=5,y=14], randomly.
+ Step 109: Agent moved UP_RIGHT to location [x=6,y=13], randomly.
+ Step 110: Agent moved RIGHT to location [x=7,y=13], randomly.
+ Step 111: Agent moved UP_LEFT to location [x=6,y=12], randomly.
+ Step 112: Agent moved  DOWN to location [x=6,y=13], randomly.
+ Step 113: Agent moved  LEFT to location [x=5,y=13], randomly.
+ Step 114: Agent moved  DOWN to location [x=5,y=14], randomly.
+ Step 115: Agent moved    UP to location [x=5,y=13], randomly.
+ Step 116: Agent moved UP_LEFT to location [x=4,y=12], randomly.
+ Step 117: Agent moved  LEFT to location [x=3,y=12], randomly.
+ Step 118: Agent moved UP_LEFT to location [x=2,y=11], randomly.
+ Step 119: Agent moved DOWN_LEFT to location [x=1,y=12], randomly.
+ Step 120: Agent moved UP_RIGHT to location [x=2,y=11], randomly.
+ Step 121: Agent moved    UP to location [x=2,y=10], randomly.
+ Step 122: Agent moved  DOWN to location [x=2,y=11], randomly.
+ Step 123: Agent moved  DOWN to location [x=2,y=12], randomly.
+ Step 124: Agent moved RIGHT to location [x=3,y=12], randomly.
+ Step 125: Agent moved    UP to location [x=3,y=11], randomly.
+ Step 126: Agent moved UP_RIGHT to location [x=4,y=10], randomly.
+ Step 127: Agent moved    UP to location [x=4,y=9], randomly.
+ Step 128: Agent moved    UP to location [x=4,y=8], randomly.
+ Step 129: Agent moved UP_LEFT to location [x=3,y=7], randomly.
+ Step 130: Agent moved DOWN_LEFT to location [x=2,y=8], randomly.
+ Step 131: Agent moved UP_LEFT to location [x=1,y=7], randomly.
+ Step 132: Agent moved DOWN_RIGHT to location [x=2,y=8], randomly.
+ Step 133: Agent moved UP_RIGHT to location [x=3,y=7], randomly.
+ Step 134: Agent moved UP_RIGHT to location [x=4,y=6], randomly.
+ Step 135: Agent moved DOWN_LEFT to location [x=3,y=7], randomly.
+ Step 136: Agent moved UP_RIGHT to location [x=4,y=6], randomly.
+ Step 137: Agent moved DOWN_LEFT to location [x=3,y=7], randomly.
+ Step 138: Agent moved  LEFT to location [x=2,y=7], randomly.
+ Step 139: Agent moved  DOWN to location [x=2,y=8], randomly.
+ Step 140: Agent moved UP_RIGHT to location [x=3,y=7], randomly.
+ Step 141: Agent moved DOWN_LEFT to location [x=2,y=8], randomly.
+ Step 142: Agent moved UP_RIGHT to location [x=3,y=7], randomly.
+ Step 143: Agent moved DOWN_LEFT to location [x=2,y=8], randomly.
+ Step 144: Agent moved DOWN_RIGHT to location [x=3,y=9], randomly.
+ Step 145: Agent moved DOWN_RIGHT to location [x=4,y=10], randomly.
+ Step 146: Agent moved DOWN_LEFT to location [x=3,y=11], randomly.
+ Step 147: Agent moved  LEFT to location [x=2,y=11], randomly.
+ Step 148: Agent moved RIGHT to location [x=3,y=11], randomly.
+ Step 149: Agent moved DOWN_LEFT to location [x=2,y=12], randomly.
+ Step 150: Agent moved    UP to location [x=2,y=11], randomly.
+ Step 151: Agent moved  LEFT to location [x=1,y=11], randomly.
+ Step 152: Agent moved RIGHT to location [x=2,y=11], randomly.
+ Step 153: Agent moved    UP to location [x=2,y=10], randomly.
+ Step 154: Agent moved    UP to location [x=2,y=9], randomly.
+ Step 155: Agent moved RIGHT to location [x=3,y=9], randomly.
+ Step 156: Agent moved  LEFT to location [x=2,y=9], randomly.
+ Step 157: Agent moved UP_LEFT to location [x=1,y=8], randomly.
+ Step 158: Agent moved    UP to location [x=1,y=7], randomly.
+ Step 159: Agent moved DOWN_LEFT to location [x=0,y=8], randomly.
+ Step 160: Agent moved  DOWN to location [x=0,y=9], randomly.
+ Step 161: Agent moved UP_RIGHT to location [x=1,y=8], randomly.
+ Step 162: Agent moved RIGHT to location [x=2,y=8], randomly.
+ Step 163: Agent moved UP_RIGHT to location [x=3,y=7], randomly.
+ Step 164: Agent moved UP_LEFT to location [x=2,y=6], randomly.
+ Step 165: Agent moved UP_RIGHT to location [x=3,y=5], randomly.
+ Step 166: Agent moved UP_LEFT to location [x=2,y=4], randomly.
+ Step 167: Agent moved DOWN_LEFT to location [x=1,y=5], randomly.
+ Step 168: Agent moved DOWN_RIGHT to location [x=2,y=6], randomly.
+ Step 169: Agent moved    UP to location [x=2,y=5], randomly.
+ Step 170: Agent moved DOWN_LEFT to location [x=1,y=6], randomly.
+ Step 171: Agent moved UP_LEFT to location [x=0,y=5], randomly.
+ Step 172: Agent moved RIGHT to location [x=1,y=5], randomly.
+ Step 173: Agent moved DOWN_LEFT to location [x=0,y=6], randomly.
+ Step 174: Agent moved RIGHT to location [x=1,y=6], randomly.
+ Step 175: Agent moved    UP to location [x=1,y=5], randomly.
+ Step 176: Agent moved DOWN_LEFT to location [x=0,y=6], randomly.
+ Step 177: Agent moved DOWN_RIGHT to location [x=1,y=7], randomly.
+ Step 178: Agent moved UP_RIGHT to location [x=2,y=6], randomly.
+ Step 179: Agent moved DOWN_LEFT to location [x=1,y=7], randomly.
+ Step 180: Agent moved DOWN_LEFT to location [x=0,y=8], randomly.
+ Step 181: Agent moved RIGHT to location [x=1,y=8], randomly.
+ Step 182: Agent moved  LEFT to location [x=0,y=8], randomly.
+ Step 183: Agent moved  DOWN to location [x=0,y=9], randomly.
+ Step 184: Agent moved UP_RIGHT to location [x=1,y=8], randomly.
+ Step 185: Agent moved RIGHT to location [x=2,y=8], randomly.
+ Step 186: Agent moved UP_LEFT to location [x=1,y=7], randomly.
+ Step 187: Agent moved    UP to location [x=1,y=6], randomly.
+ Step 188: Agent moved  DOWN to location [x=1,y=7], randomly.
+ Step 189: Agent moved DOWN_RIGHT to location [x=2,y=8], randomly.
+ Step 190: Agent moved  LEFT to location [x=1,y=8], randomly.
+ Step 191: Agent moved RIGHT to location [x=2,y=8], randomly.
+ Step 192: Agent moved  LEFT to location [x=1,y=8], randomly.
+ Step 193: Agent moved DOWN_RIGHT to location [x=2,y=9], randomly.
+ Step 194: Agent moved UP_LEFT to location [x=1,y=8], randomly.
+ Step 195: Agent moved RIGHT to location [x=2,y=8], randomly.
+ Step 196: Agent moved UP_RIGHT to location [x=3,y=7], randomly.
+ Step 197: Agent moved UP_RIGHT to location [x=4,y=6], randomly.
+ Step 198: Agent moved DOWN_LEFT to location [x=3,y=7], randomly.
+ Step 199: Agent moved UP_RIGHT to location [x=4,y=6], randomly.
+ Step 200: Agent moved DOWN_LEFT to location [x=3,y=7], randomly.
+ Step 201: Agent moved  LEFT to location [x=2,y=7], randomly.
+ Step 202: Agent moved UP_RIGHT to location [x=3,y=6], randomly.
+ Step 203: Agent moved UP_LEFT to location [x=2,y=5], randomly.
+ Step 204: Agent moved    UP to location [x=2,y=4], randomly.
+ Step 205: Agent moved    UP to location [x=2,y=3], randomly.
+ Step 206: Agent moved RIGHT to location [x=3,y=3], randomly.
+ Step 207: Agent moved UP_LEFT to location [x=2,y=2], randomly.
+ Step 208: Agent moved UP_LEFT to location [x=1,y=1], randomly.
+ Step 209: Agent moved    UP to location [x=1,y=0], randomly.
+ Step 210: Agent moved  DOWN to location [x=1,y=1], randomly.
+ Step 211: Agent moved RIGHT to location [x=2,y=1], randomly.
+ Step 212: Agent moved UP_LEFT to location [x=1,y=0], randomly.
+ Step 213: Agent moved  DOWN to location [x=1,y=1], randomly.
+ Step 214: Agent moved RIGHT to location [x=2,y=1], randomly.
+ Step 215: Agent moved  LEFT to location [x=1,y=1], randomly.
+ Step 216: Agent moved  DOWN to location [x=1,y=2], randomly.
+ Step 217: Agent moved RIGHT to location [x=2,y=2], randomly.
+ Step 218: Agent moved  DOWN to location [x=2,y=3], randomly.
+ Step 219: Agent moved UP_LEFT to location [x=1,y=2], randomly.
+ Step 220: Agent moved RIGHT to location [x=2,y=2], randomly.
+ Step 221: Agent moved UP_RIGHT to location [x=3,y=1], randomly.
+ Step 222: Agent moved DOWN_LEFT to location [x=2,y=2], randomly.
+ Step 223: Agent moved  DOWN to location [x=2,y=3], randomly.
+ Step 224: Agent moved  DOWN to location [x=2,y=4], randomly.
+ Step 225: Agent moved    UP to location [x=2,y=3], randomly.
+ Step 226: Agent moved  DOWN to location [x=2,y=4], randomly.
+ Step 227: Agent moved DOWN_LEFT to location [x=1,y=5], randomly.
+ Step 228: Agent moved RIGHT to location [x=2,y=5], randomly.
+ Step 229: Agent moved  DOWN to location [x=2,y=6], randomly.
+ Step 230: Agent moved UP_RIGHT to location [x=3,y=5], randomly.
+ Step 231: Agent moved RIGHT to location [x=4,y=5], randomly.
+ Step 232: Agent moved  DOWN to location [x=4,y=6], randomly.
+ Step 233: Agent moved RIGHT to location [x=5,y=6], randomly.
+ Step 234: Agent moved RIGHT to location [x=6,y=6], randomly.
+ Step 235: Agent moved DOWN_LEFT to location [x=5,y=7], randomly.
+ Step 236: Agent moved DOWN_LEFT to location [x=4,y=8], randomly.
+ Step 237: Agent moved DOWN_LEFT to location [x=3,y=9], randomly.
+ Step 238: Agent moved UP_LEFT to location [x=2,y=8], randomly.
+ Step 239: Agent moved UP_LEFT to location [x=1,y=7], randomly.
+ Step 240: Agent moved RIGHT to location [x=2,y=7], randomly.
+ Step 241: Agent moved UP_RIGHT to location [x=3,y=6], randomly.
+ Step 242: Agent moved  LEFT to location [x=2,y=6], randomly.
+ Step 243: Agent moved UP_LEFT to location [x=1,y=5], randomly.
+ Step 244: Agent moved UP_RIGHT to location [x=2,y=4], randomly.
+ Step 245: Agent moved DOWN_RIGHT to location [x=3,y=5], randomly.
+ Step 246: Agent moved DOWN_RIGHT to location [x=4,y=6], randomly.
+ Step 247: Agent moved UP_RIGHT to location [x=5,y=5], randomly.
+ Step 248: Agent moved  LEFT to location [x=4,y=5], randomly.
+ Step 249: Agent moved  LEFT to location [x=3,y=5], randomly.
+ Step 250: Agent moved UP_LEFT to location [x=2,y=4], randomly.
+ Step 251: Agent moved DOWN_LEFT to location [x=1,y=5], randomly.
+ Step 252: Agent moved DOWN_LEFT to location [x=0,y=6], randomly.
+ Step 253: Agent moved RIGHT to location [x=1,y=6], randomly.
+ Step 254: Agent moved DOWN_RIGHT to location [x=2,y=7], randomly.
+ Step 255: Agent moved  DOWN to location [x=2,y=8], randomly.
+ Step 256: Agent moved    UP to location [x=2,y=7], randomly.
+ Step 257: Agent moved    UP to location [x=2,y=6], randomly.
+ Step 258: Agent moved  LEFT to location [x=1,y=6], randomly.
+ Step 259: Agent moved DOWN_RIGHT to location [x=2,y=7], randomly.
+ Step 260: Agent moved UP_LEFT to location [x=1,y=6], randomly.
+ Step 261: Agent moved DOWN_RIGHT to location [x=2,y=7], randomly.
+ Step 262: Agent moved UP_LEFT to location [x=1,y=6], randomly.
+ Step 263: Agent moved UP_LEFT to location [x=0,y=5], randomly.
+ Step 264: Agent moved RIGHT to location [x=1,y=5], randomly.
+ Step 265: Agent moved  DOWN to location [x=1,y=6], randomly.
+ Step 266: Agent moved RIGHT to location [x=2,y=6], randomly.
+ Step 267: Agent moved DOWN_RIGHT to location [x=3,y=7], randomly.
+ Step 268: Agent moved DOWN_RIGHT to location [x=4,y=8], randomly.
+ Step 269: Agent moved RIGHT to location [x=5,y=8], randomly.
+ Step 270: Agent moved  LEFT to location [x=4,y=8], randomly.
+ Step 271: Agent moved DOWN_LEFT to location [x=3,y=9], randomly.
+ Step 272: Agent moved  LEFT to location [x=2,y=9], randomly.
+ Step 273: Agent moved UP_LEFT to location [x=1,y=8], randomly.
+ Step 274: Agent moved  LEFT to location [x=0,y=8], randomly.
+ Step 275: Agent moved RIGHT to location [x=1,y=8], randomly.
+ Step 276: Agent moved DOWN_RIGHT to location [x=2,y=9], randomly.
+ Step 277: Agent moved  DOWN to location [x=2,y=10], randomly.
+ Step 278: Agent moved UP_RIGHT to location [x=3,y=9], randomly.
+ Step 279: Agent moved DOWN_RIGHT to location [x=4,y=10], randomly.
+ Step 280: Agent moved DOWN_RIGHT to location [x=5,y=11], randomly.
+ Step 281: Agent moved DOWN_LEFT to location [x=4,y=12], randomly.
+ Step 282: Agent moved UP_RIGHT to location [x=5,y=11], randomly.
+ Step 283: Agent moved DOWN_LEFT to location [x=4,y=12], randomly.
+ Step 284: Agent moved  LEFT to location [x=3,y=12], randomly.
+ Step 285: Agent moved  LEFT to location [x=2,y=12], randomly.
+ Step 286: Agent moved UP_LEFT to location [x=1,y=11], randomly.
+ Step 287: Agent moved DOWN_RIGHT to location [x=2,y=12], randomly.
+ Step 288: Agent moved DOWN_LEFT to location [x=1,y=13], randomly.
+ Step 289: Agent moved  LEFT to location [x=0,y=13], randomly.
+ Step 290: Agent moved  DOWN to location [x=0,y=14], randomly.
+ Step 291: Agent moved UP_RIGHT to location [x=1,y=13], randomly.
+ Step 292: Agent moved    UP to location [x=1,y=12], randomly.
+ Step 293: Agent moved  LEFT to location [x=0,y=12], randomly.
+ Step 294: Agent moved DOWN_RIGHT to location [x=1,y=13], randomly.
+ Step 295: Agent moved UP_LEFT to location [x=0,y=12], randomly.
+ Step 296: Agent moved RIGHT to location [x=1,y=12], randomly.
+ Step 297: Agent moved DOWN_LEFT to location [x=0,y=13], randomly.
+ Step 298: Agent moved  DOWN to location [x=0,y=14], randomly.
+ Step 299: Agent moved RIGHT to location [x=1,y=14], randomly.
+ Step 300: Agent moved RIGHT to location [x=2,y=14], randomly.
+ Step 301: Agent moved  LEFT to location [x=1,y=14], randomly.
+ Step 302: Agent moved DOWN_RIGHT to location [x=2,y=15], randomly.
+ Step 303: Agent moved RIGHT to location [x=3,y=15], randomly.
+ Step 304: Agent moved UP_LEFT to location [x=2,y=14], randomly.
+ Step 305: Agent moved  LEFT to location [x=1,y=14], randomly.
+ Step 306: Agent moved UP_RIGHT to location [x=2,y=13], randomly.
+ Step 307: Agent moved UP_LEFT to location [x=1,y=12], randomly.
+ Step 308: Agent moved RIGHT to location [x=2,y=12], randomly.
+ Step 309: Agent moved DOWN_RIGHT to location [x=3,y=13], randomly.
+ Step 310: Agent moved DOWN_LEFT to location [x=2,y=14], randomly.
+ Step 311: Agent moved  DOWN to location [x=2,y=15], randomly.
+ Step 312: Agent moved RIGHT to location [x=3,y=15], randomly.
+ Step 313: Agent moved RIGHT to location [x=4,y=15], randomly.
+ Step 314: Agent moved    UP to location [x=4,y=14], randomly.
+ Step 315: Agent moved DOWN_LEFT to location [x=3,y=15], randomly.
+ Step 316: Agent moved DOWN_RIGHT to location [x=4,y=16], randomly.
+ Step 317: Agent moved DOWN_RIGHT to location [x=5,y=17], randomly.
+ Step 318: Agent moved  LEFT to location [x=4,y=17], randomly.
+ Step 319: Agent moved DOWN_RIGHT to location [x=5,y=18], randomly.
+ Step 320: Agent moved  DOWN to location [x=5,y=19], randomly.
+ Step 321: Agent moved DOWN_LEFT to location [x=4,y=20], randomly.
+ Step 322: Agent moved UP_RIGHT to location [x=5,y=19], randomly.
+ Step 323: Agent moved UP_LEFT to location [x=4,y=18], randomly.
+ Step 324: Agent moved UP_LEFT to location [x=3,y=17], randomly.
+ Step 325: Agent moved  DOWN to location [x=3,y=18], randomly.
+ Step 326: Agent moved UP_RIGHT to location [x=4,y=17], randomly.
+ Step 327: Agent moved DOWN_LEFT to location [x=3,y=18], randomly.
+ Step 328: Agent moved DOWN_LEFT to location [x=2,y=19], randomly.
+ Step 329: Agent moved  DOWN to location [x=2,y=20], randomly.
+ Step 330: Agent moved UP_LEFT to location [x=1,y=19], randomly.
+ Step 331: Agent moved DOWN_RIGHT to location [x=2,y=20], randomly.
+ Step 332: Agent moved  LEFT to location [x=1,y=20], randomly.
+ Step 333: Agent moved    UP to location [x=1,y=19], randomly.
+ Step 334: Agent moved  DOWN to location [x=1,y=20], randomly.
+ Step 335: Agent moved    UP to location [x=1,y=19], randomly.
+ Step 336: Agent moved UP_RIGHT to location [x=2,y=18], randomly.
+ Step 337: Agent moved  LEFT to location [x=1,y=18], randomly.
+ Step 338: Agent moved    UP to location [x=1,y=17], randomly.
+ Step 339: Agent moved  DOWN to location [x=1,y=18], randomly.
+ Step 340: Agent moved  LEFT to location [x=0,y=18], randomly.
+ Step 341: Agent moved DOWN_RIGHT to location [x=1,y=19], randomly.
+ Step 342: Agent moved UP_LEFT to location [x=0,y=18], randomly.
+ Step 343: Agent moved RIGHT to location [x=1,y=18], randomly.
+ Step 344: Agent moved  DOWN to location [x=1,y=19], randomly.
+ Step 345: Agent moved    UP to location [x=1,y=18], randomly.
+ Step 346: Agent moved DOWN_RIGHT to location [x=2,y=19], randomly.
+ Step 347: Agent moved  LEFT to location [x=1,y=19], randomly.
+ Step 348: Agent moved UP_LEFT to location [x=0,y=18], randomly.
+ Step 349: Agent moved DOWN_RIGHT to location [x=1,y=19], randomly.
+ Step 350: Agent moved DOWN_LEFT to location [x=0,y=20], randomly.
+ Step 351: Agent moved UP_RIGHT to location [x=1,y=19], randomly.
+ Step 352: Agent moved DOWN_RIGHT to location [x=2,y=20], randomly.
+ Step 353: Agent moved UP_LEFT to location [x=1,y=19], randomly.
+ Step 354: Agent moved DOWN_RIGHT to location [x=2,y=20], randomly.
+ Step 355: Agent moved UP_RIGHT to location [x=3,y=19], randomly.
+ Step 356: Agent moved DOWN_LEFT to location [x=2,y=20], randomly.
+ Step 357: Agent moved DOWN_RIGHT to location [x=3,y=21], randomly.
+ Step 358: Agent moved RIGHT to location [x=4,y=21], randomly.
+ Step 359: Agent moved  LEFT to location [x=3,y=21], randomly.
+ Step 360: Agent moved DOWN_RIGHT to location [x=4,y=22], randomly.
+ Step 361: Agent moved DOWN_RIGHT to location [x=5,y=23], randomly.
+ Step 362: Agent moved  LEFT to location [x=4,y=23], randomly.
+ Step 363: Agent moved  LEFT to location [x=3,y=23], randomly.
+ Step 364: Agent moved  LEFT to location [x=2,y=23], randomly.
+ Step 365: Agent moved RIGHT to location [x=3,y=23], randomly.
+ Step 366: Agent moved UP_LEFT to location [x=2,y=22], randomly.
+ Step 367: Agent moved UP_RIGHT to location [x=3,y=21], randomly.
+ Step 368: Agent moved UP_RIGHT to location [x=4,y=20], randomly.
+ Step 369: Agent moved UP_RIGHT to location [x=5,y=19], randomly.
+ Step 370: Agent moved UP_LEFT to location [x=4,y=18], randomly.
+ Step 371: Agent moved  LEFT to location [x=3,y=18], randomly.
+ Step 372: Agent moved RIGHT to location [x=4,y=18], randomly.
+ Step 373: Agent moved  LEFT to location [x=3,y=18], randomly.
+ Step 374: Agent moved UP_LEFT to location [x=2,y=17], randomly.
+ Step 375: Agent moved DOWN_RIGHT to location [x=3,y=18], randomly.
+ Step 376: Agent moved DOWN_LEFT to location [x=2,y=19], randomly.
+ Step 377: Agent moved    UP to location [x=2,y=18], randomly.
+ Step 378: Agent moved    UP to location [x=2,y=17], randomly.
+ Step 379: Agent moved DOWN_RIGHT to location [x=3,y=18], randomly.
+ Step 380: Agent moved    UP to location [x=3,y=17], randomly.
+ Step 381: Agent moved UP_LEFT to location [x=2,y=16], randomly.
+ Step 382: Agent moved    UP to location [x=2,y=15], randomly.
+ Step 383: Agent moved    UP to location [x=2,y=14], randomly.
+ Step 384: Agent moved UP_RIGHT to location [x=3,y=13], randomly.
+ Step 385: Agent moved DOWN_RIGHT to location [x=4,y=14], randomly.
+ Step 386: Agent moved  DOWN to location [x=4,y=15], randomly.
+ Step 387: Agent moved UP_RIGHT to location [x=5,y=14], randomly.
+ Step 388: Agent moved RIGHT to location [x=6,y=14], randomly.
+ Step 389: Agent moved  LEFT to location [x=5,y=14], randomly.
+ Step 390: Agent moved DOWN_LEFT to location [x=4,y=15], randomly.
+ Step 391: Agent moved  LEFT to location [x=3,y=15], randomly.
+ Step 392: Agent moved RIGHT to location [x=4,y=15], randomly.
+ Step 393: Agent moved    UP to location [x=4,y=14], randomly.
+ Step 394: Agent moved RIGHT to location [x=5,y=14], randomly.
+ Step 395: Agent moved DOWN_LEFT to location [x=4,y=15], randomly.
+ Step 396: Agent moved  DOWN to location [x=4,y=16], randomly.
+ Step 397: Agent moved DOWN_LEFT to location [x=3,y=17], randomly.
+ Step 398: Agent moved UP_LEFT to location [x=2,y=16], randomly.
+ Step 399: Agent moved UP_RIGHT to location [x=3,y=15], randomly.
+ Step 400: Agent moved DOWN_LEFT to location [x=2,y=16], randomly.
+ Step 401: Agent moved  DOWN to location [x=2,y=17], randomly.
+ Step 402: Agent moved    UP to location [x=2,y=16], randomly.
+ Step 403: Agent moved  DOWN to location [x=2,y=17], randomly.
+ Step 404: Agent moved    UP to location [x=2,y=16], randomly.
+ Step 405: Agent moved  DOWN to location [x=2,y=17], randomly.
+ Step 406: Agent moved DOWN_RIGHT to location [x=3,y=18], randomly.
+ Step 407: Agent moved    UP to location [x=3,y=17], randomly.
+ Step 408: Agent moved UP_LEFT to location [x=2,y=16], randomly.
+ Step 409: Agent moved DOWN_LEFT to location [x=1,y=17], randomly.
+ Step 410: Agent moved DOWN_LEFT to location [x=0,y=18], randomly.
+ Step 411: Agent moved    UP to location [x=0,y=17], randomly.
+ Step 412: Agent moved  DOWN to location [x=0,y=18], randomly.
+ Step 413: Agent moved DOWN_RIGHT to location [x=1,y=19], randomly.
+ Step 414: Agent moved    UP to location [x=1,y=18], randomly.
+ Step 415: Agent moved  LEFT to location [x=0,y=18], randomly.
+ Step 416: Agent moved DOWN_RIGHT to location [x=1,y=19], randomly.
+ Step 417: Agent moved UP_RIGHT to location [x=2,y=18], randomly.
+ Step 418: Agent moved RIGHT to location [x=3,y=18], randomly.
+ Step 419: Agent moved UP_RIGHT to location [x=4,y=17], randomly.
+ Step 420: Agent moved  DOWN to location [x=4,y=18], randomly.
+ Step 421: Agent moved UP_LEFT to location [x=3,y=17], randomly.
+ Step 422: Agent moved RIGHT to location [x=4,y=17], randomly.
+ Step 423: Agent moved DOWN_LEFT to location [x=3,y=18], randomly.
+ Step 424: Agent moved    UP to location [x=3,y=17], randomly.
+ Step 425: Agent moved  LEFT to location [x=2,y=17], randomly.
+ Step 426: Agent moved    UP to location [x=2,y=16], randomly.
+ Step 427: Agent moved DOWN_RIGHT to location [x=3,y=17], randomly.
+ Step 428: Agent moved UP_RIGHT to location [x=4,y=16], randomly.
+ Step 429: Agent moved UP_LEFT to location [x=3,y=15], randomly.
+ Step 430: Agent moved  LEFT to location [x=2,y=15], randomly.
+ Step 431: Agent moved    UP to location [x=2,y=14], randomly.
+ Step 432: Agent moved  LEFT to location [x=1,y=14], randomly.
+ Step 433: Agent moved UP_RIGHT to location [x=2,y=13], randomly.
+ Step 434: Agent moved    UP to location [x=2,y=12], randomly.
+ Step 435: Agent moved  LEFT to location [x=1,y=12], randomly.
+ Step 436: Agent moved DOWN_LEFT to location [x=0,y=13], randomly.
+ Step 437: Agent moved    UP to location [x=0,y=12], randomly.
+ Step 438: Agent moved  DOWN to location [x=0,y=13], randomly.
+ Step 439: Agent moved DOWN_RIGHT to location [x=1,y=14], randomly.
+ Step 440: Agent moved RIGHT to location [x=2,y=14], randomly.
+ Step 441: Agent moved DOWN_RIGHT to location [x=3,y=15], randomly.
+ Step 442: Agent moved DOWN_LEFT to location [x=2,y=16], randomly.
+ Step 443: Agent moved    UP to location [x=2,y=15], randomly.
+ Step 444: Agent moved UP_LEFT to location [x=1,y=14], randomly.
+ Step 445: Agent moved UP_LEFT to location [x=0,y=13], randomly.
+ Step 446: Agent moved RIGHT to location [x=1,y=13], randomly.
+ Step 447: Agent moved  LEFT to location [x=0,y=13], randomly.
+ Step 448: Agent moved UP_RIGHT to location [x=1,y=12], randomly.
+ Step 449: Agent moved UP_RIGHT to location [x=2,y=11], randomly.
+ Step 450: Agent moved RIGHT to location [x=3,y=11], randomly.
+ Step 451: Agent moved DOWN_RIGHT to location [x=4,y=12], randomly.
+ Step 452: Agent moved UP_LEFT to location [x=3,y=11], randomly.
+ Step 453: Agent moved UP_LEFT to location [x=2,y=10], randomly.
+ Step 454: Agent moved    UP to location [x=2,y=9], randomly.
+ Step 455: Agent moved RIGHT to location [x=3,y=9], randomly.
+ Step 456: Agent moved UP_RIGHT to location [x=4,y=8], randomly.
+ Step 457: Agent moved DOWN_LEFT to location [x=3,y=9], randomly.
+ Step 458: Agent moved  LEFT to location [x=2,y=9], randomly.
+ Step 459: Agent moved    UP to location [x=2,y=8], randomly.
+ Step 460: Agent moved  DOWN to location [x=2,y=9], randomly.
+ Step 461: Agent moved  DOWN to location [x=2,y=10], randomly.
+ Step 462: Agent moved  DOWN to location [x=2,y=11], randomly.
+ Step 463: Agent moved  LEFT to location [x=1,y=11], randomly.
+ Step 464: Agent moved  LEFT to location [x=0,y=11], randomly.
+ Step 465: Agent moved  DOWN to location [x=0,y=12], randomly.
+ Step 466: Agent moved DOWN_RIGHT to location [x=1,y=13], randomly.
+ Step 467: Agent moved    UP to location [x=1,y=12], randomly.
+ Step 468: Agent moved DOWN_RIGHT to location [x=2,y=13], randomly.
+ Step 469: Agent moved UP_LEFT to location [x=1,y=12], randomly.
+ Step 470: Agent moved  DOWN to location [x=1,y=13], randomly.
+ Step 471: Agent moved    UP to location [x=1,y=12], randomly.
+ Step 472: Agent moved DOWN_LEFT to location [x=0,y=13], randomly.
+ Step 473: Agent moved RIGHT to location [x=1,y=13], randomly.
+ Step 474: Agent moved UP_LEFT to location [x=0,y=12], randomly.
+ Step 475: Agent moved UP_RIGHT to location [x=1,y=11], randomly.
+ Step 476: Agent moved RIGHT to location [x=2,y=11], randomly.
+ Step 477: Agent moved  DOWN to location [x=2,y=12], randomly.
+ Step 478: Agent moved UP_RIGHT to location [x=3,y=11], randomly.
+ Step 479: Agent moved DOWN_RIGHT to location [x=4,y=12], randomly.
+ Step 480: Agent moved    UP to location [x=4,y=11], randomly.
+ Step 481: Agent moved  LEFT to location [x=3,y=11], randomly.
+ Step 482: Agent moved  LEFT to location [x=2,y=11], randomly.
+ Step 483: Agent moved RIGHT to location [x=3,y=11], randomly.
+ Step 484: Agent moved DOWN_RIGHT to location [x=4,y=12], randomly.
+ Step 485: Agent moved DOWN_RIGHT to location [x=5,y=13], randomly.
+ Step 486: Agent moved    UP to location [x=5,y=12], randomly.
+ Step 487: Agent moved UP_LEFT to location [x=4,y=11], randomly.
+ Step 488: Agent moved RIGHT to location [x=5,y=11], randomly.
+ Step 489: Agent moved UP_LEFT to location [x=4,y=10], randomly.
+ Step 490: Agent moved DOWN_LEFT to location [x=3,y=11], randomly.
+ Step 491: Agent moved  DOWN to location [x=3,y=12], randomly.
+ Step 492: Agent moved  DOWN to location [x=3,y=13], randomly.
+ Step 493: Agent moved  LEFT to location [x=2,y=13], randomly.
+ Step 494: Agent moved  DOWN to location [x=2,y=14], randomly.
+ Step 495: Agent moved DOWN_RIGHT to location [x=3,y=15], randomly.
+ Step 496: Agent moved DOWN_LEFT to location [x=2,y=16], randomly.
+ Step 497: Agent moved    UP to location [x=2,y=15], randomly.
+ Step 498: Agent moved UP_LEFT to location [x=1,y=14], randomly.
+ Step 499: Agent moved DOWN_RIGHT to location [x=2,y=15], randomly.
+ Step 500: Agent moved    UP to location [x=2,y=14], randomly.
+ Step 501: Agent moved DOWN_RIGHT to location [x=3,y=15], randomly.
+ Step 502: Agent moved UP_RIGHT to location [x=4,y=14], randomly.
+ Step 503: Agent moved DOWN_LEFT to location [x=3,y=15], randomly.
+ Step 504: Agent moved RIGHT to location [x=4,y=15], randomly.
+ Step 505: Agent moved  DOWN to location [x=4,y=16], randomly.
+ Step 506: Agent moved DOWN_LEFT to location [x=3,y=17], randomly.
+ Step 507: Agent moved DOWN_RIGHT to location [x=4,y=18], randomly.
+ Step 508: Agent moved UP_RIGHT to location [x=5,y=17], randomly.
+ Step 509: Agent moved  DOWN to location [x=5,y=18], randomly.
+ Step 510: Agent moved UP_RIGHT to location [x=6,y=17], randomly.
+ Step 511: Agent moved  LEFT to location [x=5,y=17], randomly.
+ Step 512: Agent moved  LEFT to location [x=4,y=17], randomly.
+ Step 513: Agent moved  LEFT to location [x=3,y=17], randomly.
+ Step 514: Agent moved UP_RIGHT to location [x=4,y=16], randomly.
+ Step 515: Agent moved DOWN_LEFT to location [x=3,y=17], randomly.
+ Step 516: Agent moved UP_RIGHT to location [x=4,y=16], randomly.
+ Step 517: Agent moved DOWN_RIGHT to location [x=5,y=17], randomly.
+ Step 518: Agent moved UP_LEFT to location [x=4,y=16], randomly.
+ Step 519: Agent moved UP_LEFT to location [x=3,y=15], randomly.
+ Step 520: Agent moved DOWN_LEFT to location [x=2,y=16], randomly.
+ Step 521: Agent moved UP_RIGHT to location [x=3,y=15], randomly.
+ Step 522: Agent moved RIGHT to location [x=4,y=15], randomly.
+ Step 523: Agent moved  LEFT to location [x=3,y=15], randomly.
+ Step 524: Agent moved RIGHT to location [x=4,y=15], randomly.
+ Step 525: Agent moved  LEFT to location [x=3,y=15], randomly.
+ Step 526: Agent moved RIGHT to location [x=4,y=15], randomly.
+ Step 527: Agent moved    UP to location [x=4,y=14], randomly.
+ Step 528: Agent moved DOWN_LEFT to location [x=3,y=15], randomly.
+ Step 529: Agent moved UP_LEFT to location [x=2,y=14], randomly.
+ Step 530: Agent moved  DOWN to location [x=2,y=15], randomly.
+ Step 531: Agent moved RIGHT to location [x=3,y=15], randomly.
+ Step 532: Agent moved UP_RIGHT to location [x=4,y=14], randomly.
+ Step 533: Agent moved RIGHT to location [x=5,y=14], randomly.
+ Step 534: Agent moved DOWN_LEFT to location [x=4,y=15], randomly.
+ Step 535: Agent moved UP_RIGHT to location [x=5,y=14], randomly.
+ Step 536: Agent moved UP_RIGHT to location [x=6,y=13], randomly.
+ Step 537: Agent moved DOWN_LEFT to location [x=5,y=14], randomly.
+ Step 538: Agent moved  LEFT to location [x=4,y=14], randomly.
+ Step 539: Agent moved UP_RIGHT to location [x=5,y=13], randomly.
+ Step 540: Agent moved DOWN_RIGHT to location [x=6,y=14], randomly.
+ Step 541: Agent moved  LEFT to location [x=5,y=14], randomly.
+ Step 542: Agent moved    UP to location [x=5,y=13], randomly.
+ Step 543: Agent moved UP_RIGHT to location [x=6,y=12], randomly.
+ Step 544: Agent moved  DOWN to location [x=6,y=13], randomly.
+ Step 545: Agent moved DOWN_LEFT to location [x=5,y=14], randomly.
+ Step 546: Agent moved UP_RIGHT to location [x=6,y=13], randomly.
+ Step 547: Agent moved DOWN_RIGHT to location [x=7,y=14], randomly.
+ Step 548: Agent moved  LEFT to location [x=6,y=14], randomly.
+ Step 549: Agent moved  DOWN to location [x=6,y=15], randomly.
+ Step 550: Agent moved RIGHT to location [x=7,y=15], randomly.
+ Step 551: Agent moved UP_LEFT to location [x=6,y=14], randomly.
+ Step 552: Agent moved  DOWN to location [x=6,y=15], randomly.
+ Step 553: Agent moved UP_LEFT to location [x=5,y=14], randomly.
+ Step 554: Agent moved  LEFT to location [x=4,y=14], randomly.
+ Step 555: Agent moved DOWN_LEFT to location [x=3,y=15], randomly.
+ Step 556: Agent moved RIGHT to location [x=4,y=15], randomly.
+ Step 557: Agent moved  LEFT to location [x=3,y=15], randomly.
+ Step 558: Agent moved  LEFT to location [x=2,y=15], randomly.
+ Step 559: Agent moved    UP to location [x=2,y=14], randomly.
+ Step 560: Agent moved  DOWN to location [x=2,y=15], randomly.
+ Step 561: Agent moved  DOWN to location [x=2,y=16], randomly.
+ Step 562: Agent moved  DOWN to location [x=2,y=17], randomly.
+ Step 563: Agent moved  LEFT to location [x=1,y=17], randomly.
+ Step 564: Agent moved RIGHT to location [x=2,y=17], randomly.
+ Step 565: Agent moved    UP to location [x=2,y=16], randomly.
+ Step 566: Agent moved    UP to location [x=2,y=15], randomly.
+ Step 567: Agent moved    UP to location [x=2,y=14], randomly.
+ Step 568: Agent moved    UP to location [x=2,y=13], randomly.
+ Step 569: Agent moved DOWN_LEFT to location [x=1,y=14], randomly.
+ Step 570: Agent moved    UP to location [x=1,y=13], randomly.
+ Step 571: Agent moved  LEFT to location [x=0,y=13], randomly.
+ Step 572: Agent moved  DOWN to location [x=0,y=14], randomly.
+ Step 573: Agent moved  DOWN to location [x=0,y=15], randomly.
+ Step 574: Agent moved    UP to location [x=0,y=14], randomly.
+ Step 575: Agent moved    UP to location [x=0,y=13], randomly.
+ Step 576: Agent moved RIGHT to location [x=1,y=13], randomly.
+ Step 577: Agent moved  LEFT to location [x=0,y=13], randomly.
+ Step 578: Agent moved RIGHT to location [x=1,y=13], randomly.
+ Step 579: Agent moved    UP to location [x=1,y=12], randomly.
+ Step 580: Agent moved RIGHT to location [x=2,y=12], randomly.
+ Step 581: Agent moved DOWN_RIGHT to location [x=3,y=13], randomly.
+ Step 582: Agent moved DOWN_RIGHT to location [x=4,y=14], randomly.
+ Step 583: Agent moved UP_RIGHT to location [x=5,y=13], randomly.
+ Step 584: Agent moved DOWN_LEFT to location [x=4,y=14], randomly.
+ Step 585: Agent moved DOWN_LEFT to location [x=3,y=15], randomly.
+ Step 586: Agent moved  LEFT to location [x=2,y=15], randomly.
+ Step 587: Agent moved UP_LEFT to location [x=1,y=14], randomly.
+ Step 588: Agent moved UP_LEFT to location [x=0,y=13], randomly.
+ Step 589: Agent moved DOWN_RIGHT to location [x=1,y=14], randomly.
+ Step 590: Agent moved UP_RIGHT to location [x=2,y=13], randomly.
+ Step 591: Agent moved    UP to location [x=2,y=12], randomly.
+ Step 592: Agent moved DOWN_RIGHT to location [x=3,y=13], randomly.
+ Step 593: Agent moved DOWN_RIGHT to location [x=4,y=14], randomly.
+ Step 594: Agent moved UP_RIGHT to location [x=5,y=13], randomly.
+ Step 595: Agent moved DOWN_LEFT to location [x=4,y=14], randomly.
+ Step 596: Agent moved UP_RIGHT to location [x=5,y=13], randomly.
+ Step 597: Agent moved UP_LEFT to location [x=4,y=12], randomly.
+ Step 598: Agent moved  LEFT to location [x=3,y=12], randomly.
+ Step 599: Agent moved  DOWN to location [x=3,y=13], randomly.
+ Step 600: Agent moved DOWN_RIGHT to location [x=4,y=14], randomly.
+ Step 601: Agent moved UP_LEFT to location [x=3,y=13], randomly.
+ Step 602: Agent moved UP_RIGHT to location [x=4,y=12], randomly.
+ Step 603: Agent moved DOWN_RIGHT to location [x=5,y=13], randomly.
+ Step 604: Agent moved    UP to location [x=5,y=12], randomly.
+ Step 605: Agent moved DOWN_RIGHT to location [x=6,y=13], randomly.
+ Step 606: Agent moved RIGHT to location [x=7,y=13], randomly.
+ Step 607: Agent moved UP_LEFT to location [x=6,y=12], randomly.
+ Step 608: Agent moved UP_LEFT to location [x=5,y=11], randomly.
+ Step 609: Agent moved  LEFT to location [x=4,y=11], randomly.
+ Step 610: Agent moved DOWN_LEFT to location [x=3,y=12], randomly.
+ Step 611: Agent moved DOWN_LEFT to location [x=2,y=13], randomly.
+ Step 612: Agent moved    UP to location [x=2,y=12], randomly.
+ Step 613: Agent moved RIGHT to location [x=3,y=12], randomly.
+ Step 614: Agent moved  DOWN to location [x=3,y=13], randomly.
+ Step 615: Agent moved  LEFT to location [x=2,y=13], randomly.
+ Step 616: Agent moved  LEFT to location [x=1,y=13], randomly.
+ Step 617: Agent moved    UP to location [x=1,y=12], randomly.
+ Step 618: Agent moved RIGHT to location [x=2,y=12], randomly.
+ Step 619: Agent moved    UP to location [x=2,y=11], randomly.
+ Step 620: Agent moved DOWN_RIGHT to location [x=3,y=12], randomly.
+ Step 621: Agent moved DOWN_LEFT to location [x=2,y=13], randomly.
+ Step 622: Agent moved RIGHT to location [x=3,y=13], randomly.
+ Step 623: Agent moved    UP to location [x=3,y=12], randomly.
+ Step 624: Agent moved  LEFT to location [x=2,y=12], randomly.
+ Step 625: Agent moved  LEFT to location [x=1,y=12], randomly.
+ Step 626: Agent moved UP_LEFT to location [x=0,y=11], randomly.
+ Step 627: Agent moved  DOWN to location [x=0,y=12], randomly.
+ Step 628: Agent moved    UP to location [x=0,y=11], randomly.
+ Step 629: Agent moved    UP to location [x=0,y=10], randomly.
+ Step 630: Agent moved DOWN_RIGHT to location [x=1,y=11], randomly.
+ Step 631: Agent moved DOWN_RIGHT to location [x=2,y=12], randomly.
+ Step 632: Agent moved DOWN_LEFT to location [x=1,y=13], randomly.
+ Step 633: Agent moved RIGHT to location [x=2,y=13], randomly.
+ Step 634: Agent moved UP_LEFT to location [x=1,y=12], randomly.
+ Step 635: Agent moved DOWN_RIGHT to location [x=2,y=13], randomly.
+ Step 636: Agent moved    UP to location [x=2,y=12], randomly.
+ Step 637: Agent moved  LEFT to location [x=1,y=12], randomly.
+ Step 638: Agent moved RIGHT to location [x=2,y=12], randomly.
+ Step 639: Agent moved RIGHT to location [x=3,y=12], randomly.
+ Step 640: Agent moved UP_RIGHT to location [x=4,y=11], randomly.
+ Step 641: Agent moved RIGHT to location [x=5,y=11], randomly.
+ Step 642: Agent moved DOWN_RIGHT to location [x=6,y=12], randomly.
+ Step 643: Agent moved UP_RIGHT to location [x=7,y=11], randomly.
+ Step 644: Agent moved    UP to location [x=7,y=10], randomly.
+ Step 645: Agent moved  LEFT to location [x=6,y=10], randomly.
+ Step 646: Agent moved    UP to location [x=6,y=9], randomly.
+ Step 647: Agent moved UP_LEFT to location [x=5,y=8], randomly.
+ Step 648: Agent moved    UP to location [x=5,y=7], randomly.
+ Step 649: Agent moved UP_RIGHT to location [x=6,y=6], randomly.
+ Step 650: Agent moved DOWN_RIGHT to location [x=7,y=7], randomly.
+ Step 651: Agent moved    UP to location [x=7,y=6], randomly.
+ Step 652: Agent moved UP_LEFT to location [x=6,y=5], randomly.
+ Step 653: Agent moved  LEFT to location [x=5,y=5], randomly.
+ Step 654: Agent moved DOWN_RIGHT to location [x=6,y=6], randomly.
+ Step 655: Agent moved RIGHT to location [x=7,y=6], randomly.
+ Step 656: Agent moved UP_LEFT to location [x=6,y=5], randomly.
+ Step 657: Agent moved DOWN_LEFT to location [x=5,y=6], randomly.
+ Step 658: Agent moved    UP to location [x=5,y=5], randomly.
+ Step 659: Agent moved  LEFT to location [x=4,y=5], randomly.
+ Step 660: Agent moved RIGHT to location [x=5,y=5], randomly.
+ Step 661: Agent moved UP_RIGHT to location [x=6,y=4], randomly.
+ Step 662: Agent moved  DOWN to location [x=6,y=5], randomly.
+ Step 663: Agent moved  LEFT to location [x=5,y=5], randomly.
+ Step 664: Agent moved RIGHT to location [x=6,y=5], randomly.
+ Step 665: Agent moved DOWN_LEFT to location [x=5,y=6], randomly.
+ Step 666: Agent moved  DOWN to location [x=5,y=7], randomly.
+ Step 667: Agent moved DOWN_LEFT to location [x=4,y=8], randomly.
+ Step 668: Agent moved DOWN_LEFT to location [x=3,y=9], randomly.
+ Step 669: Agent moved UP_RIGHT to location [x=4,y=8], randomly.
+ Step 670: Agent moved  DOWN to location [x=4,y=9], randomly.
+ Step 671: Agent moved    UP to location [x=4,y=8], randomly.
+ Step 672: Agent moved UP_LEFT to location [x=3,y=7], randomly.
+ Step 673: Agent moved DOWN_LEFT to location [x=2,y=8], randomly.
+ Step 674: Agent moved  LEFT to location [x=1,y=8], randomly.
+ Step 675: Agent moved RIGHT to location [x=2,y=8], randomly.
+ Step 676: Agent moved DOWN_RIGHT to location [x=3,y=9], randomly.
+ Step 677: Agent moved  LEFT to location [x=2,y=9], randomly.
+ Step 678: Agent moved  DOWN to location [x=2,y=10], randomly.
+ Step 679: Agent moved  DOWN to location [x=2,y=11], randomly.
+ Step 680: Agent moved    UP to location [x=2,y=10], randomly.
+ Step 681: Agent moved    UP to location [x=2,y=9], randomly.
+ Step 682: Agent moved    UP to location [x=2,y=8], randomly.
+ Step 683: Agent moved UP_LEFT to location [x=1,y=7], randomly.
+ Step 684: Agent moved DOWN_LEFT to location [x=0,y=8], randomly.
+ Step 685: Agent moved RIGHT to location [x=1,y=8], randomly.
+ Step 686: Agent moved RIGHT to location [x=2,y=8], randomly.
+ Step 687: Agent moved  DOWN to location [x=2,y=9], randomly.
+ Step 688: Agent moved  DOWN to location [x=2,y=10], randomly.
+ Step 689: Agent moved DOWN_RIGHT to location [x=3,y=11], randomly.
+ Step 690: Agent moved RIGHT to location [x=4,y=11], randomly.
+ Step 691: Agent moved  DOWN to location [x=4,y=12], randomly.
+ Step 692: Agent moved    UP to location [x=4,y=11], randomly.
+ Step 693: Agent moved  DOWN to location [x=4,y=12], randomly.
+ Step 694: Agent moved    UP to location [x=4,y=11], randomly.
+ Step 695: Agent moved    UP to location [x=4,y=10], randomly.
+ Step 696: Agent moved  DOWN to location [x=4,y=11], randomly.
+ Step 697: Agent moved DOWN_LEFT to location [x=3,y=12], randomly.
+ Step 698: Agent moved    UP to location [x=3,y=11], randomly.
+ Step 699: Agent moved DOWN_LEFT to location [x=2,y=12], randomly.
+ Step 700: Agent moved RIGHT to location [x=3,y=12], randomly.
+ Step 701: Agent moved RIGHT to location [x=4,y=12], randomly.
+ Step 702: Agent moved DOWN_RIGHT to location [x=5,y=13], randomly.
+ Step 703: Agent moved DOWN_RIGHT to location [x=6,y=14], randomly.
+ Step 704: Agent moved    UP to location [x=6,y=13], randomly.
+ Step 705: Agent moved    UP to location [x=6,y=12], randomly.
+ Step 706: Agent moved  DOWN to location [x=6,y=13], randomly.
+ Step 707: Agent moved UP_LEFT to location [x=5,y=12], randomly.
+ Step 708: Agent moved UP_LEFT to location [x=4,y=11], randomly.
+ Step 709: Agent moved DOWN_RIGHT to location [x=5,y=12], randomly.
+ Step 710: Agent moved RIGHT to location [x=6,y=12], randomly.
+ Step 711: Agent moved UP_LEFT to location [x=5,y=11], randomly.
+ Step 712: Agent moved  DOWN to location [x=5,y=12], randomly.
+ Step 713: Agent moved UP_RIGHT to location [x=6,y=11], randomly.
+ Step 714: Agent moved DOWN_LEFT to location [x=5,y=12], randomly.
+ Step 715: Agent moved    UP to location [x=5,y=11], randomly.
+ Step 716: Agent moved DOWN_LEFT to location [x=4,y=12], randomly.
+ Step 717: Agent moved RIGHT to location [x=5,y=12], randomly.
+ Step 718: Agent moved RIGHT to location [x=6,y=12], randomly.
+ Step 719: Agent moved  LEFT to location [x=5,y=12], randomly.
+ Step 720: Agent moved  LEFT to location [x=4,y=12], randomly.
+ Step 721: Agent moved RIGHT to location [x=5,y=12], randomly.
+ Step 722: Agent moved RIGHT to location [x=6,y=12], randomly.
+ Step 723: Agent moved    UP to location [x=6,y=11], randomly.
+ Step 724: Agent moved DOWN_LEFT to location [x=5,y=12], randomly.
+ Step 725: Agent moved    UP to location [x=5,y=11], randomly.
+ Step 726: Agent moved  LEFT to location [x=4,y=11], randomly.
+ Step 727: Agent moved DOWN_LEFT to location [x=3,y=12], randomly.
+ Step 728: Agent moved UP_LEFT to location [x=2,y=11], randomly.
+ Step 729: Agent moved  LEFT to location [x=1,y=11], randomly.
+ Step 730: Agent moved DOWN_RIGHT to location [x=2,y=12], randomly.
+ Step 731: Agent moved UP_LEFT to location [x=1,y=11], randomly.
+ Step 732: Agent moved RIGHT to location [x=2,y=11], randomly.
+ Step 733: Agent moved  LEFT to location [x=1,y=11], randomly.
+ Step 734: Agent moved DOWN_RIGHT to location [x=2,y=12], randomly.
+ Step 735: Agent moved RIGHT to location [x=3,y=12], randomly.
+ Step 736: Agent moved    UP to location [x=3,y=11], randomly.
+ Step 737: Agent moved RIGHT to location [x=4,y=11], randomly.
+ Step 738: Agent moved    UP to location [x=4,y=10], randomly.
+ Step 739: Agent moved UP_LEFT to location [x=3,y=9], randomly.
+ Step 740: Agent moved RIGHT to location [x=4,y=9], randomly.
+ Step 741: Agent moved    UP to location [x=4,y=8], randomly.
+ Step 742: Agent moved RIGHT to location [x=5,y=8], randomly.
+ Step 743: Agent moved    UP to location [x=5,y=7], randomly.
+ Step 744: Agent moved DOWN_LEFT to location [x=4,y=8], randomly.
+ Step 745: Agent moved RIGHT to location [x=5,y=8], randomly.
+ Step 746: Agent moved  LEFT to location [x=4,y=8], randomly.
+ Step 747: Agent moved UP_LEFT to location [x=3,y=7], randomly.
+ Step 748: Agent moved UP_RIGHT to location [x=4,y=6], randomly.
+ Step 749: Agent moved DOWN_LEFT to location [x=3,y=7], randomly.
+ Step 750: Agent moved    UP to location [x=3,y=6], randomly.
+ Step 751: Agent moved  DOWN to location [x=3,y=7], randomly.
+ Step 752: Agent moved  LEFT to location [x=2,y=7], randomly.
+ Step 753: Agent moved UP_RIGHT to location [x=3,y=6], randomly.
+ Step 754: Agent moved    UP to location [x=3,y=5], randomly.
+ Step 755: Agent moved  LEFT to location [x=2,y=5], randomly.
+ Step 756: Agent moved    UP to location [x=2,y=4], randomly.
+ Step 757: Agent moved  DOWN to location [x=2,y=5], randomly.
+ Step 758: Agent moved  LEFT to location [x=1,y=5], randomly.
+ Step 759: Agent moved UP_RIGHT to location [x=2,y=4], randomly.
+ Step 760: Agent moved DOWN_LEFT to location [x=1,y=5], randomly.
+ Step 761: Agent moved UP_RIGHT to location [x=2,y=4], randomly.
+ Step 762: Agent moved    UP to location [x=2,y=3], randomly.
+ Step 763: Agent moved  DOWN to location [x=2,y=4], randomly.
+ Step 764: Agent moved UP_RIGHT to location [x=3,y=3], randomly.
+ Step 765: Agent moved UP_RIGHT to location [x=4,y=2], randomly.
+ Step 766: Agent moved UP_LEFT to location [x=3,y=1], randomly.
+ Step 767: Agent moved    UP to location [x=3,y=0], randomly.
+ Step 768: Agent moved  DOWN to location [x=3,y=1], randomly.
+ Step 769: Agent moved  LEFT to location [x=2,y=1], randomly.
+ Step 770: Agent moved RIGHT to location [x=3,y=1], randomly.
+ Step 771: Agent moved    UP to location [x=3,y=0], randomly.
+ Step 772: Agent moved RIGHT to location [x=4,y=0], randomly.
+ Step 773: Agent moved RIGHT to location [x=5,y=0], randomly.
+ Step 774: Agent moved  LEFT to location [x=4,y=0], randomly.
+ Step 775: Agent moved  LEFT to location [x=3,y=0], randomly.
+ Step 776: Agent moved  LEFT to location [x=2,y=0], randomly.
+ Step 777: Agent moved RIGHT to location [x=3,y=0], randomly.
+ Step 778: Agent moved  LEFT to location [x=2,y=0], randomly.
+ Step 779: Agent moved DOWN_LEFT to location [x=1,y=1], randomly.
+ Step 780: Agent moved DOWN_LEFT to location [x=0,y=2], randomly.
+ Step 781: Agent moved RIGHT to location [x=1,y=2], randomly.
+ Step 782: Agent moved DOWN_LEFT to location [x=0,y=3], randomly.
+ Step 783: Agent moved UP_RIGHT to location [x=1,y=2], randomly.
+ Step 784: Agent moved RIGHT to location [x=2,y=2], randomly.
+ Step 785: Agent moved    UP to location [x=2,y=1], randomly.
+ Step 786: Agent moved RIGHT to location [x=3,y=1], randomly.
+ Step 787: Agent moved UP_LEFT to location [x=2,y=0], randomly.
+ Step 788: Agent moved  LEFT to location [x=1,y=0], randomly.
+ Step 789: Agent moved DOWN_RIGHT to location [x=2,y=1], randomly.
+ Step 790: Agent moved UP_RIGHT to location [x=3,y=0], randomly.
+ Step 791: Agent moved RIGHT to location [x=4,y=0], randomly.
+ Step 792: Agent moved  LEFT to location [x=3,y=0], randomly.
+ Step 793: Agent moved  DOWN to location [x=3,y=1], randomly.
+ Step 794: Agent moved  LEFT to location [x=2,y=1], randomly.
+ Step 795: Agent moved    UP to location [x=2,y=0], randomly.
+ Step 796: Agent moved  LEFT to location [x=1,y=0], randomly.
+ Step 797: Agent moved  DOWN to location [x=1,y=1], randomly.
+ Step 798: Agent moved  DOWN to location [x=1,y=2], randomly.
+ Step 799: Agent moved RIGHT to location [x=2,y=2], randomly.
+ Step 800: Agent moved DOWN_RIGHT to location [x=3,y=3], randomly.
+ Step 801: Agent moved DOWN_LEFT to location [x=2,y=4], randomly.
+ Step 802: Agent moved DOWN_LEFT to location [x=1,y=5], randomly.
+ Step 803: Agent moved  LEFT to location [x=0,y=5], randomly.
+ Step 804: Agent moved    UP to location [x=0,y=4], randomly.
+ Step 805: Agent moved    UP to location [x=0,y=3], randomly.
+ Step 806: Agent moved  DOWN to location [x=0,y=4], randomly.
+ Step 807: Agent moved    UP to location [x=0,y=3], randomly.
+ Step 808: Agent moved UP_RIGHT to location [x=1,y=2], randomly.
+ Step 809: Agent moved    UP to location [x=1,y=1], randomly.
+ Step 810: Agent moved UP_LEFT to location [x=0,y=0], randomly.
+ Step 811: Agent moved DOWN_RIGHT to location [x=1,y=1], randomly.
+ Step 812: Agent moved DOWN_RIGHT to location [x=2,y=2], randomly.
+ Step 813: Agent moved    UP to location [x=2,y=1], randomly.
+ Step 814: Agent moved  LEFT to location [x=1,y=1], randomly.
+ Step 815: Agent moved    UP to location [x=1,y=0], randomly.
+ Step 816: Agent moved  LEFT to location [x=0,y=0], randomly.
+ Step 817: Agent moved RIGHT to location [x=1,y=0], randomly.
+ Step 818: Agent moved DOWN_RIGHT to location [x=2,y=1], randomly.
+ Step 819: Agent moved    UP to location [x=2,y=0], randomly.
+ Step 820: Agent moved DOWN_LEFT to location [x=1,y=1], randomly.
+ Step 821: Agent moved UP_RIGHT to location [x=2,y=0], randomly.
+ Step 822: Agent moved DOWN_LEFT to location [x=1,y=1], randomly.
+ Step 823: Agent moved    UP to location [x=1,y=0], randomly.
+ Step 824: Agent moved DOWN_RIGHT to location [x=2,y=1], randomly.
+ Step 825: Agent moved  DOWN to location [x=2,y=2], randomly.
+ Step 826: Agent moved UP_LEFT to location [x=1,y=1], randomly.
+ Step 827: Agent moved  DOWN to location [x=1,y=2], randomly.
+ Step 828: Agent moved RIGHT to location [x=2,y=2], randomly.
+ Step 829: Agent moved    UP to location [x=2,y=1], randomly.
+ Step 830: Agent moved  LEFT to location [x=1,y=1], randomly.
+ Step 831: Agent moved UP_RIGHT to location [x=2,y=0], randomly.
+ Step 832: Agent moved  LEFT to location [x=1,y=0], randomly.
+ Step 833: Agent moved RIGHT to location [x=2,y=0], randomly.
+ Step 834: Agent moved DOWN_LEFT to location [x=1,y=1], randomly.
+ Step 835: Agent moved RIGHT to location [x=2,y=1], randomly.
+ Step 836: Agent moved  LEFT to location [x=1,y=1], randomly.
+ Step 837: Agent moved UP_LEFT to location [x=0,y=0], randomly.
+ Step 838: Agent moved DOWN_RIGHT to location [x=1,y=1], randomly.
+ Step 839: Agent moved  DOWN to location [x=1,y=2], randomly.
+ Step 840: Agent moved UP_RIGHT to location [x=2,y=1], randomly.
+ Step 841: Agent moved UP_LEFT to location [x=1,y=0], randomly.
+ Step 842: Agent moved  LEFT to location [x=0,y=0], randomly.
+ Step 843: Agent moved RIGHT to location [x=1,y=0], randomly.
+ Step 844: Agent moved DOWN_RIGHT to location [x=2,y=1], randomly.
+ Step 845: Agent moved DOWN_LEFT to location [x=1,y=2], randomly.
+ Step 846: Agent moved DOWN_LEFT to location [x=0,y=3], randomly.
+ Step 847: Agent moved    UP to location [x=0,y=2], randomly.
+ Step 848: Agent moved RIGHT to location [x=1,y=2], randomly.
+ Step 849: Agent moved DOWN_RIGHT to location [x=2,y=3], randomly.
+ Step 850: Agent moved  DOWN to location [x=2,y=4], randomly.
+ Step 851: Agent moved DOWN_LEFT to location [x=1,y=5], randomly.
+ Step 852: Agent moved UP_RIGHT to location [x=2,y=4], randomly.
+ Step 853: Agent moved DOWN_RIGHT to location [x=3,y=5], randomly.
+ Step 854: Agent moved  LEFT to location [x=2,y=5], randomly.
+ Step 855: Agent moved  LEFT to location [x=1,y=5], randomly.
+ Step 856: Agent moved RIGHT to location [x=2,y=5], randomly.
+ Step 857: Agent moved  LEFT to location [x=1,y=5], randomly.
+ Step 858: Agent moved UP_RIGHT to location [x=2,y=4], randomly.
+ Step 859: Agent moved DOWN_RIGHT to location [x=3,y=5], randomly.
+ Step 860: Agent moved  LEFT to location [x=2,y=5], randomly.
+ Step 861: Agent moved  DOWN to location [x=2,y=6], randomly.
+ Step 862: Agent moved UP_LEFT to location [x=1,y=5], randomly.
+ Step 863: Agent moved  DOWN to location [x=1,y=6], randomly.
+ Step 864: Agent moved DOWN_RIGHT to location [x=2,y=7], randomly.
+ Step 865: Agent moved  LEFT to location [x=1,y=7], randomly.
+ Step 866: Agent moved UP_LEFT to location [x=0,y=6], randomly.
+ Step 867: Agent moved    UP to location [x=0,y=5], randomly.
+ Step 868: Agent moved RIGHT to location [x=1,y=5], randomly.
+ Step 869: Agent moved DOWN_LEFT to location [x=0,y=6], randomly.
+ Step 870: Agent moved DOWN_RIGHT to location [x=1,y=7], randomly.
+ Step 871: Agent moved RIGHT to location [x=2,y=7], randomly.
+ Step 872: Agent moved  LEFT to location [x=1,y=7], randomly.
+ Step 873: Agent moved UP_RIGHT to location [x=2,y=6], randomly.
+ Step 874: Agent moved DOWN_LEFT to location [x=1,y=7], randomly.
+ Step 875: Agent moved UP_LEFT to location [x=0,y=6], randomly.
+ Step 876: Agent moved UP_RIGHT to location [x=1,y=5], randomly.
+ Step 877: Agent moved  DOWN to location [x=1,y=6], randomly.
+ Step 878: Agent moved RIGHT to location [x=2,y=6], randomly.
+ Step 879: Agent moved DOWN_RIGHT to location [x=3,y=7], randomly.
+ Step 880: Agent moved UP_RIGHT to location [x=4,y=6], randomly.
+ Step 881: Agent moved UP_RIGHT to location [x=5,y=5], randomly.
+ Step 882: Agent moved RIGHT to location [x=6,y=5], randomly.
+ Step 883: Agent moved DOWN_RIGHT to location [x=7,y=6], randomly.
+ Step 884: Agent moved    UP to location [x=7,y=5], randomly.
+ Step 885: Agent moved  LEFT to location [x=6,y=5], randomly.
+ Step 886: Agent moved    UP to location [x=6,y=4], randomly.
+ Step 887: Agent moved RIGHT to location [x=7,y=4], randomly.
+ Step 888: Agent moved  DOWN to location [x=7,y=5], randomly.
+ Step 889: Agent moved  DOWN to location [x=7,y=6], randomly.
+ Step 890: Agent moved  DOWN to location [x=7,y=7], randomly.
+ Step 891: Agent moved  LEFT to location [x=6,y=7], randomly.
+ Step 892: Agent moved  DOWN to location [x=6,y=8], randomly.
+ Step 893: Agent moved UP_LEFT to location [x=5,y=7], randomly.
+ Step 894: Agent moved UP_LEFT to location [x=4,y=6], randomly.
+ Step 895: Agent moved  LEFT to location [x=3,y=6], randomly.
+ Step 896: Agent moved UP_RIGHT to location [x=4,y=5], randomly.
+ Step 897: Agent moved    UP to location [x=4,y=4], randomly.
+ Step 898: Agent moved  DOWN to location [x=4,y=5], randomly.
+ Step 899: Agent moved    UP to location [x=4,y=4], randomly.
+ Step 900: Agent moved    UP to location [x=4,y=3], randomly.
+ Step 901: Agent moved UP_RIGHT to location [x=5,y=2], randomly.
+ Step 902: Agent moved DOWN_RIGHT to location [x=6,y=3], randomly.
+ Step 903: Agent moved  DOWN to location [x=6,y=4], randomly.
+ Step 904: Agent moved DOWN_LEFT to location [x=5,y=5], randomly.
+ Step 905: Agent moved  LEFT to location [x=4,y=5], randomly.
+ Step 906: Agent moved DOWN_RIGHT to location [x=5,y=6], randomly.
+ Step 907: Agent moved  DOWN to location [x=5,y=7], randomly.
+ Step 908: Agent moved UP_LEFT to location [x=4,y=6], randomly.
+ Step 909: Agent moved DOWN_RIGHT to location [x=5,y=7], randomly.
+ Step 910: Agent moved    UP to location [x=5,y=6], randomly.
+ Step 911: Agent moved RIGHT to location [x=6,y=6], randomly.
+ Step 912: Agent moved    UP to location [x=6,y=5], randomly.
+ Step 913: Agent moved  LEFT to location [x=5,y=5], randomly.
+ Step 914: Agent moved  DOWN to location [x=5,y=6], randomly.
+ Step 915: Agent moved DOWN_RIGHT to location [x=6,y=7], randomly.
+ Step 916: Agent moved UP_RIGHT to location [x=7,y=6], randomly.
+ Step 917: Agent moved DOWN_LEFT to location [x=6,y=7], randomly.
+ Step 918: Agent moved RIGHT to location [x=7,y=7], randomly.
+ Step 919: Agent moved  DOWN to location [x=7,y=8], randomly.
+ Step 920: Agent moved UP_LEFT to location [x=6,y=7], randomly.
+ Step 921: Agent moved DOWN_LEFT to location [x=5,y=8], randomly.
+ Step 922: Agent moved RIGHT to location [x=6,y=8], randomly.
+ Step 923: Agent moved RIGHT to location [x=7,y=8], randomly.
+ Step 924: Agent moved UP_LEFT to location [x=6,y=7], randomly.
+ Step 925: Agent moved DOWN_RIGHT to location [x=7,y=8], randomly.
+ Step 926: Agent moved DOWN_LEFT to location [x=6,y=9], randomly.
+ Step 927: Agent moved UP_LEFT to location [x=5,y=8], randomly.
+ Step 928: Agent moved RIGHT to location [x=6,y=8], randomly.
+ Step 929: Agent moved UP_LEFT to location [x=5,y=7], randomly.
+ Step 930: Agent moved DOWN_LEFT to location [x=4,y=8], randomly.
+ Step 931: Agent moved DOWN_LEFT to location [x=3,y=9], randomly.
+ Step 932: Agent moved RIGHT to location [x=4,y=9], randomly.
+ Step 933: Agent moved  DOWN to location [x=4,y=10], randomly.
+ Step 934: Agent moved DOWN_LEFT to location [x=3,y=11], randomly.
+ Step 935: Agent moved UP_LEFT to location [x=2,y=10], randomly.
+ Step 936: Agent moved DOWN_RIGHT to location [x=3,y=11], randomly.
+ Step 937: Agent moved UP_LEFT to location [x=2,y=10], randomly.
+ Step 938: Agent moved DOWN_LEFT to location [x=1,y=11], randomly.
+ Step 939: Agent moved  DOWN to location [x=1,y=12], randomly.
+ Step 940: Agent moved UP_RIGHT to location [x=2,y=11], randomly.
+ Step 941: Agent moved  DOWN to location [x=2,y=12], randomly.
+ Step 942: Agent moved DOWN_RIGHT to location [x=3,y=13], randomly.
+ Step 943: Agent moved UP_RIGHT to location [x=4,y=12], randomly.
+ Step 944: Agent moved    UP to location [x=4,y=11], randomly.
+ Step 945: Agent moved  DOWN to location [x=4,y=12], randomly.
+ Step 946: Agent moved DOWN_LEFT to location [x=3,y=13], randomly.
+ Step 947: Agent moved UP_RIGHT to location [x=4,y=12], randomly.
+ Step 948: Agent moved UP_LEFT to location [x=3,y=11], randomly.
+ Step 949: Agent moved UP_LEFT to location [x=2,y=10], randomly.
+ Step 950: Agent moved  DOWN to location [x=2,y=11], randomly.
+ Step 951: Agent moved DOWN_LEFT to location [x=1,y=12], randomly.
+ Step 952: Agent moved    UP to location [x=1,y=11], randomly.
+ Step 953: Agent moved DOWN_LEFT to location [x=0,y=12], randomly.
+ Step 954: Agent moved    UP to location [x=0,y=11], randomly.
+ Step 955: Agent moved DOWN_RIGHT to location [x=1,y=12], randomly.
+ Step 956: Agent moved  DOWN to location [x=1,y=13], randomly.
+ Step 957: Agent moved  LEFT to location [x=0,y=13], randomly.
+ Step 958: Agent moved UP_RIGHT to location [x=1,y=12], randomly.
+ Step 959: Agent moved RIGHT to location [x=2,y=12], randomly.
+ Step 960: Agent moved  LEFT to location [x=1,y=12], randomly.
+ Step 961: Agent moved DOWN_LEFT to location [x=0,y=13], randomly.
+ Step 962: Agent moved DOWN_RIGHT to location [x=1,y=14], randomly.
+ Step 963: Agent moved    UP to location [x=1,y=13], randomly.
+ Step 964: Agent moved    UP to location [x=1,y=12], randomly.
+ Step 965: Agent moved DOWN_RIGHT to location [x=2,y=13], randomly.
+ Step 966: Agent moved  DOWN to location [x=2,y=14], randomly.
+ Step 967: Agent moved  DOWN to location [x=2,y=15], randomly.
+ Step 968: Agent moved UP_LEFT to location [x=1,y=14], randomly.
+ Step 969: Agent moved UP_LEFT to location [x=0,y=13], randomly.
+ Step 970: Agent moved    UP to location [x=0,y=12], randomly.
+ Step 971: Agent moved RIGHT to location [x=1,y=12], randomly.
+ Step 972: Agent moved RIGHT to location [x=2,y=12], randomly.
+ Step 973: Agent moved RIGHT to location [x=3,y=12], randomly.
+ Step 974: Agent moved DOWN_LEFT to location [x=2,y=13], randomly.
+ Step 975: Agent moved    UP to location [x=2,y=12], randomly.
+ Step 976: Agent moved UP_RIGHT to location [x=3,y=11], randomly.
+ Step 977: Agent moved RIGHT to location [x=4,y=11], randomly.
+ Step 978: Agent moved RIGHT to location [x=5,y=11], randomly.
+ Step 979: Agent moved  DOWN to location [x=5,y=12], randomly.
+ Step 980: Agent moved UP_LEFT to location [x=4,y=11], randomly.
+ Step 981: Agent moved DOWN_LEFT to location [x=3,y=12], randomly.
+ Step 982: Agent moved  DOWN to location [x=3,y=13], randomly.
+ Step 983: Agent moved DOWN_RIGHT to location [x=4,y=14], randomly.
+ Step 984: Agent moved DOWN_LEFT to location [x=3,y=15], randomly.
+ Step 985: Agent moved DOWN_LEFT to location [x=2,y=16], randomly.
+ Step 986: Agent moved DOWN_LEFT to location [x=1,y=17], randomly.
+ Step 987: Agent moved UP_LEFT to location [x=0,y=16], randomly.
+ Step 988: Agent moved DOWN_RIGHT to location [x=1,y=17], randomly.
+ Step 989: Agent moved DOWN_LEFT to location [x=0,y=18], randomly.
+ Step 990: Agent moved DOWN_RIGHT to location [x=1,y=19], randomly.
+ Step 991: Agent moved UP_RIGHT to location [x=2,y=18], randomly.
+ Step 992: Agent moved  DOWN to location [x=2,y=19], randomly.
+ Step 993: Agent moved  DOWN to location [x=2,y=20], randomly.
+ Step 994: Agent moved    UP to location [x=2,y=19], randomly.
+ Step 995: Agent moved RIGHT to location [x=3,y=19], randomly.
+ Step 996: Agent moved DOWN_RIGHT to location [x=4,y=20], randomly.
+ Step 997: Agent moved UP_RIGHT to location [x=5,y=19], randomly.
+ Step 998: Agent moved DOWN_RIGHT to location [x=6,y=20], randomly.
+ Step 999: Agent moved  LEFT to location [x=5,y=20], randomly.
+ Step 1000: Agent moved RIGHT to location [x=6,y=20], randomly.
+ Step 1001: Agent moved UP_RIGHT to location [x=7,y=19], randomly.
+ Step 1002: Agent moved DOWN_LEFT to location [x=6,y=20], randomly.
+ Step 1003: Agent moved UP_LEFT to location [x=5,y=19], randomly.
+ Step 1004: Agent moved    UP to location [x=5,y=18], randomly.
+ Step 1005: Agent moved UP_RIGHT to location [x=6,y=17], randomly.
+ Step 1006: Agent moved    UP to location [x=6,y=16], randomly.
+ Step 1007: Agent moved DOWN_LEFT to location [x=5,y=17], randomly.
+ Step 1008: Agent moved  DOWN to location [x=5,y=18], randomly.
+ Step 1009: Agent moved    UP to location [x=5,y=17], randomly.
+ Step 1010: Agent moved  DOWN to location [x=5,y=18], randomly.
+ Step 1011: Agent moved UP_LEFT to location [x=4,y=17], randomly.
+ Step 1012: Agent moved  DOWN to location [x=4,y=18], randomly.
+ Step 1013: Agent moved DOWN_LEFT to location [x=3,y=19], randomly.
+ Step 1014: Agent moved    UP to location [x=3,y=18], randomly.
+ Step 1015: Agent moved DOWN_LEFT to location [x=2,y=19], randomly.
+ Step 1016: Agent moved  LEFT to location [x=1,y=19], randomly.
+ Step 1017: Agent moved    UP to location [x=1,y=18], randomly.
+ Step 1018: Agent moved  DOWN to location [x=1,y=19], randomly.
+ Step 1019: Agent moved UP_LEFT to location [x=0,y=18], randomly.
+ Step 1020: Agent moved RIGHT to location [x=1,y=18], randomly.
+ Step 1021: Agent moved  LEFT to location [x=0,y=18], randomly.
+ Step 1022: Agent moved UP_RIGHT to location [x=1,y=17], randomly.
+ Step 1023: Agent moved DOWN_RIGHT to location [x=2,y=18], randomly.
+ Step 1024: Agent moved UP_RIGHT to location [x=3,y=17], randomly.
+ Step 1025: Agent moved RIGHT to location [x=4,y=17], randomly.
+ Step 1026: Agent moved    UP to location [x=4,y=16], randomly.
+ Step 1027: Agent moved DOWN_LEFT to location [x=3,y=17], randomly.
+ Step 1028: Agent moved DOWN_LEFT to location [x=2,y=18], randomly.
+ Step 1029: Agent moved  DOWN to location [x=2,y=19], randomly.
+ Step 1030: Agent moved    UP to location [x=2,y=18], randomly.
+ Step 1031: Agent moved RIGHT to location [x=3,y=18], randomly.
+ Step 1032: Agent moved    UP to location [x=3,y=17], randomly.
+ Step 1033: Agent moved DOWN_LEFT to location [x=2,y=18], randomly.
+ Step 1034: Agent moved    UP to location [x=2,y=17], randomly.
+ Step 1035: Agent moved DOWN_RIGHT to location [x=3,y=18], randomly.
+ Step 1036: Agent moved RIGHT to location [x=4,y=18], randomly.
+ Step 1037: Agent moved  LEFT to location [x=3,y=18], randomly.
+ Step 1038: Agent moved    UP to location [x=3,y=17], randomly.
+ Step 1039: Agent moved DOWN_LEFT to location [x=2,y=18], randomly.
+ Step 1040: Agent moved UP_LEFT to location [x=1,y=17], randomly.
+ Step 1041: Agent moved DOWN_LEFT to location [x=0,y=18], randomly.
+ Step 1042: Agent moved UP_RIGHT to location [x=1,y=17], randomly.
+ Step 1043: Agent moved RIGHT to location [x=2,y=17], randomly.
+ Step 1044: Agent moved DOWN_RIGHT to location [x=3,y=18], randomly.
+ Step 1045: Agent moved RIGHT to location [x=4,y=18], randomly.
+ Step 1046: Agent moved UP_LEFT to location [x=3,y=17], randomly.
+ Step 1047: Agent moved DOWN_RIGHT to location [x=4,y=18], randomly.
+ Step 1048: Agent moved UP_LEFT to location [x=3,y=17], randomly.
+ Step 1049: Agent moved  DOWN to location [x=3,y=18], randomly.
+ Step 1050: Agent moved    UP to location [x=3,y=17], randomly.
+ Step 1051: Agent moved  DOWN to location [x=3,y=18], randomly.
+ Step 1052: Agent moved    UP to location [x=3,y=17], randomly.
+ Step 1053: Agent moved  LEFT to location [x=2,y=17], randomly.
+ Step 1054: Agent moved  DOWN to location [x=2,y=18], randomly.
+ Step 1055: Agent moved UP_LEFT to location [x=1,y=17], randomly.
+ Step 1056: Agent moved RIGHT to location [x=2,y=17], randomly.
+ Step 1057: Agent moved RIGHT to location [x=3,y=17], randomly.
+ Step 1058: Agent moved UP_LEFT to location [x=2,y=16], randomly.
+ Step 1059: Agent moved  DOWN to location [x=2,y=17], randomly.
+ Step 1060: Agent moved RIGHT to location [x=3,y=17], randomly.
+ Step 1061: Agent moved  DOWN to location [x=3,y=18], randomly.
+ Step 1062: Agent moved  DOWN to location [x=3,y=19], randomly.
+ Step 1063: Agent moved    UP to location [x=3,y=18], randomly.
+ Step 1064: Agent moved  DOWN to location [x=3,y=19], randomly.
+ Step 1065: Agent moved  LEFT to location [x=2,y=19], randomly.
+ Step 1066: Agent moved  LEFT to location [x=1,y=19], randomly.
+ Step 1067: Agent moved DOWN_RIGHT to location [x=2,y=20], randomly.
+ Step 1068: Agent moved DOWN_RIGHT to location [x=3,y=21], randomly.
+ Step 1069: Agent moved UP_LEFT to location [x=2,y=20], randomly.
+ Step 1070: Agent moved  DOWN to location [x=2,y=21], randomly.
+ Step 1071: Agent moved  DOWN to location [x=2,y=22], randomly.
+ Step 1072: Agent moved DOWN_RIGHT to location [x=3,y=23], randomly.
+ Step 1073: Agent moved  LEFT to location [x=2,y=23], randomly.
+ Step 1074: Agent moved    UP to location [x=2,y=22], randomly.
+ Step 1075: Agent moved UP_RIGHT to location [x=3,y=21], randomly.
+ Step 1076: Agent moved RIGHT to location [x=4,y=21], randomly.
+ Step 1077: Agent moved  DOWN to location [x=4,y=22], randomly.
+ Step 1078: Agent moved DOWN_RIGHT to location [x=5,y=23], randomly.
+ Step 1079: Agent moved RIGHT to location [x=6,y=23], randomly.
+
+>>> Agent Brain:
+ C  O  O  A  O  D  ?  ? 
+ B  O  O  O  B  ?  ?  ? 
+ R  O  O  B  O  O  ?  ? 
+ O  B  O  O  O  B  O  ? 
+ O  B  O  B  O  B  O  O 
+ O  O  O  O  O  O  O  O 
+ O  O  O  O  O  O  O  O 
+ B  O  O  O  B  O  O  O 
+ O  O  O  B  O  O  O  O 
+ O  B  O  O  O  B  O  B 
+ O  B  O  B  O  B  O  O 
+ O  O  O  O  O  O  O  O 
+ O  O  O  O  O  O  O  B 
+ O  O  O  O  B  O  O  O 
+ O  O  O  B  O  O  O  O 
+ O  B  O  O  O  B  O  O 
+ O  B  O  B  O  B  O  ? 
+ O  O  O  O  O  O  O  ? 
+ O  O  O  O  O  O  B  ? 
+ B  O  O  O  B  O  B  J 
+ O  O  O  B  O  O  O  ? 
+ ?  ?  O  O  O  B  ?  ? 
+ ?  B  O  B  O  B  ?  ? 
+ ?  ?  O  W  O  O  H  ? 
+
+
+>>> Agent Physical Path 2:
+
+>>> Physical path 2, Time: 0.093000 s, Min radius: 1.000000 Total Steps: 42.
+ Step   1: Agent moved RIGHT to location [x=1,y=0], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=1], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   6: Agent moved DOWN_LEFT to location [x=1,y=5], based on policy.
+ Step   7: Agent moved  DOWN to location [x=1,y=6], based on policy.
+ Step   8: Agent moved DOWN_RIGHT to location [x=2,y=7], based on policy.
+ Step   9: Agent moved  DOWN to location [x=2,y=8], based on policy.
+ Step  10: Agent moved DOWN_RIGHT to location [x=3,y=9], based on policy.
+ Step  11: Agent moved RIGHT to location [x=4,y=9], based on policy.
+ Step  12: Agent moved  LEFT to location [x=3,y=9], randomly.
+ Step  13: Agent moved UP_LEFT to location [x=2,y=8], based on policy.
+ Step  14: Agent moved  LEFT to location [x=1,y=8], based on policy.
+ Step  15: Agent moved DOWN_LEFT to location [x=0,y=9], based on policy.
+ Step  16: Agent moved  DOWN to location [x=0,y=10], based on policy.
+ Step  17: Agent moved DOWN_RIGHT to location [x=1,y=11], based on policy.
+ Step  18: Agent moved DOWN_RIGHT to location [x=2,y=12], based on policy.
+ Step  19: Agent moved  DOWN to location [x=2,y=13], based on policy.
+ Step  20: Agent moved  DOWN to location [x=2,y=14], based on policy.
+ Step  21: Agent moved  DOWN to location [x=2,y=15], based on policy.
+ Step  22: Agent moved  DOWN to location [x=2,y=16], based on policy.
+ Step  23: Agent moved DOWN_LEFT to location [x=1,y=17], based on policy.
+ Step  24: Agent moved  DOWN to location [x=1,y=18], based on policy.
+ Step  25: Agent moved DOWN_RIGHT to location [x=2,y=19], based on policy.
+ Step  26: Agent moved RIGHT to location [x=3,y=19], based on policy.
+ Step  27: Agent moved UP_RIGHT to location [x=4,y=18], based on policy.
+ Step  28: Agent moved UP_RIGHT to location [x=5,y=17], based on policy.
+ Step  29: Agent moved RIGHT to location [x=6,y=17], based on policy.
+ Step  30: Agent moved UP_RIGHT to location [x=7,y=16], randomly.
+ Step  31: Agent moved    UP to location [x=7,y=15], based on policy.
+ Step  32: Agent moved UP_LEFT to location [x=6,y=14], based on policy.
+ Step  33: Agent moved  LEFT to location [x=5,y=14], based on policy.
+ Step  34: Agent moved DOWN_LEFT to location [x=4,y=15], based on policy.
+ Step  35: Agent moved  DOWN to location [x=4,y=16], based on policy.
+ Step  36: Agent moved DOWN_RIGHT to location [x=5,y=17], based on policy.
+ Step  37: Agent moved  DOWN to location [x=5,y=18], based on policy.
+ Step  38: Agent moved  DOWN to location [x=5,y=19], based on policy.
+ Step  39: Agent moved DOWN_RIGHT to location [x=6,y=20], based on policy.
+ Step  40: Agent moved  DOWN to location [x=6,y=21], based on policy.
+ Step  41: Agent moved  DOWN to location [x=6,y=22], based on policy.
+ Step  42: Agent moved  DOWN to location [x=6,y=23], based on policy.
+
+>>> Agent Brain:
+ C  O  ?  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  B  ?  ?  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  O  O  ?  ?  ?  ?  ? 
+ O  ?  ?  O  O  B  ?  ? 
+ O  ?  ?  B  ?  B  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  O  O  ? 
+ ?  ?  O  ?  O  ?  ?  O 
+ ?  ?  O  B  O  ?  ?  O 
+ ?  O  ?  ?  ?  O  O  B 
+ ?  O  ?  ?  O  O  ?  B 
+ ?  ?  O  O  B  O  ?  ? 
+ ?  ?  ?  B  ?  ?  O  ? 
+ ?  ?  ?  ?  ?  ?  O  ? 
+ ?  ?  ?  ?  ?  ?  O  ? 
+ ?  ?  ?  ?  ?  ?  H  ? 
+
+
+>>> Agent Physical Path 3:
+
+Warning: moveAgent: Agent reached maximum number of steps before reaching Goal (step = 4799).
+
+>>> Physical path 3, Time: 9.828000 s, Min radius: 1.000000 Total Steps: 4799.
+
+>>> Physical path 3, Time: 9.860000 s, Min radius: 40.333332 Total Steps: 4813.
+ Step   1: Agent moved  LEFT to location [x=1,y=13], randomly.
+ Step   2: Agent moved DOWN_LEFT to location [x=0,y=14], based on policy.
+ Step   3: Agent moved  DOWN to location [x=0,y=15], based on policy.
+ Step   4: Agent moved  DOWN to location [x=0,y=16], based on policy.
+ Step   5: Agent moved  DOWN to location [x=0,y=17], based on policy.
+ Step   6: Agent moved  DOWN to location [x=0,y=18], based on policy.
+ Step   7: Agent moved DOWN_RIGHT to location [x=1,y=19], based on policy.
+ Step   8: Agent moved DOWN_RIGHT to location [x=2,y=20], based on policy.
+ Step   9: Agent moved  DOWN to location [x=2,y=21], based on policy.
+ Step  10: Agent moved  DOWN to location [x=2,y=22], based on policy.
+ Step  11: Agent moved DOWN_RIGHT to location [x=3,y=23], based on policy.
+ Step  12: Agent moved RIGHT to location [x=4,y=23], based on policy.
+ Step  13: Agent moved RIGHT to location [x=5,y=23], based on policy.
+ Step  14: Agent moved RIGHT to location [x=6,y=23], based on policy.
+
+>>> Agent Brain:
+ C  O  ?  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  B  ?  ?  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  ? 
+ ?  ?  O  B  ?  B  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  O  ?  O  O  ?  ?  ? 
+ ?  O  O  ?  ?  O  ?  ? 
+ O  O  O  ?  ?  O  ?  ? 
+ O  B  O  O  O  B  ?  ? 
+ O  ?  ?  B  ?  B  ?  ? 
+ O  ?  ?  ?  ?  ?  ?  B 
+ O  ?  ?  ?  ?  ?  ?  B 
+ ?  O  ?  ?  B  ?  ?  ? 
+ ?  ?  O  B  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  ?  W  O  O  H  ? 
+
+
+>>> Agent Physical Path 4:
+
+>>> Physical path 4, Time: 0.124000 s, Min radius: 2.828427 Total Steps: 43.
+ Step   1: Agent moved DOWN_RIGHT to location [x=1,y=1], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=2], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   5: Agent moved DOWN_LEFT to location [x=1,y=5], based on policy.
+ Step   6: Agent moved  DOWN to location [x=1,y=6], based on policy.
+ Step   7: Agent moved DOWN_RIGHT to location [x=2,y=7], based on policy.
+ Step   8: Agent moved  DOWN to location [x=2,y=8], based on policy.
+ Step   9: Agent moved  DOWN to location [x=2,y=9], based on policy.
+ Step  10: Agent moved  DOWN to location [x=2,y=10], based on policy.
+ Step  11: Agent moved  DOWN to location [x=2,y=11], based on policy.
+ Step  12: Agent moved  DOWN to location [x=2,y=12], based on policy.
+ Step  13: Agent moved  DOWN to location [x=2,y=13], based on policy.
+ Step  14: Agent moved  DOWN to location [x=2,y=14], based on policy.
+ Step  15: Agent moved DOWN_RIGHT to location [x=3,y=15], based on policy.
+ Step  16: Agent moved RIGHT to location [x=4,y=15], based on policy.
+ Step  17: Agent moved UP_RIGHT to location [x=5,y=14], based on policy.
+ Step  18: Agent moved UP_RIGHT to location [x=6,y=13], based on policy.
+ Step  19: Agent moved RIGHT to location [x=7,y=13], based on policy.
+ Step  20: Agent moved  DOWN to location [x=7,y=14], randomly.
+ Step  21: Agent moved  DOWN to location [x=7,y=15], based on policy.
+ Step  22: Agent moved  DOWN to location [x=7,y=16], based on policy.
+ Step  23: Agent moved    UP to location [x=7,y=15], randomly.
+ Step  24: Agent moved    UP to location [x=7,y=14], based on policy.
+ Step  25: Agent moved    UP to location [x=7,y=13], based on policy.
+ Step  26: Agent moved UP_LEFT to location [x=6,y=12], based on policy.
+ Step  27: Agent moved  LEFT to location [x=5,y=12], based on policy.
+ Step  28: Agent moved  LEFT to location [x=4,y=12], based on policy.
+ Step  29: Agent moved  LEFT to location [x=3,y=12], based on policy.
+ Step  30: Agent moved DOWN_LEFT to location [x=2,y=13], based on policy.
+ Step  31: Agent moved  DOWN to location [x=2,y=14], based on policy.
+ Step  32: Agent moved  DOWN to location [x=2,y=15], based on policy.
+ Step  33: Agent moved  DOWN to location [x=2,y=16], based on policy.
+ Step  34: Agent moved DOWN_LEFT to location [x=1,y=17], based on policy.
+ Step  35: Agent moved  DOWN to location [x=1,y=18], based on policy.
+ Step  36: Agent moved  DOWN to location [x=1,y=19], based on policy.
+ Step  37: Agent moved  DOWN to location [x=1,y=20], based on policy.
+ Step  38: Agent moved DOWN_RIGHT to location [x=2,y=21], based on policy.
+ Step  39: Agent moved  DOWN to location [x=2,y=22], based on policy.
+ Step  40: Agent moved DOWN_RIGHT to location [x=3,y=23], based on policy.
+ Step  41: Agent moved RIGHT to location [x=4,y=23], based on policy.
+ Step  42: Agent moved RIGHT to location [x=5,y=23], based on policy.
+ Step  43: Agent moved RIGHT to location [x=6,y=23], based on policy.
+
+>>> Agent Brain:
+ C  ?  ?  ?  ?  ?  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  B  ?  ?  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  ? 
+ ?  B  O  B  ?  B  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  O  O  O  O  ? 
+ ?  ?  O  ?  B  ?  O  O 
+ ?  ?  O  ?  ?  O  ?  O 
+ ?  B  O  O  O  B  ?  O 
+ ?  ?  O  B  ?  B  ?  O 
+ ?  O  ?  ?  ?  ?  ?  B 
+ ?  O  ?  ?  ?  ?  ?  B 
+ ?  O  ?  ?  B  ?  ?  ? 
+ ?  O  ?  B  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  ?  W  O  O  H  ? 
+
+
+>>> Agent Physical Path 5:
+
+>>> Physical path 5, Time: 0.047000 s, Min radius: 6.324555 Total Steps: 24.
+ Step   1: Agent moved RIGHT to location [x=1,y=0], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=1], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   6: Agent moved DOWN_LEFT to location [x=1,y=5], based on policy.
+ Step   7: Agent moved  DOWN to location [x=1,y=6], based on policy.
+ Step   8: Agent moved  DOWN to location [x=1,y=7], based on policy.
+ Step   9: Agent moved DOWN_RIGHT to location [x=2,y=8], based on policy.
+ Step  10: Agent moved  DOWN to location [x=2,y=9], based on policy.
+ Step  11: Agent moved  DOWN to location [x=2,y=10], based on policy.
+ Step  12: Agent moved  DOWN to location [x=2,y=11], based on policy.
+ Step  13: Agent moved  DOWN to location [x=2,y=12], based on policy.
+ Step  14: Agent moved  DOWN to location [x=2,y=13], based on policy.
+ Step  15: Agent moved  DOWN to location [x=2,y=14], based on policy.
+ Step  16: Agent moved DOWN_RIGHT to location [x=3,y=15], based on policy.
+ Step  17: Agent moved DOWN_RIGHT to location [x=4,y=16], based on policy.
+ Step  18: Agent moved DOWN_RIGHT to location [x=5,y=17], based on policy.
+ Step  19: Agent moved  DOWN to location [x=5,y=18], based on policy.
+ Step  20: Agent moved  DOWN to location [x=5,y=19], based on policy.
+ Step  21: Agent moved DOWN_RIGHT to location [x=6,y=20], based on policy.
+ Step  22: Agent moved  DOWN to location [x=6,y=21], based on policy.
+ Step  23: Agent moved  DOWN to location [x=6,y=22], based on policy.
+ Step  24: Agent moved  DOWN to location [x=6,y=23], based on policy.
+
+>>> Agent Brain:
+ C  O  ?  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  B  ?  ?  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  ? 
+ ?  B  O  B  ?  B  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  B  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  B  ?  O  ?  B  ?  ? 
+ ?  ?  ?  B  O  B  ?  ? 
+ ?  ?  ?  ?  ?  O  ?  B 
+ ?  ?  ?  ?  ?  O  ?  B 
+ ?  ?  ?  ?  B  O  ?  ? 
+ ?  ?  ?  B  ?  ?  O  ? 
+ ?  ?  ?  ?  ?  ?  O  ? 
+ ?  ?  ?  ?  ?  ?  O  ? 
+ ?  ?  ?  ?  ?  ?  H  ? 
+
+>>> Best Path: 3.
+
+>>> Process Time: 10.966000 s.

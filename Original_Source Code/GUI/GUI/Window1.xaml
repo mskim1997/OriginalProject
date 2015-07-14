@@ -1,0 +1,15 @@
+﻿<Window x:Class="GUI.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:Control;assembly=Control"
+        Title="Window1" Height="300" Width="300"
+        Closing="Window_Closing"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Grid.Resources>
+            <my:Controller x:Key="data"></my:Controller>
+        </Grid.Resources>
+        <ListView Name="listView" ItemsSource="{Binding}">
+        </ListView>
+    </Grid>
+</Window>

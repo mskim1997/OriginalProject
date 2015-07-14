@@ -1,0 +1,6 @@
+There are certain things that need to be copied to the Debug folder or the working directory:
+
+1. The threading dll and lib: pthreadVCE2
+2. The maze file of the form: maze_12x8.in
+3. The agent file of the form: AgentInfo1.txt
+4. The MazeService.config

@@ -1,0 +1,2795 @@
+
+>>> Values:
+ Random Seed Value = 40302
+ Number of Physical Paths = 20
+ Number of Learning Paths per Physical Path = 1
+ Method = 5
+ Number of Lookahead Levels = 1
+ Path-File Mode = 3
+ Step-Size Parameter ALPHA = 0.100000
+ Discount Rate GAMMA = 0.900000
+ Lookahead Weight Factor LAMBDA = 0.500000
+ Q-value Weight Factor w1 = 0.800000
+ Distance-to-Goal Weight Factor w2 = 0.500000
+ Initial Full Exploration is OFF
+ Visited-Number Weight factor w3 = 0.500000
+ TAW has greedy-mode value = 1
+ Star is C at location [0, 0]
+ Goal is H
+
+>>> Input Maze:
+ C  O  O  A  O  D  B  B 
+ B  O  O  O  B  O  B  P 
+ R  O  O  B  O  O  O  O 
+ O  B  O  O  O  B  O  B 
+ O  B  O  B  O  B  O  O 
+ O  O  O  O  O  O  O  O 
+ O  O  O  O  O  O  O  O 
+ B  O  O  O  B  O  O  O 
+ O  O  O  B  O  O  O  O 
+ O  B  O  O  O  B  O  B 
+ O  B  O  B  O  B  O  O 
+ O  O  O  O  O  O  O  O 
+
+
+>>> Agent Physical Path 1:
+
+>>> Physical path 1, Time: 0.706000 s, Min radius: 0.333333 Total Steps: 70.
+ Step   1: Agent moved RIGHT to location [x=1,y=0], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=1], randomly.
+ Step   3: Agent moved RIGHT to location [x=3,y=1], randomly.
+ Step   4: Agent moved  LEFT to location [x=2,y=1], randomly.
+ Step   5: Agent moved DOWN_LEFT to location [x=1,y=2], randomly.
+ Step   6: Agent moved DOWN_RIGHT to location [x=2,y=3], randomly.
+ Step   7: Agent moved  DOWN to location [x=2,y=4], randomly.
+ Step   8: Agent moved DOWN_RIGHT to location [x=3,y=5], randomly.
+ Step   9: Agent moved  DOWN to location [x=3,y=6], randomly.
+ Step  10: Agent moved UP_RIGHT to location [x=4,y=5], randomly.
+ Step  11: Agent moved RIGHT to location [x=5,y=5], randomly.
+ Step  12: Agent moved DOWN_LEFT to location [x=4,y=6], randomly.
+ Step  13: Agent moved DOWN_LEFT to location [x=3,y=7], randomly.
+ Step  14: Agent moved  LEFT to location [x=2,y=7], randomly.
+ Step  15: Agent moved DOWN_LEFT to location [x=1,y=8], randomly.
+ Step  16: Agent moved    UP to location [x=1,y=7], randomly.
+ Step  17: Agent moved UP_LEFT to location [x=0,y=6], randomly.
+ Step  18: Agent moved DOWN_RIGHT to location [x=1,y=7], randomly.
+ Step  19: Agent moved  DOWN to location [x=1,y=8], randomly.
+ Step  20: Agent moved DOWN_RIGHT to location [x=2,y=9], randomly.
+ Step  21: Agent moved  DOWN to location [x=2,y=10], randomly.
+ Step  22: Agent moved DOWN_RIGHT to location [x=3,y=11], randomly.
+ Step  23: Agent moved  DOWN to location [x=0,y=0], randomly.
+
+>>> Agent Brain:
+ C  O  ?  ?  ?  ?  ?  ? 
+ B  ?  O  O  ?  ?  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  ?  O  O  O  ?  ? 
+ O  ?  ?  O  O  ?  ?  ? 
+ ?  O  O  O  ?  ?  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  ?  O  ?  ?  ?  ? 
+
+
+>>> Agent Physical Path 2:
+
+>>> Physical path 2, Time: 1.080000 s, Min radius: 1.000000 Total Steps: 59.
+ Step   1: Agent moved RIGHT to location [x=1,y=0], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=1], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step   4: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step   5: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step   6: Agent moved  DOWN to location [x=4,y=4], randomly.
+ Step   7: Agent moved  DOWN to location [x=4,y=5], based on policy.
+ Step   8: Agent moved  DOWN to location [x=4,y=6], based on policy.
+ Step   9: Agent moved DOWN_RIGHT to location [x=5,y=7], based on policy.
+ Step  10: Agent moved DOWN_RIGHT to location [x=6,y=8], based on policy.
+ Step  11: Agent moved  DOWN to location [x=6,y=9], based on policy.
+ Step  12: Agent moved UP_RIGHT to location [x=7,y=8], randomly.
+ Step  13: Agent moved    UP to location [x=7,y=7], based on policy.
+ Step  14: Agent moved UP_LEFT to location [x=6,y=6], based on policy.
+ Step  15: Agent moved  LEFT to location [x=5,y=6], based on policy.
+ Step  16: Agent moved  LEFT to location [x=4,y=6], based on policy.
+ Step  17: Agent moved  LEFT to location [x=3,y=6], based on policy.
+ Step  18: Agent moved  LEFT to location [x=2,y=6], based on policy.
+ Step  19: Agent moved  LEFT to location [x=1,y=6], based on policy.
+ Step  20: Agent moved  LEFT to location [x=0,y=6], based on policy.
+ Step  21: Agent moved UP_RIGHT to location [x=1,y=5], randomly.
+ Step  22: Agent moved RIGHT to location [x=2,y=5], based on policy.
+ Step  23: Agent moved DOWN_RIGHT to location [x=3,y=6], based on policy.
+ Step  24: Agent moved  DOWN to location [x=3,y=7], based on policy.
+ Step  25: Agent moved DOWN_LEFT to location [x=2,y=8], based on policy.
+ Step  26: Agent moved  DOWN to location [x=2,y=9], based on policy.
+ Step  27: Agent moved  DOWN to location [x=2,y=10], based on policy.
+ Step  28: Agent moved DOWN_LEFT to location [x=1,y=11], based on policy.
+ Step  29: Agent moved  DOWN to location [x=0,y=0], based on policy.
+
+>>> Agent Brain:
+ C  O  ?  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  ?  O  O  B  ?  ? 
+ ?  ?  ?  B  O  B  ?  ? 
+ ?  O  O  ?  O  ?  ?  ? 
+ O  O  O  O  O  O  O  ? 
+ B  ?  ?  O  B  O  ?  O 
+ ?  ?  O  ?  ?  ?  O  O 
+ ?  ?  O  ?  ?  ?  O  B 
+ ?  ?  O  B  ?  B  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+
+
+>>> Agent Physical Path 3:
+
+>>> Physical path 3, Time: 10.292000 s, Min radius: 0.500000 Total Steps: 78.
+ Step   1: Agent moved RIGHT to location [x=1,y=0], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=1], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   6: Agent moved DOWN_LEFT to location [x=1,y=5], based on policy.
+ Step   7: Agent moved  DOWN to location [x=1,y=6], based on policy.
+ Step   8: Agent moved DOWN_RIGHT to location [x=2,y=7], based on policy.
+ Step   9: Agent moved RIGHT to location [x=3,y=7], based on policy.
+ Step  10: Agent moved UP_RIGHT to location [x=4,y=6], based on policy.
+ Step  11: Agent moved RIGHT to location [x=5,y=6], based on policy.
+ Step  12: Agent moved RIGHT to location [x=6,y=6], based on policy.
+ Step  13: Agent moved DOWN_RIGHT to location [x=7,y=7], based on policy.
+ Step  14: Agent moved  DOWN to location [x=7,y=8], based on policy.
+ Step  15: Agent moved DOWN_LEFT to location [x=6,y=9], randomly.
+ Step  16: Agent moved  DOWN to location [x=6,y=10], based on policy.
+ Step  17: Agent moved DOWN_RIGHT to location [x=7,y=11], based on policy.
+ Step  18: Agent moved    UP to location [x=7,y=10], randomly.
+ Step  19: Agent moved UP_LEFT to location [x=6,y=9], based on policy.
+ Step  20: Agent moved    UP to location [x=6,y=8], based on policy.
+ Step  21: Agent moved UP_RIGHT to location [x=7,y=7], based on policy.
+ Step  22: Agent moved  DOWN to location [x=7,y=8], randomly.
+ Step  23: Agent moved DOWN_LEFT to location [x=6,y=9], randomly.
+ Step  24: Agent moved  DOWN to location [x=6,y=10], based on policy.
+ Step  25: Agent moved DOWN_RIGHT to location [x=7,y=11], based on policy.
+ Step  26: Agent moved DOWN_LEFT to location [x=2,y=9], randomly.
+
+>>> Agent Brain:
+ C  O  ?  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  ? 
+ ?  ?  O  B  ?  B  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  O  ?  ?  O  O  O  ? 
+ B  ?  O  O  B  ?  ?  O 
+ ?  ?  ?  B  ?  ?  O  O 
+ ?  ?  ?  ?  ?  B  O  B 
+ ?  ?  ?  B  ?  B  O  O 
+ ?  ?  ?  ?  ?  ?  ?  O 
+
+
+>>> Agent Physical Path 4:
+
+>>> Physical path 4, Time: 28.845000 s, Min radius: 0.500000 Total Steps: 84.
+ Step   1: Agent moved DOWN_RIGHT to location [x=1,y=1], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=2], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   5: Agent moved DOWN_LEFT to location [x=1,y=5], based on policy.
+ Step   6: Agent moved  DOWN to location [x=1,y=6], based on policy.
+ Step   7: Agent moved DOWN_RIGHT to location [x=2,y=7], based on policy.
+ Step   8: Agent moved  DOWN to location [x=2,y=8], based on policy.
+ Step   9: Agent moved  DOWN to location [x=2,y=9], based on policy.
+ Step  10: Agent moved  DOWN to location [x=2,y=10], based on policy.
+ Step  11: Agent moved  DOWN to location [x=2,y=11], based on policy.
+ Step  12: Agent moved  LEFT to location [x=1,y=11], randomly.
+ Step  13: Agent moved DOWN_LEFT to location [x=7,y=7], based on policy.
+
+>>> Agent Brain:
+ C  ?  ?  ?  ?  ?  ?  ? 
+ B  O  ?  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  ? 
+ ?  ?  O  B  ?  B  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ B  ?  O  ?  B  ?  ?  ? 
+ ?  ?  O  B  ?  ?  ?  ? 
+ ?  B  O  ?  ?  B  ?  B 
+ ?  ?  O  B  ?  B  ?  ? 
+ ?  O  O  ?  ?  ?  ?  ? 
+
+
+>>> Agent Physical Path 5:
+
+>>> Physical path 5, Time: 12.631000 s, Min radius: 1.414214 Total Steps: 1997.
+ Step   1: Agent moved DOWN_RIGHT to location [x=1,y=1], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=2], based on policy.
+ Step   3: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step   4: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step   5: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step   6: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step   7: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step   8: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step   9: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step  10: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step  11: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step  12: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step  13: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step  14: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step  15: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step  16: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step  17: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step  18: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step  19: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step  20: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step  21: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step  22: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step  23: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step  24: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step  25: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step  26: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step  27: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step  28: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step  29: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step  30: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step  31: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step  32: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step  33: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step  34: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step  35: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step  36: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step  37: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step  38: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step  39: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step  40: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step  41: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step  42: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step  43: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step  44: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step  45: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step  46: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step  47: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step  48: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step  49: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step  50: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step  51: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step  52: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step  53: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step  54: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step  55: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step  56: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step  57: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step  58: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step  59: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step  60: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step  61: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step  62: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step  63: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step  64: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step  65: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step  66: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step  67: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step  68: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step  69: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step  70: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step  71: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step  72: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step  73: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step  74: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step  75: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step  76: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step  77: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step  78: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step  79: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step  80: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step  81: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step  82: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step  83: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step  84: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step  85: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step  86: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step  87: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step  88: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step  89: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step  90: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step  91: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step  92: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step  93: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step  94: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step  95: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step  96: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step  97: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step  98: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step  99: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 100: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 101: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 102: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 103: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 104: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 105: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 106: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 107: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 108: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 109: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 110: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 111: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 112: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 113: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 114: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 115: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 116: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 117: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 118: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 119: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 120: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 121: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 122: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 123: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 124: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 125: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 126: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 127: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 128: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 129: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 130: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 131: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 132: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 133: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 134: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 135: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 136: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 137: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 138: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 139: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 140: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 141: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 142: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 143: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 144: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 145: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 146: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 147: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 148: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 149: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 150: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 151: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 152: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 153: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 154: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 155: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 156: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 157: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 158: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 159: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 160: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 161: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 162: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 163: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 164: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 165: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 166: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 167: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 168: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 169: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 170: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 171: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 172: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 173: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 174: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 175: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 176: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 177: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 178: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 179: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 180: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 181: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 182: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 183: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 184: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 185: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 186: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 187: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 188: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 189: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 190: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 191: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 192: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 193: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 194: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 195: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 196: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 197: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 198: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 199: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 200: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 201: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 202: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 203: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 204: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 205: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 206: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 207: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 208: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 209: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 210: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 211: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 212: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 213: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 214: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 215: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 216: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 217: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 218: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 219: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 220: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 221: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 222: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 223: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 224: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 225: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 226: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 227: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 228: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 229: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 230: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 231: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 232: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 233: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 234: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 235: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 236: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 237: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 238: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 239: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 240: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 241: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 242: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 243: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 244: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 245: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 246: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 247: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 248: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 249: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 250: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 251: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 252: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 253: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 254: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 255: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 256: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 257: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 258: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 259: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 260: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 261: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 262: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 263: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 264: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 265: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 266: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 267: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 268: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 269: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 270: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 271: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 272: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 273: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 274: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 275: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 276: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 277: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 278: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 279: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 280: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 281: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 282: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 283: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 284: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 285: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 286: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 287: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 288: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 289: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 290: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 291: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 292: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 293: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 294: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 295: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 296: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 297: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 298: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 299: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 300: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 301: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 302: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 303: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 304: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 305: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 306: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 307: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 308: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 309: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 310: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 311: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 312: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 313: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 314: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 315: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 316: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 317: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 318: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 319: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 320: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 321: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 322: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 323: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 324: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 325: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 326: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 327: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 328: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 329: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 330: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 331: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 332: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 333: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 334: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 335: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 336: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 337: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 338: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 339: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 340: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 341: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 342: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 343: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 344: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 345: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 346: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 347: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 348: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 349: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 350: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 351: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 352: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 353: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 354: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 355: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 356: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 357: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 358: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 359: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 360: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 361: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 362: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 363: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 364: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 365: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 366: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 367: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 368: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 369: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 370: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 371: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 372: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 373: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 374: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 375: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 376: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 377: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 378: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 379: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 380: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 381: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 382: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 383: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 384: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 385: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 386: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 387: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 388: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 389: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 390: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 391: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 392: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 393: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 394: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 395: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 396: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 397: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 398: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 399: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 400: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 401: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 402: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 403: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 404: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 405: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 406: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 407: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 408: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 409: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 410: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 411: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 412: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 413: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 414: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 415: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 416: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 417: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 418: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 419: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 420: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 421: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 422: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 423: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 424: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 425: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 426: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 427: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 428: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 429: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 430: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 431: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 432: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 433: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 434: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 435: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 436: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 437: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 438: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 439: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 440: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 441: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 442: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 443: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 444: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 445: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 446: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 447: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 448: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 449: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 450: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 451: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 452: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 453: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 454: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 455: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 456: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 457: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 458: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 459: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 460: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 461: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 462: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 463: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 464: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 465: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 466: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 467: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 468: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 469: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 470: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 471: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 472: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 473: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 474: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 475: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 476: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 477: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 478: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 479: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 480: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 481: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 482: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 483: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 484: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 485: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 486: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 487: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 488: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 489: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 490: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 491: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 492: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 493: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 494: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 495: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 496: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 497: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 498: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 499: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 500: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 501: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 502: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 503: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 504: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 505: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 506: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 507: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 508: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 509: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 510: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 511: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 512: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 513: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 514: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 515: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 516: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 517: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 518: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 519: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 520: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 521: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 522: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 523: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 524: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 525: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 526: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 527: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 528: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 529: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 530: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 531: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 532: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 533: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 534: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 535: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 536: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 537: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 538: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 539: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 540: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 541: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 542: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 543: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 544: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 545: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 546: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 547: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 548: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 549: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 550: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 551: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 552: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 553: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 554: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 555: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 556: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 557: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 558: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 559: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 560: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 561: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 562: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 563: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 564: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 565: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 566: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 567: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 568: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 569: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 570: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 571: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 572: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 573: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 574: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 575: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 576: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 577: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 578: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 579: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 580: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 581: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 582: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 583: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 584: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 585: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 586: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 587: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 588: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 589: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 590: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 591: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 592: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 593: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 594: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 595: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 596: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 597: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 598: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 599: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 600: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 601: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 602: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 603: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 604: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 605: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 606: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 607: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 608: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 609: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 610: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 611: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 612: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 613: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 614: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 615: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 616: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 617: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 618: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 619: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 620: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 621: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 622: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 623: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 624: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 625: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 626: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 627: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 628: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 629: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 630: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 631: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 632: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 633: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 634: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 635: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 636: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 637: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 638: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 639: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 640: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 641: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 642: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 643: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 644: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 645: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 646: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 647: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 648: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 649: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 650: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 651: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 652: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 653: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 654: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 655: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 656: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 657: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 658: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 659: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 660: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 661: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 662: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 663: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 664: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 665: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 666: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 667: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 668: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 669: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 670: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 671: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 672: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 673: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 674: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 675: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 676: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 677: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 678: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 679: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 680: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 681: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 682: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 683: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 684: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 685: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 686: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 687: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 688: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 689: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 690: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 691: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 692: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 693: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 694: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 695: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 696: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 697: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 698: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 699: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 700: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 701: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 702: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 703: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 704: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 705: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 706: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 707: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 708: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 709: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 710: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 711: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 712: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 713: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 714: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 715: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 716: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 717: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 718: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 719: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 720: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 721: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 722: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 723: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 724: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 725: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 726: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 727: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 728: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 729: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 730: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 731: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 732: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 733: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 734: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 735: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 736: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 737: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 738: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 739: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 740: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 741: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 742: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 743: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 744: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 745: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 746: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 747: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 748: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 749: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 750: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 751: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 752: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 753: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 754: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 755: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 756: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 757: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 758: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 759: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 760: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 761: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 762: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 763: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 764: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 765: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 766: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 767: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 768: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 769: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 770: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 771: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 772: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 773: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 774: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 775: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 776: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 777: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 778: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 779: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 780: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 781: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 782: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 783: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 784: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 785: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 786: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 787: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 788: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 789: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 790: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 791: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 792: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 793: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 794: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 795: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 796: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 797: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 798: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 799: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 800: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 801: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 802: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 803: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 804: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 805: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 806: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 807: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 808: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 809: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 810: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 811: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 812: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 813: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 814: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 815: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 816: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 817: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 818: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 819: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 820: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 821: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 822: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 823: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 824: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 825: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 826: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 827: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 828: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 829: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 830: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 831: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 832: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 833: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 834: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 835: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 836: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 837: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 838: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 839: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 840: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 841: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 842: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 843: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 844: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 845: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 846: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 847: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 848: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 849: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 850: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 851: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 852: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 853: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 854: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 855: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 856: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 857: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 858: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 859: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 860: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 861: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 862: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 863: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 864: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 865: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 866: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 867: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 868: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 869: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 870: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 871: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 872: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 873: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 874: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 875: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 876: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 877: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 878: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 879: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 880: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 881: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 882: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 883: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 884: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 885: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 886: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 887: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 888: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 889: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 890: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 891: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 892: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 893: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 894: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 895: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 896: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 897: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 898: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 899: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 900: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 901: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 902: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 903: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 904: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 905: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 906: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 907: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 908: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 909: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 910: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 911: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 912: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 913: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 914: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 915: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 916: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 917: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 918: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 919: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 920: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 921: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 922: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 923: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 924: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 925: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 926: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 927: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 928: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 929: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 930: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 931: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 932: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 933: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 934: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 935: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 936: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 937: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 938: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 939: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 940: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 941: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 942: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 943: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 944: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 945: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 946: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 947: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 948: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 949: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 950: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 951: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 952: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 953: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 954: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 955: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 956: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 957: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 958: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 959: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 960: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 961: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 962: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 963: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 964: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 965: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 966: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 967: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 968: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 969: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 970: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 971: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 972: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 973: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 974: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 975: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 976: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 977: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 978: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 979: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 980: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 981: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 982: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 983: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 984: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 985: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 986: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 987: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 988: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 989: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 990: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 991: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 992: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 993: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 994: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 995: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 996: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 997: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 998: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 999: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1000: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1001: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1002: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1003: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1004: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1005: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1006: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1007: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1008: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1009: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1010: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1011: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1012: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1013: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1014: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1015: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1016: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1017: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1018: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1019: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1020: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1021: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1022: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1023: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1024: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1025: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1026: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1027: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1028: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1029: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1030: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1031: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1032: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1033: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1034: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1035: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1036: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1037: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1038: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1039: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1040: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1041: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1042: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1043: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1044: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1045: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1046: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1047: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1048: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1049: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1050: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1051: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1052: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1053: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1054: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1055: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1056: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1057: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1058: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1059: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1060: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1061: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1062: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1063: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1064: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1065: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1066: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1067: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1068: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1069: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1070: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1071: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1072: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1073: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1074: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1075: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1076: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1077: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1078: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1079: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1080: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1081: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1082: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1083: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1084: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1085: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1086: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1087: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1088: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1089: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1090: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1091: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1092: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1093: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1094: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1095: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1096: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1097: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1098: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1099: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1100: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1101: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1102: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1103: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1104: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1105: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1106: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1107: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1108: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1109: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1110: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1111: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1112: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1113: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1114: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1115: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1116: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1117: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1118: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1119: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1120: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1121: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1122: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1123: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1124: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1125: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1126: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1127: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1128: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1129: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1130: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1131: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1132: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1133: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1134: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1135: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1136: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1137: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1138: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1139: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1140: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1141: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1142: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1143: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1144: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1145: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1146: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1147: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1148: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1149: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1150: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1151: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1152: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1153: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1154: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1155: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1156: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1157: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1158: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1159: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1160: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1161: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1162: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1163: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1164: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1165: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1166: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1167: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1168: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1169: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1170: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1171: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1172: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1173: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1174: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1175: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1176: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1177: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1178: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1179: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1180: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1181: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1182: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1183: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1184: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1185: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1186: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1187: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1188: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1189: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1190: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1191: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1192: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1193: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1194: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1195: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1196: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1197: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1198: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1199: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1200: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1201: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1202: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1203: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1204: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1205: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1206: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1207: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1208: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1209: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1210: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1211: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1212: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1213: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1214: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1215: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1216: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1217: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1218: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1219: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1220: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1221: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1222: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1223: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1224: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1225: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1226: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1227: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1228: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1229: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1230: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1231: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1232: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1233: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1234: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1235: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1236: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1237: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1238: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1239: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1240: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1241: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1242: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1243: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1244: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1245: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1246: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1247: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1248: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1249: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1250: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1251: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1252: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1253: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1254: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1255: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1256: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1257: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1258: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1259: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1260: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1261: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1262: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1263: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1264: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1265: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1266: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1267: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1268: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1269: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1270: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1271: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1272: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1273: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1274: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1275: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1276: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1277: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1278: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1279: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1280: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1281: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1282: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1283: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1284: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1285: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1286: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1287: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1288: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1289: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1290: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1291: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1292: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1293: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1294: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1295: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1296: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1297: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1298: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1299: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1300: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1301: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1302: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1303: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1304: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1305: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1306: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1307: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1308: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1309: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1310: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1311: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1312: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1313: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1314: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1315: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1316: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1317: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1318: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1319: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1320: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1321: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1322: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1323: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1324: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1325: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1326: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1327: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1328: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1329: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1330: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1331: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1332: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1333: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1334: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1335: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1336: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1337: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1338: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1339: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1340: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1341: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1342: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1343: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1344: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1345: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1346: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1347: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1348: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1349: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1350: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1351: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1352: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1353: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1354: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1355: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1356: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1357: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1358: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1359: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1360: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1361: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1362: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1363: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1364: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1365: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1366: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1367: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1368: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1369: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1370: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1371: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1372: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1373: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1374: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1375: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1376: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1377: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1378: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1379: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1380: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1381: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1382: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1383: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1384: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1385: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1386: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1387: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1388: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1389: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1390: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1391: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1392: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1393: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1394: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1395: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1396: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1397: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1398: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1399: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1400: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1401: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1402: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1403: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1404: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1405: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1406: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1407: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1408: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1409: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1410: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1411: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1412: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1413: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1414: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1415: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1416: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1417: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1418: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1419: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1420: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1421: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1422: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1423: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1424: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1425: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1426: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1427: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1428: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1429: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1430: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1431: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1432: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1433: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1434: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1435: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1436: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1437: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1438: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1439: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1440: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1441: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1442: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1443: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1444: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1445: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1446: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1447: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1448: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1449: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1450: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1451: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1452: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1453: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1454: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1455: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1456: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1457: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1458: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1459: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1460: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1461: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1462: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1463: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1464: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1465: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1466: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1467: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1468: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1469: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1470: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1471: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1472: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1473: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1474: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1475: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1476: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1477: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1478: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1479: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1480: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1481: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1482: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1483: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1484: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1485: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1486: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1487: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1488: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1489: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1490: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1491: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1492: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1493: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1494: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1495: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1496: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1497: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1498: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1499: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1500: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1501: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1502: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1503: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1504: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1505: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1506: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1507: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1508: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1509: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1510: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1511: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1512: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1513: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1514: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1515: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1516: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1517: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1518: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1519: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1520: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1521: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1522: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1523: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1524: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1525: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1526: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1527: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1528: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1529: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1530: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1531: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1532: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1533: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1534: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1535: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1536: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1537: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1538: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1539: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1540: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1541: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1542: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1543: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1544: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1545: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1546: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1547: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1548: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1549: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1550: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1551: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1552: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1553: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1554: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1555: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1556: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1557: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1558: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1559: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1560: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1561: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1562: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1563: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1564: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1565: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1566: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1567: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1568: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1569: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1570: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1571: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1572: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1573: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1574: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1575: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1576: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1577: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1578: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1579: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1580: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1581: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1582: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1583: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1584: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1585: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1586: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1587: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1588: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1589: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1590: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1591: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1592: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1593: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1594: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1595: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1596: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1597: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1598: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1599: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1600: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1601: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1602: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1603: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1604: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1605: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1606: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1607: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1608: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1609: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1610: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1611: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1612: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1613: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1614: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1615: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1616: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1617: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1618: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1619: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1620: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1621: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1622: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1623: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1624: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1625: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1626: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1627: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1628: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1629: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1630: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1631: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1632: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1633: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1634: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1635: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1636: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1637: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1638: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1639: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1640: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1641: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1642: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1643: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1644: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1645: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1646: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1647: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1648: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1649: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1650: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1651: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1652: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1653: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1654: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1655: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1656: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1657: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1658: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1659: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1660: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1661: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1662: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1663: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1664: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1665: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1666: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1667: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1668: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1669: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1670: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1671: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1672: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1673: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1674: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1675: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1676: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1677: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1678: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1679: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1680: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1681: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1682: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1683: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1684: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1685: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1686: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1687: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1688: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1689: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1690: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1691: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1692: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1693: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1694: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1695: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1696: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1697: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1698: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1699: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1700: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1701: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1702: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1703: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1704: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1705: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1706: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1707: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1708: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1709: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1710: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1711: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1712: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1713: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1714: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1715: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1716: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1717: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1718: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1719: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1720: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1721: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1722: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1723: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1724: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1725: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1726: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1727: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1728: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1729: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1730: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1731: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1732: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1733: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1734: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1735: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1736: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1737: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1738: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1739: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1740: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1741: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1742: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1743: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1744: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1745: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1746: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1747: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1748: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1749: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1750: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1751: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1752: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1753: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1754: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1755: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1756: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1757: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1758: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1759: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1760: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1761: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1762: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1763: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1764: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1765: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1766: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1767: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1768: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1769: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1770: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1771: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1772: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1773: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1774: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1775: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1776: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1777: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1778: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1779: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1780: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1781: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1782: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1783: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1784: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1785: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1786: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1787: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1788: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1789: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1790: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1791: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1792: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1793: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1794: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1795: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1796: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1797: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1798: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1799: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1800: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1801: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1802: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1803: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1804: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1805: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1806: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1807: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1808: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1809: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1810: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1811: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1812: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1813: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1814: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1815: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1816: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1817: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1818: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1819: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1820: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1821: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1822: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1823: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1824: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1825: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1826: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1827: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1828: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1829: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1830: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1831: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1832: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1833: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1834: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1835: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1836: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1837: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1838: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1839: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1840: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1841: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1842: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1843: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1844: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1845: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1846: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1847: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1848: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1849: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1850: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1851: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1852: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1853: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1854: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1855: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1856: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1857: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1858: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1859: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1860: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1861: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1862: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1863: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1864: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1865: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1866: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1867: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1868: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1869: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1870: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1871: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1872: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1873: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1874: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1875: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1876: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1877: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1878: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1879: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1880: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1881: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1882: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1883: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1884: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1885: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1886: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1887: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1888: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1889: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1890: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1891: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1892: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1893: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1894: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1895: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1896: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1897: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1898: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1899: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1900: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1901: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1902: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1903: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1904: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1905: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1906: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1907: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1908: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1909: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1910: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1911: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1912: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1913: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1914: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1915: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1916: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1917: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1918: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1919: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1920: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step 1921: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step 1922: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step 1923: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step 1924: Agent moved RIGHT to location [x=4,y=3], based on policy.
+ Step 1925: Agent moved UP_RIGHT to location [x=5,y=2], based on policy.
+ Step 1926: Agent moved    UP to location [x=5,y=1], based on policy.
+ Step 1927: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step 1928: Agent moved DOWN_RIGHT to location [x=5,y=1], randomly.
+ Step 1929: Agent moved DOWN_RIGHT to location [x=6,y=2], based on policy.
+ Step 1930: Agent moved  DOWN to location [x=6,y=3], based on policy.
+ Step 1931: Agent moved  DOWN to location [x=6,y=4], based on policy.
+ Step 1932: Agent moved  DOWN to location [x=6,y=5], based on policy.
+ Step 1933: Agent moved  DOWN to location [x=6,y=6], based on policy.
+ Step 1934: Agent moved DOWN_RIGHT to location [x=7,y=7], based on policy.
+ Step 1935: Agent moved  DOWN to location [x=7,y=8], based on policy.
+ Step 1936: Agent moved DOWN_LEFT to location [x=6,y=9], randomly.
+ Step 1937: Agent moved  DOWN to location [x=6,y=10], based on policy.
+ Step 1938: Agent moved DOWN_RIGHT to location [x=7,y=11], based on policy.
+ Step 1939: Agent moved    UP to location [x=7,y=10], randomly.
+ Step 1940: Agent moved UP_LEFT to location [x=6,y=9], based on policy.
+ Step 1941: Agent moved    UP to location [x=6,y=8], based on policy.
+ Step 1942: Agent moved UP_RIGHT to location [x=7,y=7], based on policy.
+ Step 1943: Agent moved  LEFT to location [x=6,y=7], randomly.
+ Step 1944: Agent moved DOWN_LEFT to location [x=5,y=8], based on policy.
+ Step 1945: Agent moved DOWN_LEFT to location [x=4,y=9], based on policy.
+ Step 1946: Agent moved  DOWN to location [x=4,y=10], based on policy.
+ Step 1947: Agent moved DOWN_RIGHT to location [x=5,y=11], based on policy.
+ Step 1948: Agent moved DOWN_RIGHT to location [x=0,y=0], based on policy.
+
+>>> Agent Brain:
+ C  ?  ?  A  O  ?  ?  ? 
+ B  O  O  ?  B  O  B  ? 
+ ?  ?  O  ?  ?  O  O  ? 
+ ?  ?  ?  O  O  B  O  B 
+ ?  ?  ?  B  ?  B  O  ? 
+ ?  ?  ?  ?  ?  ?  O  ? 
+ ?  ?  ?  ?  ?  ?  O  ? 
+ B  ?  ?  ?  B  ?  O  O 
+ ?  ?  ?  B  ?  O  O  O 
+ ?  B  ?  ?  O  B  O  B 
+ ?  ?  ?  B  O  B  O  O 
+ ?  ?  ?  ?  ?  O  ?  O 
+
+
+>>> Agent Physical Path 6:
+
+>>> Physical path 6, Time: 11.068000 s, Min radius: 0.471405 Total Steps: 166.
+ Step   1: Agent moved RIGHT to location [x=1,y=0], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=1], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   6: Agent moved DOWN_LEFT to location [x=1,y=5], based on policy.
+ Step   7: Agent moved  DOWN to location [x=1,y=6], based on policy.
+ Step   8: Agent moved DOWN_RIGHT to location [x=2,y=7], based on policy.
+ Step   9: Agent moved RIGHT to location [x=3,y=7], based on policy.
+ Step  10: Agent moved UP_RIGHT to location [x=4,y=6], based on policy.
+ Step  11: Agent moved RIGHT to location [x=5,y=6], based on policy.
+ Step  12: Agent moved RIGHT to location [x=6,y=6], based on policy.
+ Step  13: Agent moved DOWN_RIGHT to location [x=7,y=7], based on policy.
+ Step  14: Agent moved  DOWN to location [x=7,y=8], based on policy.
+ Step  15: Agent moved DOWN_LEFT to location [x=6,y=9], randomly.
+ Step  16: Agent moved  DOWN to location [x=6,y=10], based on policy.
+ Step  17: Agent moved DOWN_RIGHT to location [x=7,y=11], based on policy.
+ Step  18: Agent moved UP_LEFT to location [x=6,y=10], randomly.
+ Step  19: Agent moved    UP to location [x=6,y=9], based on policy.
+ Step  20: Agent moved UP_RIGHT to location [x=7,y=8], based on policy.
+ Step  21: Agent moved    UP to location [x=7,y=7], randomly.
+ Step  22: Agent moved UP_LEFT to location [x=6,y=6], based on policy.
+ Step  23: Agent moved    UP to location [x=6,y=5], based on policy.
+ Step  24: Agent moved UP_RIGHT to location [x=7,y=4], based on policy.
+ Step  25: Agent moved UP_LEFT to location [x=6,y=3], randomly.
+ Step  26: Agent moved    UP to location [x=6,y=2], based on policy.
+ Step  27: Agent moved UP_LEFT to location [x=5,y=1], based on policy.
+ Step  28: Agent moved    UP to location [x=5,y=0], based on policy.
+ Step  29: Agent moved  LEFT to location [x=4,y=0], randomly.
+ Step  30: Agent moved  LEFT to location [x=3,y=0], based on policy.
+ Step  31: Agent moved DOWN_LEFT to location [x=2,y=1], based on policy.
+ Step  32: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step  33: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+ Step  34: Agent moved DOWN_RIGHT to location [x=4,y=4], based on policy.
+ Step  35: Agent moved DOWN_RIGHT to location [x=5,y=5], based on policy.
+ Step  36: Agent moved DOWN_RIGHT to location [x=6,y=6], based on policy.
+ Step  37: Agent moved DOWN_RIGHT to location [x=7,y=7], based on policy.
+ Step  38: Agent moved  DOWN to location [x=7,y=8], based on policy.
+ Step  39: Agent moved  LEFT to location [x=6,y=8], randomly.
+ Step  40: Agent moved  LEFT to location [x=5,y=8], based on policy.
+ Step  41: Agent moved DOWN_LEFT to location [x=4,y=9], based on policy.
+ Step  42: Agent moved  DOWN to location [x=4,y=10], based on policy.
+ Step  43: Agent moved DOWN_RIGHT to location [x=5,y=11], based on policy.
+ Step  44: Agent moved UP_LEFT to location [x=4,y=10], randomly.
+ Step  45: Agent moved    UP to location [x=4,y=9], based on policy.
+ Step  46: Agent moved UP_RIGHT to location [x=5,y=8], based on policy.
+ Step  47: Agent moved RIGHT to location [x=6,y=8], based on policy.
+ Step  48: Agent moved RIGHT to location [x=7,y=8], based on policy.
+ Step  49: Agent moved    UP to location [x=7,y=7], randomly.
+ Step  50: Agent moved UP_LEFT to location [x=6,y=6], based on policy.
+ Step  51: Agent moved    UP to location [x=6,y=5], based on policy.
+ Step  52: Agent moved UP_RIGHT to location [x=7,y=4], based on policy.
+ Step  53: Agent moved  DOWN to location [x=7,y=5], randomly.
+ Step  54: Agent moved  DOWN to location [x=7,y=6], based on policy.
+ Step  55: Agent moved  DOWN to location [x=7,y=7], based on policy.
+ Step  56: Agent moved  DOWN to location [x=7,y=8], based on policy.
+ Step  57: Agent moved DOWN_LEFT to location [x=6,y=9], randomly.
+ Step  58: Agent moved  DOWN to location [x=6,y=10], based on policy.
+ Step  59: Agent moved DOWN_RIGHT to location [x=7,y=11], based on policy.
+ Step  60: Agent moved    UP to location [x=7,y=10], randomly.
+ Step  61: Agent moved UP_LEFT to location [x=6,y=9], based on policy.
+ Step  62: Agent moved    UP to location [x=6,y=8], based on policy.
+ Step  63: Agent moved UP_RIGHT to location [x=7,y=7], based on policy.
+ Step  64: Agent moved    UP to location [x=7,y=6], randomly.
+ Step  65: Agent moved UP_LEFT to location [x=6,y=5], based on policy.
+ Step  66: Agent moved    UP to location [x=6,y=4], based on policy.
+ Step  67: Agent moved    UP to location [x=6,y=3], based on policy.
+ Step  68: Agent moved    UP to location [x=6,y=2], based on policy.
+ Step  69: Agent moved UP_LEFT to location [x=5,y=1], based on policy.
+ Step  70: Agent moved UP_LEFT to location [x=4,y=0], based on policy.
+ Step  71: Agent moved  LEFT to location [x=3,y=0], randomly.
+ Step  72: Agent moved  LEFT to location [x=2,y=0], based on policy.
+ Step  73: Agent moved DOWN_LEFT to location [x=1,y=1], based on policy.
+ Step  74: Agent moved  DOWN to location [x=1,y=2], based on policy.
+ Step  75: Agent moved DOWN_RIGHT to location [x=2,y=3], based on policy.
+ Step  76: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step  77: Agent moved DOWN_LEFT to location [x=1,y=5], based on policy.
+ Step  78: Agent moved  DOWN to location [x=1,y=6], based on policy.
+ Step  79: Agent moved DOWN_RIGHT to location [x=2,y=7], based on policy.
+ Step  80: Agent moved RIGHT to location [x=3,y=7], based on policy.
+ Step  81: Agent moved UP_RIGHT to location [x=4,y=6], based on policy.
+ Step  82: Agent moved RIGHT to location [x=5,y=6], based on policy.
+ Step  83: Agent moved RIGHT to location [x=6,y=6], based on policy.
+ Step  84: Agent moved DOWN_RIGHT to location [x=7,y=7], based on policy.
+ Step  85: Agent moved  DOWN to location [x=7,y=8], based on policy.
+ Step  86: Agent moved  LEFT to location [x=6,y=8], randomly.
+ Step  87: Agent moved  LEFT to location [x=5,y=8], based on policy.
+ Step  88: Agent moved DOWN_LEFT to location [x=4,y=9], based on policy.
+ Step  89: Agent moved  DOWN to location [x=4,y=10], based on policy.
+ Step  90: Agent moved DOWN_RIGHT to location [x=5,y=11], based on policy.
+ Step  91: Agent moved DOWN_RIGHT to location [x=3,y=3], based on policy.
+
+>>> Agent Brain:
+ C  O  O  A  O  D  ?  ? 
+ B  O  O  ?  B  O  B  ? 
+ ?  O  O  ?  ?  ?  O  ? 
+ ?  ?  O  O  ?  B  O  B 
+ ?  ?  O  B  O  B  O  O 
+ ?  O  ?  ?  ?  O  O  O 
+ ?  O  ?  ?  O  O  O  O 
+ B  ?  O  O  B  ?  ?  O 
+ ?  ?  ?  B  ?  O  O  O 
+ ?  B  ?  ?  O  B  O  B 
+ ?  ?  ?  B  O  B  O  O 
+ ?  ?  ?  ?  ?  O  ?  O 
+
+
+>>> Agent Physical Path 7:
+
+>>> Physical path 7, Time: 19.767000 s, Min radius: 0.333333 Total Steps: 121.
+ Step   1: Agent moved RIGHT to location [x=1,y=0], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=1], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   6: Agent moved DOWN_LEFT to location [x=1,y=5], based on policy.
+ Step   7: Agent moved  DOWN to location [x=1,y=6], based on policy.
+ Step   8: Agent moved DOWN_RIGHT to location [x=2,y=7], based on policy.
+ Step   9: Agent moved RIGHT to location [x=3,y=7], based on policy.
+ Step  10: Agent moved UP_RIGHT to location [x=4,y=6], based on policy.
+ Step  11: Agent moved RIGHT to location [x=5,y=6], based on policy.
+ Step  12: Agent moved RIGHT to location [x=6,y=6], based on policy.
+ Step  13: Agent moved DOWN_RIGHT to location [x=7,y=7], based on policy.
+ Step  14: Agent moved  DOWN to location [x=7,y=8], based on policy.
+ Step  15: Agent moved    UP to location [x=7,y=7], randomly.
+ Step  16: Agent moved UP_LEFT to location [x=6,y=6], based on policy.
+ Step  17: Agent moved    UP to location [x=6,y=5], based on policy.
+ Step  18: Agent moved UP_RIGHT to location [x=7,y=4], based on policy.
+ Step  19: Agent moved  DOWN to location [x=7,y=5], randomly.
+ Step  20: Agent moved  DOWN to location [x=7,y=6], based on policy.
+ Step  21: Agent moved  DOWN to location [x=7,y=7], based on policy.
+ Step  22: Agent moved  DOWN to location [x=7,y=8], based on policy.
+ Step  23: Agent moved UP_LEFT to location [x=6,y=7], randomly.
+ Step  24: Agent moved    UP to location [x=6,y=6], based on policy.
+ Step  25: Agent moved UP_RIGHT to location [x=7,y=5], based on policy.
+ Step  26: Agent moved UP_LEFT to location [x=6,y=4], randomly.
+ Step  27: Agent moved    UP to location [x=6,y=3], based on policy.
+ Step  28: Agent moved UP_RIGHT to location [x=7,y=2], based on policy.
+ Step  29: Agent moved    UP to location [x=7,y=1], randomly.
+ Step  30: Agent moved DOWN_LEFT to location [x=6,y=2], randomly.
+ Step  31: Agent moved  DOWN to location [x=6,y=3], based on policy.
+ Step  32: Agent moved DOWN_RIGHT to location [x=7,y=4], based on policy.
+ Step  33: Agent moved  DOWN to location [x=7,y=5], based on policy.
+ Step  34: Agent moved  DOWN to location [x=7,y=6], based on policy.
+ Step  35: Agent moved  DOWN to location [x=7,y=7], based on policy.
+ Step  36: Agent moved  DOWN to location [x=7,y=8], based on policy.
+ Step  37: Agent moved DOWN_LEFT to location [x=6,y=9], randomly.
+ Step  38: Agent moved  DOWN to location [x=6,y=10], based on policy.
+ Step  39: Agent moved DOWN_RIGHT to location [x=7,y=11], based on policy.
+ Step  40: Agent moved DOWN_LEFT to location [x=5,y=8], randomly.
+
+>>> Agent Brain:
+ C  O  ?  ?  ?  ?  B  B 
+ B  ?  O  ?  B  ?  B  P 
+ ?  ?  O  ?  ?  ?  O  O 
+ ?  ?  O  ?  ?  B  O  B 
+ ?  ?  O  B  ?  B  O  O 
+ ?  O  ?  ?  ?  ?  O  O 
+ ?  O  ?  ?  O  O  O  O 
+ B  ?  O  O  B  ?  O  O 
+ ?  ?  ?  B  ?  ?  ?  O 
+ ?  B  ?  ?  ?  B  O  B 
+ ?  ?  ?  B  ?  B  O  ? 
+ ?  ?  ?  ?  ?  ?  ?  O 
+
+
+>>> Agent Physical Path 8:
+
+>>> Physical path 8, Time: 0.837000 s, Min radius: 1.414214 Total Steps: 37.
+ Step   1: Agent moved RIGHT to location [x=1,y=0], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=1], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   6: Agent moved DOWN_LEFT to location [x=1,y=5], based on policy.
+ Step   7: Agent moved  DOWN to location [x=1,y=6], based on policy.
+ Step   8: Agent moved DOWN_RIGHT to location [x=2,y=7], based on policy.
+ Step   9: Agent moved RIGHT to location [x=3,y=7], based on policy.
+ Step  10: Agent moved UP_RIGHT to location [x=4,y=6], based on policy.
+ Step  11: Agent moved RIGHT to location [x=5,y=6], based on policy.
+ Step  12: Agent moved RIGHT to location [x=6,y=6], based on policy.
+ Step  13: Agent moved DOWN_RIGHT to location [x=7,y=7], based on policy.
+ Step  14: Agent moved  DOWN to location [x=7,y=8], based on policy.
+ Step  15: Agent moved  LEFT to location [x=6,y=8], randomly.
+ Step  16: Agent moved  LEFT to location [x=5,y=8], based on policy.
+ Step  17: Agent moved DOWN_LEFT to location [x=4,y=9], based on policy.
+ Step  18: Agent moved  DOWN to location [x=4,y=10], based on policy.
+ Step  19: Agent moved DOWN_RIGHT to location [x=5,y=11], based on policy.
+ Step  20: Agent moved DOWN_RIGHT to location [x=7,y=6], based on policy.
+
+>>> Agent Brain:
+ C  O  ?  ?  ?  ?  B  B 
+ B  ?  O  ?  B  ?  B  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  B 
+ ?  ?  O  B  ?  B  ?  ? 
+ ?  O  ?  ?  ?  ?  ?  ? 
+ ?  O  ?  ?  O  O  O  ? 
+ B  ?  O  O  B  ?  ?  O 
+ ?  ?  ?  B  ?  O  O  O 
+ ?  B  ?  ?  O  B  ?  B 
+ ?  ?  ?  B  O  B  ?  ? 
+ ?  ?  ?  ?  ?  O  ?  ? 
+
+
+>>> Agent Physical Path 9:
+
+>>> Physical path 9, Time: 13.536000 s, Min radius: 5.841066 Total Steps: 79.
+ Step   1: Agent moved DOWN_RIGHT to location [x=1,y=1], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=2], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=5], based on policy.
+ Step   6: Agent moved  DOWN to location [x=2,y=6], based on policy.
+ Step   7: Agent moved DOWN_RIGHT to location [x=3,y=7], based on policy.
+ Step   8: Agent moved DOWN_RIGHT to location [x=4,y=8], based on policy.
+ Step   9: Agent moved RIGHT to location [x=5,y=8], based on policy.
+ Step  10: Agent moved RIGHT to location [x=6,y=8], based on policy.
+ Step  11: Agent moved RIGHT to location [x=7,y=8], based on policy.
+ Step  12: Agent moved    UP to location [x=7,y=7], randomly.
+ Step  13: Agent moved UP_LEFT to location [x=6,y=6], based on policy.
+ Step  14: Agent moved    UP to location [x=6,y=5], based on policy.
+ Step  15: Agent moved UP_RIGHT to location [x=7,y=4], based on policy.
+ Step  16: Agent moved DOWN_LEFT to location [x=6,y=5], randomly.
+ Step  17: Agent moved  DOWN to location [x=6,y=6], based on policy.
+ Step  18: Agent moved DOWN_RIGHT to location [x=7,y=7], based on policy.
+ Step  19: Agent moved  DOWN to location [x=7,y=8], based on policy.
+ Step  20: Agent moved DOWN_LEFT to location [x=6,y=9], randomly.
+ Step  21: Agent moved  DOWN to location [x=6,y=10], based on policy.
+ Step  22: Agent moved DOWN_RIGHT to location [x=7,y=11], based on policy.
+ Step  23: Agent moved DOWN_LEFT to location [x=6,y=7], randomly.
+
+>>> Agent Brain:
+ C  ?  ?  ?  ?  ?  B  B 
+ B  O  ?  ?  B  ?  B  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  B 
+ ?  B  O  B  ?  B  ?  O 
+ ?  ?  O  ?  ?  ?  O  ? 
+ ?  ?  O  ?  ?  ?  O  ? 
+ B  ?  ?  O  B  ?  ?  O 
+ ?  ?  ?  B  O  O  O  O 
+ ?  B  ?  ?  ?  B  O  B 
+ ?  ?  ?  B  ?  B  O  ? 
+ ?  ?  ?  ?  ?  ?  ?  O 
+
+
+>>> Agent Physical Path 10:
+
+>>> Physical path 10, Time: 4.136000 s, Min radius: 0.500000 Total Steps: 52.
+ Step   1: Agent moved DOWN_RIGHT to location [x=1,y=1], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=2], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=5], based on policy.
+ Step   6: Agent moved  DOWN to location [x=2,y=6], based on policy.
+ Step   7: Agent moved  DOWN to location [x=2,y=7], based on policy.
+ Step   8: Agent moved  DOWN to location [x=2,y=8], based on policy.
+ Step   9: Agent moved  DOWN to location [x=2,y=9], based on policy.
+ Step  10: Agent moved  DOWN to location [x=2,y=10], based on policy.
+ Step  11: Agent moved  DOWN to location [x=2,y=11], based on policy.
+ Step  12: Agent moved  DOWN to location [x=7,y=7], based on policy.
+
+>>> Agent Brain:
+ C  ?  ?  ?  ?  ?  B  B 
+ B  O  ?  ?  B  ?  B  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  B 
+ ?  B  O  B  ?  B  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ B  ?  O  ?  B  ?  ?  ? 
+ ?  ?  O  B  ?  ?  ?  ? 
+ ?  B  O  ?  ?  B  ?  B 
+ ?  ?  O  B  ?  B  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+
+
+>>> Agent Physical Path 11:
+
+>>> Physical path 11, Time: 0.820000 s, Min radius: 1.414214 Total Steps: 45.
+ Step   1: Agent moved RIGHT to location [x=1,y=0], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=1], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   6: Agent moved  DOWN to location [x=2,y=5], based on policy.
+ Step   7: Agent moved  DOWN to location [x=2,y=6], based on policy.
+ Step   8: Agent moved  DOWN to location [x=2,y=7], based on policy.
+ Step   9: Agent moved  DOWN to location [x=2,y=8], based on policy.
+ Step  10: Agent moved  DOWN to location [x=2,y=9], based on policy.
+ Step  11: Agent moved    UP to location [x=2,y=8], randomly.
+ Step  12: Agent moved UP_LEFT to location [x=1,y=7], based on policy.
+ Step  13: Agent moved    UP to location [x=1,y=6], based on policy.
+ Step  14: Agent moved UP_RIGHT to location [x=2,y=5], based on policy.
+ Step  15: Agent moved RIGHT to location [x=3,y=5], based on policy.
+ Step  16: Agent moved DOWN_RIGHT to location [x=4,y=6], based on policy.
+ Step  17: Agent moved DOWN_RIGHT to location [x=5,y=7], based on policy.
+ Step  18: Agent moved DOWN_RIGHT to location [x=6,y=8], based on policy.
+ Step  19: Agent moved  DOWN to location [x=6,y=9], based on policy.
+ Step  20: Agent moved DOWN_RIGHT to location [x=7,y=10], based on policy.
+ Step  21: Agent moved  DOWN to location [x=7,y=11], based on policy.
+ Step  22: Agent moved DOWN_LEFT to location [x=7,y=11], based on policy.
+
+>>> Agent Brain:
+ C  O  ?  ?  ?  ?  B  B 
+ B  ?  O  ?  B  ?  B  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  B 
+ ?  B  O  B  ?  B  ?  ? 
+ ?  ?  O  O  ?  ?  ?  ? 
+ ?  O  O  ?  O  ?  ?  ? 
+ B  O  O  ?  B  O  ?  ? 
+ ?  ?  O  B  ?  ?  O  ? 
+ ?  B  O  ?  ?  B  O  B 
+ ?  ?  ?  B  ?  B  ?  O 
+ ?  ?  ?  ?  ?  ?  ?  O 
+
+
+>>> Agent Physical Path 12:
+
+>>> Physical path 12, Time: 13.816000 s, Min radius: 0.500000 Total Steps: 129.
+ Step   1: Agent moved DOWN_RIGHT to location [x=1,y=1], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=2], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=5], based on policy.
+ Step   6: Agent moved  DOWN to location [x=2,y=6], based on policy.
+ Step   7: Agent moved  DOWN to location [x=2,y=7], based on policy.
+ Step   8: Agent moved  DOWN to location [x=2,y=8], based on policy.
+ Step   9: Agent moved  DOWN to location [x=2,y=9], based on policy.
+ Step  10: Agent moved  DOWN to location [x=2,y=10], based on policy.
+ Step  11: Agent moved  DOWN to location [x=2,y=11], based on policy.
+ Step  12: Agent moved  DOWN to location [x=1,y=7], based on policy.
+
+>>> Agent Brain:
+ C  ?  ?  ?  ?  ?  B  B 
+ B  O  ?  ?  B  ?  B  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  B 
+ ?  B  O  B  ?  B  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ B  ?  O  ?  B  ?  ?  ? 
+ ?  ?  O  B  ?  ?  ?  ? 
+ ?  B  O  ?  ?  B  ?  B 
+ ?  ?  O  B  ?  B  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+
+
+>>> Agent Physical Path 13:
+
+>>> Physical path 13, Time: 3.748000 s, Min radius: 0.942809 Total Steps: 32.
+ Step   1: Agent moved DOWN_RIGHT to location [x=1,y=1], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=2], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=5], based on policy.
+ Step   6: Agent moved  DOWN to location [x=2,y=6], based on policy.
+ Step   7: Agent moved  DOWN to location [x=2,y=7], based on policy.
+ Step   8: Agent moved  DOWN to location [x=2,y=8], based on policy.
+ Step   9: Agent moved  DOWN to location [x=2,y=9], based on policy.
+ Step  10: Agent moved  DOWN to location [x=2,y=10], based on policy.
+ Step  11: Agent moved  DOWN to location [x=2,y=11], based on policy.
+ Step  12: Agent moved  DOWN to location [x=1,y=7], based on policy.
+
+>>> Agent Brain:
+ C  ?  ?  ?  ?  ?  B  B 
+ B  O  ?  ?  B  ?  B  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  B 
+ ?  B  O  B  ?  B  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ B  ?  O  ?  B  ?  ?  ? 
+ ?  ?  O  B  ?  ?  ?  ? 
+ ?  B  O  ?  ?  B  ?  B 
+ ?  ?  O  B  ?  B  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+
+
+>>> Agent Physical Path 14:
+
+>>> Physical path 14, Time: 1.097000 s, Min radius: 1.414214 Total Steps: 56.
+ Step   1: Agent moved RIGHT to location [x=1,y=0], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=1], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=2], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   6: Agent moved  DOWN to location [x=2,y=5], based on policy.
+ Step   7: Agent moved  DOWN to location [x=2,y=6], based on policy.
+ Step   8: Agent moved  DOWN to location [x=2,y=7], based on policy.
+ Step   9: Agent moved  DOWN to location [x=2,y=8], based on policy.
+ Step  10: Agent moved  DOWN to location [x=2,y=9], based on policy.
+ Step  11: Agent moved    UP to location [x=2,y=8], randomly.
+ Step  12: Agent moved UP_LEFT to location [x=1,y=7], based on policy.
+ Step  13: Agent moved    UP to location [x=1,y=6], based on policy.
+ Step  14: Agent moved UP_RIGHT to location [x=2,y=5], based on policy.
+ Step  15: Agent moved RIGHT to location [x=3,y=5], based on policy.
+ Step  16: Agent moved DOWN_RIGHT to location [x=4,y=6], based on policy.
+ Step  17: Agent moved DOWN_RIGHT to location [x=5,y=7], based on policy.
+ Step  18: Agent moved DOWN_RIGHT to location [x=6,y=8], based on policy.
+ Step  19: Agent moved  DOWN to location [x=6,y=9], based on policy.
+ Step  20: Agent moved DOWN_RIGHT to location [x=7,y=10], based on policy.
+ Step  21: Agent moved  DOWN to location [x=7,y=11], based on policy.
+ Step  22: Agent moved DOWN_LEFT to location [x=7,y=11], based on policy.
+
+>>> Agent Brain:
+ C  O  ?  ?  ?  ?  B  B 
+ B  ?  O  ?  B  ?  B  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  B 
+ ?  B  O  B  ?  B  ?  ? 
+ ?  ?  O  O  ?  ?  ?  ? 
+ ?  O  O  ?  O  ?  ?  ? 
+ B  O  O  ?  B  O  ?  ? 
+ ?  ?  O  B  ?  ?  O  ? 
+ ?  B  O  ?  ?  B  O  B 
+ ?  B  ?  B  ?  B  ?  O 
+ ?  ?  ?  ?  ?  ?  ?  O 
+
+
+>>> Agent Physical Path 15:
+
+>>> Physical path 15, Time: 37.463000 s, Min radius: 1.333333 Total Steps: 157.
+ Step   1: Agent moved DOWN_RIGHT to location [x=1,y=1], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=2], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=5], based on policy.
+ Step   6: Agent moved  DOWN to location [x=2,y=6], based on policy.
+ Step   7: Agent moved  DOWN to location [x=2,y=7], based on policy.
+ Step   8: Agent moved  DOWN to location [x=2,y=8], based on policy.
+ Step   9: Agent moved  DOWN to location [x=2,y=9], based on policy.
+ Step  10: Agent moved  DOWN to location [x=2,y=10], randomly.
+ Step  11: Agent moved DOWN_RIGHT to location [x=3,y=11], based on policy.
+ Step  12: Agent moved DOWN_RIGHT to location [x=1,y=7], based on policy.
+
+>>> Agent Brain:
+ C  ?  ?  ?  ?  ?  B  B 
+ B  O  ?  ?  B  ?  B  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  B 
+ ?  B  O  B  ?  B  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ B  ?  O  ?  B  ?  ?  ? 
+ ?  ?  O  B  ?  ?  ?  ? 
+ ?  B  O  ?  ?  B  ?  B 
+ ?  B  O  B  ?  B  ?  ? 
+ ?  ?  ?  O  ?  ?  ?  ? 
+
+
+>>> Agent Physical Path 16:
+
+>>> Physical path 16, Time: 0.694000 s, Min radius: 2.828427 Total Steps: 23.
+ Step   1: Agent moved DOWN_RIGHT to location [x=1,y=1], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=2], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=5], based on policy.
+ Step   6: Agent moved  DOWN to location [x=2,y=6], based on policy.
+ Step   7: Agent moved  DOWN to location [x=2,y=7], based on policy.
+ Step   8: Agent moved  DOWN to location [x=2,y=8], based on policy.
+ Step   9: Agent moved  DOWN to location [x=2,y=9], based on policy.
+ Step  10: Agent moved RIGHT to location [x=3,y=9], randomly.
+ Step  11: Agent moved DOWN_RIGHT to location [x=4,y=10], based on policy.
+ Step  12: Agent moved DOWN_RIGHT to location [x=5,y=11], based on policy.
+ Step  13: Agent moved DOWN_RIGHT to location [x=1,y=6], based on policy.
+
+>>> Agent Brain:
+ C  ?  ?  ?  ?  ?  B  B 
+ B  O  ?  ?  B  ?  B  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  B 
+ ?  B  O  B  ?  B  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ B  ?  O  ?  B  ?  ?  ? 
+ ?  ?  O  B  ?  ?  ?  ? 
+ ?  B  O  O  ?  B  ?  B 
+ ?  B  ?  B  O  B  ?  ? 
+ ?  ?  ?  ?  ?  O  ?  ? 
+
+
+>>> Agent Physical Path 17:
+
+>>> Physical path 17, Time: 2.981000 s, Min radius: 2.828427 Total Steps: 42.
+ Step   1: Agent moved DOWN_RIGHT to location [x=1,y=1], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=2], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=5], based on policy.
+ Step   6: Agent moved  DOWN to location [x=2,y=6], based on policy.
+ Step   7: Agent moved  DOWN to location [x=2,y=7], based on policy.
+ Step   8: Agent moved  DOWN to location [x=2,y=8], based on policy.
+ Step   9: Agent moved  DOWN to location [x=2,y=9], based on policy.
+ Step  10: Agent moved  DOWN to location [x=2,y=10], randomly.
+ Step  11: Agent moved DOWN_RIGHT to location [x=3,y=11], based on policy.
+ Step  12: Agent moved DOWN_RIGHT to location [x=5,y=11], based on policy.
+
+>>> Agent Brain:
+ C  ?  ?  ?  ?  ?  B  B 
+ B  O  ?  ?  B  ?  B  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  B 
+ ?  B  O  B  ?  B  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ B  ?  O  ?  B  ?  ?  ? 
+ ?  ?  O  B  ?  ?  ?  ? 
+ ?  B  O  ?  ?  B  ?  B 
+ ?  B  O  B  ?  B  ?  ? 
+ ?  ?  ?  O  ?  ?  ?  ? 
+
+
+>>> Agent Physical Path 18:
+
+>>> Physical path 18, Time: 8.292000 s, Min radius: 0.500000 Total Steps: 77.
+ Step   1: Agent moved DOWN_RIGHT to location [x=1,y=1], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=2], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=5], based on policy.
+ Step   6: Agent moved  DOWN to location [x=2,y=6], based on policy.
+ Step   7: Agent moved  DOWN to location [x=2,y=7], based on policy.
+ Step   8: Agent moved  DOWN to location [x=2,y=8], based on policy.
+ Step   9: Agent moved  DOWN to location [x=2,y=9], based on policy.
+ Step  10: Agent moved UP_LEFT to location [x=1,y=8], randomly.
+ Step  11: Agent moved    UP to location [x=1,y=7], based on policy.
+ Step  12: Agent moved UP_RIGHT to location [x=2,y=6], based on policy.
+ Step  13: Agent moved RIGHT to location [x=3,y=6], based on policy.
+ Step  14: Agent moved RIGHT to location [x=4,y=6], based on policy.
+ Step  15: Agent moved RIGHT to location [x=5,y=6], based on policy.
+ Step  16: Agent moved RIGHT to location [x=6,y=6], based on policy.
+ Step  17: Agent moved RIGHT to location [x=7,y=6], based on policy.
+ Step  18: Agent moved DOWN_LEFT to location [x=6,y=7], randomly.
+ Step  19: Agent moved  DOWN to location [x=6,y=8], based on policy.
+ Step  20: Agent moved  DOWN to location [x=6,y=9], based on policy.
+ Step  21: Agent moved  DOWN to location [x=6,y=10], based on policy.
+ Step  22: Agent moved  DOWN to location [x=6,y=11], based on policy.
+ Step  23: Agent moved DOWN_LEFT to location [x=6,y=7], based on policy.
+
+>>> Agent Brain:
+ C  ?  ?  ?  ?  ?  B  B 
+ B  O  ?  ?  B  ?  B  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  B 
+ ?  B  O  B  ?  B  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  O  O  O  O  O 
+ B  O  O  ?  B  ?  O  ? 
+ ?  O  O  B  ?  ?  O  ? 
+ ?  B  O  ?  ?  B  O  B 
+ ?  B  ?  B  ?  B  O  ? 
+ ?  ?  ?  ?  ?  ?  O  ? 
+
+
+>>> Agent Physical Path 19:
+
+>>> Physical path 19, Time: 3.800000 s, Min radius: 2.828427 Total Steps: 31.
+ Step   1: Agent moved DOWN_RIGHT to location [x=1,y=1], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=2], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=5], based on policy.
+ Step   6: Agent moved  DOWN to location [x=2,y=6], based on policy.
+ Step   7: Agent moved  DOWN to location [x=2,y=7], based on policy.
+ Step   8: Agent moved  DOWN to location [x=2,y=8], based on policy.
+ Step   9: Agent moved  DOWN to location [x=2,y=9], based on policy.
+ Step  10: Agent moved RIGHT to location [x=3,y=9], randomly.
+ Step  11: Agent moved DOWN_RIGHT to location [x=4,y=10], based on policy.
+ Step  12: Agent moved DOWN_RIGHT to location [x=5,y=11], based on policy.
+ Step  13: Agent moved DOWN_RIGHT to location [x=3,y=6], based on policy.
+
+>>> Agent Brain:
+ C  ?  ?  ?  ?  ?  B  B 
+ B  O  ?  ?  B  ?  B  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  B 
+ ?  B  O  B  ?  B  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ B  ?  O  ?  B  ?  ?  ? 
+ ?  ?  O  B  ?  ?  ?  ? 
+ ?  B  O  O  ?  B  ?  B 
+ ?  B  ?  B  O  B  ?  ? 
+ ?  ?  ?  ?  ?  O  ?  ? 
+
+
+>>> Agent Physical Path 20:
+
+>>> Physical path 20, Time: 6.981000 s, Min radius: 2.828427 Total Steps: 41.
+ Step   1: Agent moved DOWN_RIGHT to location [x=1,y=1], randomly.
+ Step   2: Agent moved DOWN_RIGHT to location [x=2,y=2], based on policy.
+ Step   3: Agent moved  DOWN to location [x=2,y=3], based on policy.
+ Step   4: Agent moved  DOWN to location [x=2,y=4], based on policy.
+ Step   5: Agent moved  DOWN to location [x=2,y=5], based on policy.
+ Step   6: Agent moved  DOWN to location [x=2,y=6], based on policy.
+ Step   7: Agent moved  DOWN to location [x=2,y=7], based on policy.
+ Step   8: Agent moved  DOWN to location [x=2,y=8], based on policy.
+ Step   9: Agent moved  DOWN to location [x=2,y=9], based on policy.
+ Step  10: Agent moved RIGHT to location [x=3,y=9], randomly.
+ Step  11: Agent moved DOWN_RIGHT to location [x=4,y=10], based on policy.
+ Step  12: Agent moved DOWN_RIGHT to location [x=5,y=11], based on policy.
+ Step  13: Agent moved DOWN_RIGHT to location [x=3,y=6], based on policy.
+
+>>> Agent Brain:
+ C  ?  ?  ?  ?  ?  B  B 
+ B  O  ?  ?  B  ?  B  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  B  ?  B 
+ ?  B  O  B  ?  B  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ ?  ?  O  ?  ?  ?  ?  ? 
+ B  ?  O  ?  B  ?  ?  ? 
+ ?  ?  O  B  ?  ?  ?  ? 
+ ?  B  O  O  ?  B  ?  B 
+ ?  B  ?  B  O  B  ?  ? 
+ ?  ?  ?  ?  ?  O  ?  ? 
+
+>>> Best Path: 17.
+
+>>> Process Time: 182.828000 s.

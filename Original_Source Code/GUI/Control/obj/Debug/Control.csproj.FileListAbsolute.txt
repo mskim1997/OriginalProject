@@ -1,0 +1,6 @@
+C:\Users\Manuel\Desktop\Research\GUI\Control\bin\Debug\Control.dll
+C:\Users\Manuel\Desktop\Research\GUI\Control\bin\Debug\Control.pdb
+C:\Users\Manuel\Desktop\Research\GUI\Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Manuel\Desktop\Research\GUI\Control\obj\Debug\Control.dll
+C:\Users\Manuel\Desktop\Research\GUI\Control\obj\Debug\Control.pdb
+C:\Users\Manuel\Desktop\Research\GUI\Control\bin\Debug\Control.dll.config
